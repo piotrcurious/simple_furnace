@@ -13,11 +13,14 @@ The sketch performs the following functions:
 
 - It measures the input fan RPM using a hall sensor attached to an interrupt pin.
 - It controls the output fan speed using a PWM pin based on the combustion level read from an analog input pin.
-- It boosts the output fan speed if the input fan RPM falls below 200 RPM or the temperature exceeds 50 Celsius.
+- It boosts the output fan speed if the input fan RPM falls below 200 RPM or the sensor temperature falls below preset Temperature.
 - It reads the temperature using a thermistor connected to an analog input pin and a SmoothThermistor library.
-- It checks the airflow rate and activates a beep pin if the input fan RPM falls below 100 RPM.
-- It restarts the input fan by activating a digital pin for 500 ms if the input fan stalls.
+- It checks the airflow rate and activates a warning beep pin if the input fan RPM falls below 100 RPM .
+ This is does not replace other safety mechanisms which should be in place around the furnace, like co sensor. 
+- It restarts the input fan by activating a digital pin for 200 ms if the input fan stalls.
+  This output can be also used by additional safety layer. 
 - It activates an overload warning light pin if the output fan speed plus the boost value exceeds the maximum PWM value.
+ It is indicative of problem with the exhaust pipe and should be used by additional safety layer system. 
 - It uses a watchdog timer to reset the Arduino in case of a software failure.
 - It uses a Ticker library to schedule the safety tasks and the visualization tasks at regular intervals.
 - It uses a VT100 library to clear the screen and set the cursor position for the visualization objects.
@@ -40,4 +43,4 @@ The sketch aims to achieve the following design goals:
 - To ensure the safety and efficiency of the oil furnace operation by controlling the airflow and monitoring the temperature.
 - To prevent the input fan from stalling and the output fan from overloading by using feedback mechanisms and corrective actions.
 - To detect and recover from software failures by using a watchdog timer.
-- To provide a clear and informative visualization of the state of the furnace by using a VT100 terminal.
+- To provide a clear and informative visualization of the state of the furnace by using VT100 terminal.
