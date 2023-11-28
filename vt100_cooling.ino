@@ -12,16 +12,16 @@
 #define BEEP_PIN 5 // Beep pin
 #define TEMPERATURE_PIN A1 // Temperature sensor pin
 #define OVERLOAD_PIN 6 // Overload warning light pin
-#define COOLING_PIN 7 // Cooling PWM pin
+#define COOLING_PIN 9 // Cooling PWM pin
 #define THRESHOLD_PIN A2 // Threshold temperature analog input pin
 
 // Define the constants
 #define RPM_THRESHOLD 100 // Minimum RPM of input fan
 #define RPM_BOOST 200 // RPM of input fan to boost output fan speed
-#define RESTART_TIME 500 // Restart time for input fan in ms
-#define SAFETY_INTERVAL 100 // Safety task interval in ms
+#define RESTART_TIME 200 // Restart time for input fan in ms
+#define SAFETY_INTERVAL 500 // Safety task interval in ms
 #define TEMPERATURE_THRESHOLD_MIN 40 // Minimum temperature threshold to boost output fan speed in Celsius
-#define TEMPERATURE_THRESHOLD_MAX 60 // Maximum temperature threshold to boost output fan speed in Celsius
+#define TEMPERATURE_THRESHOLD_MAX 85 // Maximum temperature threshold to boost output fan speed in Celsius
 #define BOOST_VALUE 50 // Output fan speed boost value
 #define VISUALIZATION_INTERVAL 1000 // Visualization task interval in ms
 
