@@ -1,3 +1,12 @@
+float pump_duty;
+float fan_duty;
+float power;
+#include "Arduino.h"
+#include "Ticker.h"
+#include "SmoothThermistor.h"
+#include "VT100.h"
+#include "avr/wdt.h"
+#include "EEPROM.h"
 // Define the pins for the sensors and actuators
 #define EXHAUST_IN_PIN A0 // Input exhaust temperature sensor
 #define EXHAUST_OUT_PIN A1 // Output exhaust temperature sensor

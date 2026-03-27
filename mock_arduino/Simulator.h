@@ -22,6 +22,10 @@ public:
     float fluid_out_temp = 50.0;
 
     void update(float dt_s) {
+        // Dynamic scenarios based on millis()
+        uint32_t t = millis();
+        // Fluctuate exhaust in temp every 10 seconds
+        exhaust_in_temp = 300.0 + 50.0 * sin(t / 10000.0);
         // Constants for physics
         const float ambient_temp = 20.0;
         const float furnace_thermal_mass = 50.0; // Seconds to heat/cool

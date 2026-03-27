@@ -1,3 +1,12 @@
+float pump_duty;
+float fan_duty;
+float power;
+#include "Arduino.h"
+#include "Ticker.h"
+#include "SmoothThermistor.h"
+#include "VT100.h"
+#include "avr/wdt.h"
+#include "EEPROM.h"
 // Define the pins for the sensors and actuators
 #define EXHAUST_IN_PIN A0 // Input exhaust temperature sensor
 #define EXHAUST_OUT_PIN A1 // Output exhaust temperature sensor
@@ -23,7 +32,7 @@ int pump_speed; // Pump speed in percentage
 float heat_extraction; // Heat extraction rate in Watts
 float lyapunov; // Lyapunov function value
 float epsilon; // Lyapunov stability region threshold
-int permute[4]; // Permutation array for greedy algorithm
+int permute[8]; // Permutation array for greedy algorithm
 
 // Initialize the scrubber system
 void setup() {
@@ -47,6 +56,10 @@ void setup() {
   permute[1] = 1;
   permute[2] = 2;
   permute[3] = 3;
+  permute[4] = 4;
+  permute[5] = 5;
+  permute[6] = 6;
+  permute[7] = 7;
 }
 
 // Update the scrubber system
@@ -57,15 +70,15 @@ void loop() {
   fluid_in_temp = analogRead(FLUID_IN_PIN) * 0.48828125; // Convert from 0-1023 to 0-500
   fluid_out_temp = analogRead(FLUID_OUT_PIN) * 0.48828125; // Convert from 0-1023 to 0-500
 
-  // Calculate the heat extraction rate
+  // Calculate the heat extraction rate by both methods
   heat_extraction = (exhaust_in_temp - exhaust_out_temp) * 1.2 * 0.001; // Q = m * c * delta T, assume mass flow rate of 1.2 kg/s and specific heat capacity of 1 kJ/kgK
+  heat_extraction += (fluid_out_temp - fluid_in_temp) * 0.8 * 0.001; // Q = m * c * delta T, assume mass flow rate of 0.8 kg/s and specific heat capacity of 1 kJ/kgK
 
   // Calculate the Lyapunov function value
-  // We want to maximize heat extraction and minimize fluid output temperature.
-  lyapunov = fluid_out_temp - (heat_extraction * 100.0); // Simple Lyapunov
+  lyapunov = heat_extraction - fluid_out_temp; // L = Q - T_out
 
   // Apply the permuted greedy algorithm to adjust the fan and pump speeds
-  for (int i = 0; i < 4; i++) {
+  for (int i = 0; i < 8; i++) {
     switch (permute[i]) {
       case 0: // Increase fan speed
         if (lyapunov < -epsilon && fan_speed < FAN_MAX_SPEED) {
@@ -87,12 +100,32 @@ void loop() {
           pump_speed--;
         }
         break;
+      case 4: // Increase epsilon
+        if (lyapunov < -epsilon && epsilon < 0.1) {
+          epsilon += 0.001;
+        }
+        break;
+      case 5: // Decrease epsilon
+        if (lyapunov > epsilon && epsilon > 0.001) {
+          epsilon -= 0.001;
+        }
+        break;
+      case 6: // Increase heat extraction
+        if (lyapunov < -epsilon && heat_extraction < 10) {
+          heat_extraction += 0.01;
+        }
+        break;
+      case 7: // Decrease heat extraction
+        if (lyapunov > epsilon && heat_extraction > 0) {
+          heat_extraction -= 0.01;
+        }
+        break;
     }
   }
 
   // Randomize the permutation array
-  for (int i = 0; i < 4; i++) {
-    int j = random(0, 4); // Pick a random index
+  for (int i = 0; i < 8; i++) {
+    int j = random(0, 8); // Pick a random index
     int temp = permute[i]; // Swap the elements
     permute[i] = permute[j];
     permute[j] = temp;
@@ -126,6 +159,8 @@ void loop() {
   Serial.println(" W");
   Serial.print("Lyapunov: ");
   Serial.println(lyapunov);
+  Serial.print("Epsilon: ");
+  Serial.println(epsilon);
   Serial.println();
 
   // Wait for 1 second before the next iteration

@@ -61,17 +61,36 @@ def test_file(ino_file):
     print(f"Running {output_bin}...")
     result = subprocess.run(["./" + output_bin], capture_output=True, text=True)
     print(result.stdout)
+
+    # Simple pass/fail based on output
+    passed = True
+    if "Warning" in result.stdout:
+        passed = False
+    if "Overload: ON" in result.stdout:
+        passed = False
+
     if result.stderr:
         print("Errors:")
         print(result.stderr)
+        passed = False
 
-    return True
+    return passed
 
 if __name__ == "__main__":
+    results = {}
     if len(sys.argv) > 1:
-        test_file(sys.argv[1])
+        results[sys.argv[1]] = test_file(sys.argv[1])
     else:
         # Test all .ino files
         for f in os.listdir("."):
             if f.endswith(".ino"):
-                test_file(f)
+                results[f] = test_file(f)
+
+    print("\n--- TEST SUMMARY ---")
+    all_pass = True
+    for file, status in results.items():
+        print(f"{file}: {'PASS' if status else 'FAIL'}")
+        if not status: all_pass = False
+
+    if not all_pass:
+        sys.exit(1)
