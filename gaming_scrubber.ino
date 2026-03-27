@@ -47,6 +47,8 @@ void setup() {
   best_score = -1;
 }
 
+float calculate_score(float param);
+
 // Run the scrubber system
 void loop() {
   // Read the sensor values

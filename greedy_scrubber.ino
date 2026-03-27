@@ -13,7 +13,7 @@
 #define FLUID_OUT_TEMP_PIN A3 // Analog pin for scrubber fluid output temperature
 #define MAX_FLUID_TEMP 80 // Maximum scrubber fluid temperature in Celsius
 #define EEPROM_SIZE 512 // EEPROM size in bytes
-#define CANDIDATE_SIZE 4 // Candidate function size in bytes
+#define CANDIDATE_SIZE 6 // Candidate function size in bytes
 #define NUM_CANDIDATES 10 // Number of candidate functions to generate
 #define MAX_ITERATIONS 100 // Maximum number of iterations to run
 #define TOLERANCE 0.01 // Tolerance for convergence

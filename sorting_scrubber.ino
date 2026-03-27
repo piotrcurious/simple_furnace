@@ -53,6 +53,11 @@ void setup() {
   last_sort = millis();
 }
 
+// Forward declarations
+float calculate_score(float param);
+void bubble_sort();
+void swap_elements(int i, int j);
+
 // Run the scrubber system
 void loop() {
   // Read the sensor values
@@ -188,14 +193,14 @@ void bubble_sort() {
       // Compare the scores of the adjacent elements
       if (scores[j] < scores[j + 1]) {
         // Swap the elements if the score is lower
-        swap(j, j + 1);
+        swap_elements(j, j + 1);
       }
     }
   }
 }
 
 // Define a function to swap two elements in the array
-void swap(int i, int j) {
+void swap_elements(int i, int j) {
   // Store the values in temporary variables
   float temp_param = params[i];
   float temp_score = scores[i];
