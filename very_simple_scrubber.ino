@@ -90,25 +90,22 @@ void loop() {
       // The algorithm stops when the power difference is zero or the duty cycles reach the boundaries of 0% or 100%
 
       // Adjust the fan duty cycle
-      if (powerDiff > 0) {
-        // Increase the fan duty cycle by the fan step size multiplied by the learning rate
-        fanDuty += fanStep * LEARNING_RATE;
-      } else if (powerDiff < 0) {
-        // Decrease the fan duty cycle by the fan step size multiplied by the learning rate
-        fanDuty -= fanStep * LEARNING_RATE;
+      // If power improved (powerDiff > 0), continue in the same direction.
+      // If power decreased (powerDiff < 0), flip the step direction.
+      if (powerDiff < 0) {
+        fanStep = -fanStep;
       }
+      fanDuty += fanStep * LEARNING_RATE;
 
       // Constrain the fan duty cycle between 0% and 100%
       fanDuty = constrain(fanDuty, 0, 100);
+      if (fanDuty == 0 || fanDuty == 100) fanStep = -fanStep; // Bounce back
 
       // Adjust the pump duty cycle
-      if (powerDiff > 0) {
-        // Increase the pump duty cycle by the pump step size multiplied by the learning rate
-        pumpDuty += pumpStep * LEARNING_RATE;
-      } else if (powerDiff < 0) {
-        // Decrease the pump duty cycle by the pump step size multiplied by the learning rate
-        pumpDuty -= pumpStep * LEARNING_RATE;
+      if (powerDiff < 0) {
+        pumpStep = -pumpStep;
       }
+      pumpDuty += pumpStep * LEARNING_RATE;
 
       // Constrain the pump duty cycle between 0% and 100%
       pumpDuty = constrain(pumpDuty, 0, 100);

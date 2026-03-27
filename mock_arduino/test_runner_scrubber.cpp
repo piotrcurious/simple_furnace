@@ -26,16 +26,18 @@ int main() {
         loop();
 
         if (i % 5 == 0) {
+            extern float power;
+            extern float fan_duty;
+            extern float pump_duty;
             std::cout << std::fixed << std::setprecision(1)
                       << (float)i << " | "
                       << sim.exhaust_in_temp << " | "
                       << sim.exhaust_out_temp << " | "
                       << sim.fluid_in_temp << " | "
                       << sim.fluid_out_temp << " | "
-                      // Note: these variables are defined in the .ino files
-                      // and might need external declaration if they weren't
-                      // already available in current context.
-                      << std::endl;
+                      << power << " | "
+                      << fan_duty << " | "
+                      << pump_duty << std::endl;
         }
     }
     return 0;

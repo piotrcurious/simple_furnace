@@ -110,7 +110,18 @@ void loop() {
     count = 0;
 
     static float param_averages[NUM_PARAMS];
+    static bool param_evaluated[NUM_PARAMS];
     param_averages[current_index] = average;
+    param_evaluated[current_index] = true;
+
+    // Check if all parameters have been evaluated at least once
+    bool all_evaluated = true;
+    for (int i = 0; i < NUM_PARAMS; i++) {
+        if (!param_evaluated[i]) {
+            all_evaluated = false;
+            break;
+        }
+    }
 
     // Find the best parameter in the array
     int best_index = 0;
@@ -130,14 +141,18 @@ void loop() {
     Serial.print(", Best average: ");
     Serial.println(best_average);
 
-    // Check if the current parameter is the best parameter
-    if (current_index == best_index) {
-      // Perturb the current parameter with a small random value
-      params[current_index] += random(-10, 10) / 1000.0;
-      params[current_index] = constrain(params[current_index], 0, 1);
+    // Logic: evaluation phase vs exploitation phase
+    if (!all_evaluated) {
+        current_index = (current_index + 1) % NUM_PARAMS;
     } else {
-      // Move to the next parameter in the array
-      current_index = (current_index + 1) % NUM_PARAMS;
+        // If current parameter is the best, perturb it to explore further.
+        // Otherwise, jump back to the best parameter.
+        if (current_index == best_index) {
+            params[current_index] += random(-10, 10) / 1000.0;
+            params[current_index] = constrain(params[current_index], 0, 1);
+        } else {
+            current_index = best_index;
+        }
     }
 
     // Print the current parameter

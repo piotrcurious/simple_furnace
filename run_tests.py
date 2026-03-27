@@ -16,7 +16,16 @@ def test_file(ino_file):
         content = '#include "Arduino.h"\n#include "Ticker.h"\n#include "SmoothThermistor.h"\n#include "VT100.h"\n#include "avr/wdt.h"\n#include "EEPROM.h"\n' + content
 
     # Patch some common issues in these .ino files
-    # E.g. undeclared variables
+    # Define common variables for the test runner to access
+    if "scrubber" in ino_file:
+        # Avoid defining if already present, but handle different types (int vs float)
+        if "power" not in content:
+            content = "float power;\n" + content
+        if "fan_duty" not in content:
+            content = "float fan_duty;\n" + content
+        if "pump_duty" not in content:
+            content = "float pump_duty;\n" + content
+
     if "vt100_cooling.ino" in ino_file:
         content = content.replace("thresholdTemperature = analogRead(THRESHOLD_PIN);", "int thresholdTemperature = analogRead(THRESHOLD_PIN);")
         content = content.replace("temperature < thresholdTemperature", "temperature < (int)thresholdTemperature")
