@@ -68,13 +68,16 @@ public:
         float heat_loss = scrubber_pump_duty * (fluid_out_temp - fluid_in_temp) * 5.0 + (fluid_out_temp - ambient_temp) * 0.2;
         fluid_out_temp += (heat_gain - heat_loss) * dt_s / scrubber_thermal_mass;
 
-        // Map to analog pins
+        // Map to analog pins with sensor noise (+/- 1 LSB jitter)
+        auto add_noise = [](int val) {
+            return val + (rand() % 3 - 1);
+        };
         // Combustion pin remains A0 for furnace, but scrubber also uses A0 for exhaust_in
         // We'll handle this by assuming the test runner sets these pins before or during the update
-        analog_pins[0] = (int)(exhaust_in_temp / 0.48828125);
-        analog_pins[1] = (int)(exhaust_out_temp / 0.48828125);
-        analog_pins[2] = (int)(fluid_in_temp / 0.48828125);
-        analog_pins[3] = (int)(fluid_out_temp / 0.48828125);
+        analog_pins[0] = add_noise((int)(exhaust_in_temp / 0.48828125));
+        analog_pins[1] = add_noise((int)(exhaust_out_temp / 0.48828125));
+        analog_pins[2] = add_noise((int)(fluid_in_temp / 0.48828125));
+        analog_pins[3] = add_noise((int)(fluid_out_temp / 0.48828125));
 
         // For furnace tests, A0 is combustion level, A1 is temperature
         // The runners will need to handle the overlap if they test both at once.

@@ -69,6 +69,24 @@ def test_file(ino_file):
     if "Overload: ON" in result.stdout:
         passed = False
 
+    # Stability check: Detect large oscillations in duty cycles
+    import re
+    fan_duties = [float(f) for f in re.findall(r"FanDuty: ([\d.]+)", result.stdout)]
+    if not fan_duties:
+        fan_duties = [float(f) for f in re.findall(r"Fan duty: ([\d.]+)", result.stdout)]
+    if not fan_duties:
+        fan_duties = [float(f) for f in re.findall(r"Fan duty cycle: ([\d.]+)", result.stdout)]
+
+    if len(fan_duties) > 10:
+        # Calculate standard deviation of the last 10 readings
+        recent = fan_duties[-10:]
+        avg = sum(recent) / 10
+        variance = sum((x - avg) ** 2 for x in recent) / 10
+        std_dev = variance ** 0.5
+        if std_dev > 25.0: # Threshold for high oscillation
+            print(f"Warning: High fan duty oscillation (std_dev={std_dev:.2f})")
+            passed = False
+
     if result.stderr:
         print("Errors:")
         print(result.stderr)
