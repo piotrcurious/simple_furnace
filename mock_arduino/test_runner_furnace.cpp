@@ -17,6 +17,9 @@ int main() {
     setup();
     FurnaceSimulator sim;
 
+    // Failure scenario: After 5 seconds, exhaust temperature sensor fails
+    // (This matches A1 for the thermistor in some furnace sketches)
+
     Ticker* vTicker = &visualizationTicker;
     if (vTicker == nullptr) vTicker = &dummyTicker;
 
@@ -25,6 +28,12 @@ int main() {
 
     for (int i = 0; i < 100; i++) {
         uint32_t now = i * 100; // Step 100ms
+
+        if (i == 50) {
+            std::cout << "[SIM] Triggering sensor failure on pin 1" << std::endl;
+            sim.sensor_fail[1] = true;
+        }
+
         // Advance time and update simulator
         sim.update(0.1);
 

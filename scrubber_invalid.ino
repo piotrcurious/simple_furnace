@@ -66,7 +66,8 @@ void loop() {
   heat_extraction += (fluid_out_temp - fluid_in_temp) * 0.8 * 0.001; // Q = m * c * delta T, assume mass flow rate of 0.8 kg/s and specific heat capacity of 1 kJ/kgK
 
   // Calculate the Lyapunov function value
-  lyapunov = heat_extraction - fluid_out_temp; // L = Q - T_out
+  // Consistent with other stabilizers: fluid_out_temp - scaled heat extraction
+  lyapunov = fluid_out_temp - (heat_extraction * 100.0);
 
   // Apply the permuted greedy algorithm to adjust the fan and pump speeds
   for (int i = 0; i < 8; i++) {

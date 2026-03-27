@@ -61,6 +61,14 @@ void loop() {
     // Read the scrubber fluid output temperature
     fluidTemp = analogRead(FLUID_TEMP_PIN) * 0.48828125; // convert from 0-1023 to 0-500 degrees Celsius
 
+    // Safety: Sensor plausibility and fail-safe
+    if (fluidTemp < 0 || fluidTemp > 150 || (scrubberActive && inputTemp < fluidTemp - 10)) {
+        // Potential sensor failure or impossible physics
+        fanDuty = 100; // Max cooling
+        pumpDuty = 100; // Max flow
+        Serial.println("Error: Sensor failure detected. Entering fail-safe mode.");
+    }
+
     // Calculate the power extracted from the exhaust gases
     power = (inputTemp - outputTemp) * 1.2; // assume a mass flow rate of 1.2 kg/s and a specific heat capacity of 1 kJ/kgK
 

@@ -50,11 +50,24 @@ void readCombustionLevel() {
 // Function to read the temperature
 void readTemperature() {
   temperature = smoothThermistor.temperature(); // Read the temperature using the SmoothThermistor library
+  // Safety: Plausibility check
+  if (temperature < -10 || temperature > 150) {
+      overloadState = true;
+      digitalWrite(OVERLOAD_PIN, HIGH);
+  }
 }
 
 // Function to control the output fan speed
 void controlOutputFanSpeed() {
   outputFanSpeed = map(combustionLevel, 0, 1023, 0, 255); // Map the combustion level to output fan speed
+
+  // Safety: If sensors fail (e.g. RPM is 0 but we are trying to run), enter safe mode
+  if (combustionLevel > 100 && inputFanRPM < 50) {
+      outputFanSpeed = 255; // Max output fan for safety
+      overloadState = true;
+      digitalWrite(OVERLOAD_PIN, HIGH);
+  }
+
   if (inputFanRPM < RPM_BOOST || temperature > TEMPERATURE_THRESHOLD) { // If the input fan RPM is below the boost threshold or the temperature is above the threshold
     if (outputFanSpeed + BOOST_VALUE > 255) { // If the output fan speed plus the boost value exceeds the maximum PWM value
       overloadState = true; // Set the overload state to true

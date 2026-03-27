@@ -40,3 +40,11 @@ The `FurnaceSimulator` models:
 - Temperature changes based on combustion and fan cooling.
 - Scrubber heat exchange between exhaust and fluid.
 - Sensor mapping to Arduino analog pins.
+
+## Production-Level Testing
+
+The system now includes:
+- **Sensor Noise**: Simulates real-world signal jitter.
+- **Sensor Failure**: Mechanism to test controller robustness against stuck-at-zero or out-of-range sensor readings.
+- **Stability Analysis**: The test runner detects unstable duty cycle oscillations.
+- **Dynamic Scenarios**: Time-varying heat loads to test adaptation of genetic and greedy algorithms.
