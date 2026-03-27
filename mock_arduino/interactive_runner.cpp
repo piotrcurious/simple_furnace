@@ -85,7 +85,8 @@ int main() {
             std::string key;
             float val;
             while(ss >> key >> val) {
-                if (key == "ambient") { /* Update ambient if added to sim */ }
+                if (key == "ambient") sim.ambient_temp = val;
+                if (key == "mass_flow") sim.mass_flow = val;
                 if (key == "fail") sim.sensor_fail[(int)val] = true;
                 if (key == "fix") sim.sensor_fail[(int)val] = false;
                 if (key == "exhaust_in") sim.exhaust_in_temp = val;

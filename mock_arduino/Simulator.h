@@ -12,6 +12,8 @@ class FurnaceSimulator {
 public:
     bool sensor_fail[16] = {false}; // Simulates sensor failure (stuck at 0)
 
+    float ambient_temp = 20.0;
+    float mass_flow = 1.2; // kg/s
     float temperature = 20.0;
     float input_fan_rpm = 0.0;
     int combustion_level = 512;
@@ -27,9 +29,9 @@ public:
         // Dynamic scenarios based on millis()
         uint32_t t = millis();
         // Fluctuate exhaust in temp every 10 seconds
-        exhaust_in_temp = 300.0 + 50.0 * sin(t / 10000.0);
+        // exhaust_in_temp = 300.0 + 50.0 * sin(t / 10000.0); // Now controlled manually or via GUI
+
         // Constants for physics
-        const float ambient_temp = 20.0;
         const float furnace_thermal_mass = 50.0; // Seconds to heat/cool
         const float exhaust_heat_transfer_coeff = 0.5;
         const float fluid_heat_transfer_coeff = 0.3;
@@ -51,7 +53,7 @@ public:
 
         // Temperature dynamics with thermal inertia
         combustion_level = analogRead(0);
-        float heat_in = (combustion_level / 1024.0) * 50.0;
+        float heat_in = (combustion_level / 1024.0) * 50.0 * mass_flow;
         float heat_out = (input_fan_rpm / 3000.0) * 20.0 + (temperature - ambient_temp) * 0.5;
         temperature += (heat_in - heat_out) * dt_s / furnace_thermal_mass;
 

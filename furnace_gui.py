@@ -1,5 +1,5 @@
 import tkinter as tk
-from tkinter import ttk, messagebox
+from tkinter import ttk, messagebox, scrolledtext
 import subprocess
 import threading
 import json
@@ -58,6 +58,17 @@ class FurnaceGUI:
         self.fail_var = tk.BooleanVar()
         self.fail_check = ttk.Checkbutton(self.ctrl_frame, text="Simulate Sensor Failure (A1)", variable=self.fail_var, command=self.update_params)
         self.fail_check.pack(side="left", padx=5)
+
+        ttk.Label(self.ctrl_frame, text="Ambient Temp:").pack(side="left", padx=5)
+        self.ambient_slider = ttk.Scale(self.ctrl_frame, from_=-20, to=50, orient="horizontal", command=self.update_params)
+        self.ambient_slider.set(20)
+        self.ambient_slider.pack(side="left", fill="x", expand=True, padx=5)
+
+        # Serial Terminal
+        self.term_frame = ttk.LabelFrame(self.root, text="Serial Terminal")
+        self.term_frame.pack(fill="both", expand=True, padx=10, pady=5)
+        self.terminal = scrolledtext.ScrolledText(self.term_frame, height=10, state="disabled")
+        self.terminal.pack(fill="both", expand=True)
 
     def start_sim(self):
         ino_file = self.selected_file.get()
@@ -118,11 +129,21 @@ class FurnaceGUI:
         while self.running and self.process:
             line = self.process.stdout.readline()
             if not line: break
-            try:
-                data = json.loads(line)
-                self.root.after(0, self.update_ui, data)
-            except json.JSONDecodeError:
-                pass
+            if line.startswith("{"):
+                try:
+                    data = json.loads(line)
+                    self.root.after(0, self.update_ui, data)
+                    continue
+                except json.JSONDecodeError:
+                    pass
+            # Regular serial output
+            self.root.after(0, self.append_terminal, line)
+
+    def append_terminal(self, text):
+        self.terminal.config(state="normal")
+        self.terminal.insert(tk.END, text)
+        self.terminal.see(tk.END)
+        self.terminal.config(state="disabled")
 
     def update_ui(self, data):
         for key, val in data.items():
@@ -133,6 +154,9 @@ class FurnaceGUI:
         if self.process and self.process.stdin:
             val = self.exhaust_in_slider.get()
             self.process.stdin.write(f"exhaust_in {val}\n")
+
+            amb = self.ambient_slider.get()
+            self.process.stdin.write(f"ambient {amb}\n")
 
             fail = 1 if self.fail_var.get() else 0
             cmd = f"fail 1\n" if fail else f"fix 1\n"

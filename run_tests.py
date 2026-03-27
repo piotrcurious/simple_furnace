@@ -87,6 +87,32 @@ def test_file(ino_file):
             print(f"Warning: High fan duty oscillation (std_dev={std_dev:.2f})")
             passed = False
 
+    # Thermal runaway check
+    temps = [float(t) for t in re.findall(r"sim_temp: ([\d.]+)", result.stdout)]
+    if not temps:
+        temps = [float(t) for t in re.findall(r"Temp\(C\): ([\d.]+)", result.stdout)]
+    if not temps:
+        # Check standard runner output format
+        import re
+        # The furnace runner outputs in a table format.
+        # Time(s) | RPM | Temp(C) | OutFan | Beep | Overload
+        # 0.0 | 0.0 | 0 | 0 | OFF | OFF
+        for line in result.stdout.split('\n'):
+            parts = line.split('|')
+            if len(parts) >= 3:
+                try:
+                    t_val = float(parts[2].strip())
+                    temps.append(t_val)
+                except ValueError:
+                    continue
+
+    if len(temps) > 20:
+        # If temperature is rising at the end of simulation despite max cooling
+        recent_temps = temps[-10:]
+        if recent_temps[-1] > recent_temps[0] + 5.0 and recent_temps[-1] > 100:
+             print(f"Warning: Potential thermal runaway detected (Temp rising: {recent_temps[0]:.1f} -> {recent_temps[-1]:.1f})")
+             passed = False
+
     if result.stderr:
         print("Errors:")
         print(result.stderr)
