@@ -53,6 +53,11 @@ void setup() {
   last_sort = millis();
 }
 
+// Forward declarations
+float calculate_score(float param);
+void bubble_sort();
+void swap_elements(int i, int j);
+
 // Run the scrubber system
 void loop() {
   // Read the sensor values
@@ -161,21 +166,20 @@ void loop() {
 
 // Define a function to calculate the score for a given function parameter
 float calculate_score(float param) {
-  // The score is a weighted sum of the following objectives:
-  // - Maximize the extraction of heat from the exhaust gases
-  // - Minimize the difference between the input and output exhaust temperatures
-  // - Minimize the difference between the input and output fluid temperatures
-  // - Minimize the fan and pump duty cycles
-  // - Avoid exceeding the maximum scrubber fluid temperature
+  // Balanced score: Maximize heat extraction, Penalize high temperature and energy waste
+  float heat_extracted = (temp_in - temp_out);
   float score = 0;
-  score += 10 * (temp_in - temp_out); // Heat extraction
-  score -= 5 * abs(temp_in - temp_out); // Temperature difference
-  score -= 5 * abs(fluid_in - fluid_out); // Temperature difference
-  score -= 2 * param * (temp_in - temp_out); // Fan duty cycle
-  score -= 2 * param * (fluid_out - fluid_in); // Pump duty cycle
+  score += 25.0 * heat_extracted; // Weight heat extraction higher
+
   if (fluid_out > MAX_FLUID_TEMP) {
-    score -= 100 * (fluid_out - MAX_FLUID_TEMP); // Penalty for exceeding the limit
+    score -= 600.0 * (fluid_out - MAX_FLUID_TEMP); // Severe penalty for safety limit
+  } else if (fluid_out > MAX_FLUID_TEMP * 0.85) {
+    score -= 60.0 * (fluid_out - MAX_FLUID_TEMP * 0.85); // Progressive safety penalty
   }
+
+  // Penalize high duty cycles (energy cost)
+  score -= 0.15 * (fan_duty + pump_duty);
+
   return score;
 }
 
@@ -188,14 +192,14 @@ void bubble_sort() {
       // Compare the scores of the adjacent elements
       if (scores[j] < scores[j + 1]) {
         // Swap the elements if the score is lower
-        swap(j, j + 1);
+        swap_elements(j, j + 1);
       }
     }
   }
 }
 
 // Define a function to swap two elements in the array
-void swap(int i, int j) {
+void swap_elements(int i, int j) {
   // Store the values in temporary variables
   float temp_param = params[i];
   float temp_score = scores[i];

@@ -70,6 +70,7 @@ int outputFanSpeed = 0; // Output fan speed
 int combustionLevel = 0; // Combustion level
 bool beepState = false; // Beep state
 int temperature = 0; // Temperature in Celsius
+int thresholdTemperature = 0; // Threshold temperature
 bool overloadState = false; // Overload state
 int coolingSpeed = 0; // Cooling speed
 Ticker safetyTicker; // Ticker object for safety tasks
@@ -100,8 +101,8 @@ void readTemperature() {
 
 // Function to read the threshold temperature
 void readThresholdTemperature() {
-  thresholdTemperature = analogRead(THRESHOLD_PIN); // Read the threshold temperature
-  thresholdTemperature = map(thresholdTemperature, 0, 1023, TEMPERATURE_THRESHOLD_MIN, TEMPERATURE_THRESHOLD_MAX); // Map the threshold temperature to Celsius
+  int rawThreshold = analogRead(THRESHOLD_PIN); // Read the threshold temperature
+  thresholdTemperature = map(rawThreshold, 0, 1023, TEMPERATURE_THRESHOLD_MIN, TEMPERATURE_THRESHOLD_MAX); // Map the threshold temperature to Celsius
 }
 
 // Function to control the output fan speed

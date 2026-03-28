@@ -47,6 +47,8 @@ void setup() {
   best_score = -1;
 }
 
+float calculate_score(float param);
+
 // Run the scrubber system
 void loop() {
   // Read the sensor values
@@ -145,18 +147,21 @@ void loop() {
 float calculate_score(float param) {
   // The score is a weighted sum of the following objectives:
   // - Maximize the extraction of heat from the exhaust gases
-  // - Minimize the difference between the input and output exhaust temperatures
-  // - Minimize the difference between the input and output fluid temperatures
-  // - Minimize the fan and pump duty cycles
-  // - Avoid exceeding the maximum scrubber fluid temperature
+  // - Penalize high fluid output temperature (avoiding MAX_FLUID_TEMP)
+  // - Penalize excessive fan and pump usage (efficiency)
+  float heat_extracted = (temp_in - temp_out);
   float score = 0;
-  score += 10 * (temp_in - temp_out); // Heat extraction
-  score -= 5 * abs(temp_in - temp_out); // Temperature difference
-  score -= 5 * abs(fluid_in - fluid_out); // Temperature difference
-  score -= 2 * param * (temp_in - temp_out); // Fan duty cycle
-  score -= 2 * param * (fluid_out - fluid_in); // Pump duty cycle
+  score += 20 * heat_extracted; // Reward heat extraction
+
+  // High penalty for exceeding temperature limit
   if (fluid_out > MAX_FLUID_TEMP) {
-    score -= 100 * (fluid_out - MAX_FLUID_TEMP); // Penalty for exceeding the limit
+    score -= 500 * (fluid_out - MAX_FLUID_TEMP);
+  } else if (fluid_out > MAX_FLUID_TEMP * 0.8) {
+    score -= 50 * (fluid_out - MAX_FLUID_TEMP * 0.8); // Pre-emptive penalty
   }
+
+  // Penalize energy usage (fan and pump duty proportional to param and temp differences)
+  score -= 0.1 * (fan_duty + pump_duty);
+
   return score;
 }

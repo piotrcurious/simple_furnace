@@ -13,7 +13,7 @@
 #define FLUID_OUT_TEMP_PIN A3 // Analog pin for scrubber fluid output temperature
 #define MAX_FLUID_TEMP 80 // Maximum scrubber fluid temperature in Celsius
 #define EEPROM_SIZE 512 // EEPROM size in bytes
-#define CANDIDATE_SIZE 4 // Candidate function size in bytes
+#define CANDIDATE_SIZE 6 // Candidate function size in bytes
 #define NUM_CANDIDATES 10 // Number of candidate functions to generate
 #define MAX_ITERATIONS 100 // Maximum number of iterations to run
 #define TOLERANCE 0.01 // Tolerance for convergence
@@ -36,8 +36,14 @@ bool converged; // Flag for convergence
 float read_temp(int pin) {
   // Read the temperature from the analog pin and convert to Celsius
   int raw = analogRead(pin); // Raw analog value from 0 to 1023
-  float voltage = raw * 5.0 / 1024.0; // Voltage in Volts
-  float temp = (voltage - 0.5) * 100.0; // Temperature in Celsius
+  // Standard mapping used in this system
+  float temp = raw * 0.48828125;
+
+  // Safety: Stuck at 0 check
+  if (raw == 0 && iteration > 0) {
+      converged = true; // Stop loop on failure
+      Serial.println("Error: Critical sensor failure (stuck at 0).");
+  }
   return temp;
 }
 

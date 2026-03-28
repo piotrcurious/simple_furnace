@@ -130,6 +130,8 @@ void loop() {
   prev_error = error;
 
   // Calculate the fan duty cycle using a PID controller
+  // Error = MAX_POWER - power.
+  // If power is too low (error > 0), increase fan_duty.
   fan_duty = Kp * error + Ki * integral + Kd * derivative;
 
   // Constrain the fan duty cycle between 0 and 100
@@ -139,7 +141,13 @@ void loop() {
   analogWrite(FAN, fan_duty * 255 / 100); // Convert the percentage to a value between 0 and 255
 
   // Calculate the pump duty cycle using a candidate function
+  // It should also respond to temp_fluid to prevent overheating.
   pump_duty = a * power + b * temp_fluid + c;
+
+  // Safety override for pump if temperature is too high
+  if (temp_fluid > MAX_TEMP * 0.9) {
+      pump_duty += (temp_fluid - MAX_TEMP * 0.9) * 5.0;
+  }
 
   // Constrain the pump duty cycle between 0 and 100
   pump_duty = constrain(pump_duty, 0, 100);
@@ -164,6 +172,13 @@ void loop() {
     EEPROM.put(EEPROM_ADDR, best_a);
     EEPROM.put(EEPROM_ADDR + sizeof(float), best_b);
     EEPROM.put(EEPROM_ADDR + 2 * sizeof(float), best_c);
+  } else {
+      // Greedy exploration: occasionally perturb parameters if we aren't improving
+      if (random(0, 100) < 5) {
+          a += random(-10, 11) / 100.0;
+          b += random(-10, 11) / 100.0;
+          c += random(-10, 11) / 100.0;
+      }
   }
 
   // Print the current values of the variables

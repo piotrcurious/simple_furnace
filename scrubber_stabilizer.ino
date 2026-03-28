@@ -61,7 +61,8 @@ void loop() {
   heat_extraction = (exhaust_in_temp - exhaust_out_temp) * 1.2 * 0.001; // Q = m * c * delta T, assume mass flow rate of 1.2 kg/s and specific heat capacity of 1 kJ/kgK
 
   // Calculate the Lyapunov function value
-  lyapunov = heat_extraction - fluid_out_temp; // L = Q - T_out
+  // We want to maximize heat extraction and minimize fluid output temperature.
+  lyapunov = fluid_out_temp - (heat_extraction * 100.0); // Simple Lyapunov
 
   // Apply the permuted greedy algorithm to adjust the fan and pump speeds
   for (int i = 0; i < 4; i++) {

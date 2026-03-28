@@ -20,7 +20,7 @@ int fan_duty; // Fan duty cycle in percentage
 int pump_duty; // Pump duty cycle in percentage
 float params[NUM_PARAMS]; // Array of candidate function parameters
 float history[HISTORY_SIZE]; // Array of history values
-int index; // Index of the current parameter
+int current_index; // Index of the current parameter
 int count; // Count of the history values
 
 void setup() {
@@ -42,7 +42,7 @@ void setup() {
   }
 
   // Initialize the index and count
-  index = 0;
+  current_index = 0;
   count = 0;
 }
 
@@ -65,8 +65,8 @@ void loop() {
   Serial.println(" C");
 
   // Calculate the fan and pump duty cycles using the current parameter
-  fan_duty = constrain(params[index] * 100, 0, 100);
-  pump_duty = constrain((1 - params[index]) * 100, 0, 100);
+  fan_duty = constrain(params[current_index] * 100, 0, 100);
+  pump_duty = constrain((1 - params[current_index]) * 100, 0, 100);
 
   // Set the fan and pump duty cycles
   analogWrite(FAN_PIN, fan_duty * 255 / 100);
@@ -103,34 +103,35 @@ void loop() {
     average /= HISTORY_SIZE;
 
     // Print the average of the history values
-    Serial.print("Average: ");
+    Serial.print("Average for current parameter: ");
     Serial.println(average);
 
     // Reset the count
     count = 0;
 
+    static float param_averages[NUM_PARAMS];
+    static bool param_evaluated[NUM_PARAMS];
+    param_averages[current_index] = average;
+    param_evaluated[current_index] = true;
+
+    // Check if all parameters have been evaluated at least once
+    bool all_evaluated = true;
+    for (int i = 0; i < NUM_PARAMS; i++) {
+        if (!param_evaluated[i]) {
+            all_evaluated = false;
+            break;
+        }
+    }
+
     // Find the best parameter in the array
     int best_index = 0;
-    float best_average = 0;
+    float best_average = -1000000;
     for (int i = 0; i < NUM_PARAMS; i++) {
-      // Calculate the average of the history values for each parameter
-      float param_average = 0;
-      for (int j = 0; j < HISTORY_SIZE; j++) {
-        param_average += history[(i * HISTORY_SIZE + j) % (NUM_PARAMS * HISTORY_SIZE)];
-      }
-      param_average /= HISTORY_SIZE;
-
-      // Print the average of the history values for each parameter
-      Serial.print("Parameter ");
-      Serial.print(i);
-      Serial.print(": ");
-      Serial.println(param_average);
-
       // Compare the average with the best average
-      if (param_average > best_average) {
+      if (param_averages[i] > best_average) {
         // Update the best index and best average
         best_index = i;
-        best_average = param_average;
+        best_average = param_averages[i];
       }
     }
 
@@ -140,19 +141,23 @@ void loop() {
     Serial.print(", Best average: ");
     Serial.println(best_average);
 
-    // Check if the current parameter is the best parameter
-    if (index == best_index) {
-      // Perturb the current parameter with a small random value
-      params[index] += random(-10, 10) / 1000.0;
-      params[index] = constrain(params[index], 0, 1);
+    // Logic: evaluation phase vs exploitation phase
+    if (!all_evaluated) {
+        current_index = (current_index + 1) % NUM_PARAMS;
     } else {
-      // Move to the next parameter in the array
-      index = (index + 1) % NUM_PARAMS;
+        // If current parameter is the best, perturb it to explore further.
+        // Otherwise, jump back to the best parameter.
+        if (current_index == best_index) {
+            params[current_index] += random(-10, 10) / 1000.0;
+            params[current_index] = constrain(params[current_index], 0, 1);
+        } else {
+            current_index = best_index;
+        }
     }
 
     // Print the current parameter
     Serial.print("Current parameter: ");
-    Serial.println(params[index]);
+    Serial.println(params[current_index]);
   }
 
   // Wait for one second
