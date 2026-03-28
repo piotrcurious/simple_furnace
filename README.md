@@ -44,3 +44,24 @@ The sketch aims to achieve the following design goals:
 - To prevent the input fan from stalling and the output fan from overloading by using feedback mechanisms and corrective actions.
 - To detect and recover from software failures by using a watchdog timer.
 - To provide a clear and informative visualization of the state of the furnace by using VT100 terminal.
+
+## Simulation and Testing
+
+This repository includes a comprehensive mock Arduino environment and physics simulator to verify controller logic.
+
+### Performance Visualizations
+
+![Furnace Response](docs/images/furnace_graph.png)
+*Figure 1: Furnace temperature and fan RPM response.*
+
+![Scrubber Performance](docs/images/scrubber_graph.png)
+*Figure 2: Scrubber heat exchange performance under dynamic loads.*
+
+![VT100 Terminal](docs/images/vt100_grab.png)
+*Figure 3: Rendered VT100 terminal visualization from the simulation.*
+
+### Advanced Testing Features
+- **Production-Level Hardening**: Includes sensor noise, failure simulation (stuck-at readings), and thermal runaway detection.
+- **Interactive GUI**: A Tkinter dashboard (`furnace_gui.py`) for real-time monitoring and parameter manipulation.
+- **Automated Verification**: `run_tests.py` performs stability analysis and generates a summary report.
+- **Persistence**: Mock EEPROM saves controller parameters across simulation sessions.

@@ -60,6 +60,11 @@ def test_file(ino_file):
     # Run the test
     print(f"Running {output_bin}...")
     result = subprocess.run(["./" + output_bin], capture_output=True, text=True)
+
+    # Save output for graphing and terminal grabs
+    with open(ino_file + ".log", "w") as f:
+        f.write(result.stdout)
+
     print(result.stdout)
 
     # Simple pass/fail based on output
