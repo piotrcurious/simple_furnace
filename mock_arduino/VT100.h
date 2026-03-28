@@ -13,6 +13,7 @@ public:
     void setBold(bool bold) { s->print("[BOLD "); s->print(bold ? 1 : 0); s->print("]"); }
     void print(const char* val) { s->print(val); }
     void print(int val) { s->print(val); }
+    void print(uint32_t val) { s->print((int)val); }
     void print(double val) { s->print(val); }
 
     // Constants for colors

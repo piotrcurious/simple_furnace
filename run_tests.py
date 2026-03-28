@@ -26,6 +26,13 @@ def test_file(ino_file):
         if "pump_duty" not in content:
             content = "float pump_duty;\n" + content
 
+    if "safety_monitor.ino" in ino_file:
+        if "float inputFanRPM" not in content: content = "float inputFanRPM;\n" + content
+        if "int temperature" not in content: content = "int temperature;\n" + content
+        if "int outputFanSpeed" not in content: content = "int outputFanSpeed;\n" + content
+        if "bool beepState" not in content: content = "bool beepState;\n" + content
+        if "bool overloadState" not in content: content = "bool overloadState;\n" + content
+
     if "vt100_cooling.ino" in ino_file:
         content = content.replace("thresholdTemperature = analogRead(THRESHOLD_PIN);", "int thresholdTemperature = analogRead(THRESHOLD_PIN);")
         content = content.replace("temperature < thresholdTemperature", "temperature < (int)thresholdTemperature")
@@ -37,7 +44,7 @@ def test_file(ino_file):
         f.write(content)
 
     # Compile with test runner
-    is_furnace = "furnace" in ino_file or "cooling" in ino_file
+    is_furnace = "furnace" in ino_file or "cooling" in ino_file or "safety" in ino_file
     runner = "mock_arduino/test_runner_furnace.cpp" if is_furnace else "mock_arduino/test_runner_scrubber.cpp"
 
     output_bin = ino_file.replace(".ino", ".out")

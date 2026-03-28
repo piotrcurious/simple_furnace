@@ -1,3 +1,8 @@
+bool overloadState;
+bool beepState;
+int outputFanSpeed;
+int temperature;
+float inputFanRPM;
 #include "Arduino.h"
 #include "Ticker.h"
 #include "SmoothThermistor.h"

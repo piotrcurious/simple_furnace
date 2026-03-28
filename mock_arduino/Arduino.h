@@ -21,6 +21,8 @@
 #define A1 1
 #define A2 2
 #define A3 3
+#define A4 4
+#define A5 5
 
 #define PI 3.1415926535897932384626433832795
 

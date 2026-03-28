@@ -3,6 +3,7 @@
 #include <avr/wdt.h>
 #include <SmoothThermistor.h> // Include the SmoothThermistor library
 #include <VT100.h> // Include the VT100 library
+#include "VT100Visualizer.h"
 
 // Define the pins
 #define INPUT_FAN_PIN 2 // Input fan hall sensor pin
@@ -64,6 +65,10 @@ Ticker safetyTicker; // Ticker object for safety tasks
 Ticker visualizationTicker; // Ticker object for visualization tasks
 SmoothThermistor smoothThermistor(TEMPERATURE_PIN, ADC_SIZE_10_BIT, 10000, 10000, 3950, 25, 10); // Create a SmoothThermistor object with the given parameters
 VT100 vt100; // Create a VT100 object
+VT100Visualizer visualizer(vt100);
+
+int tempHistory[20];
+int historyIndex = 0;
 
 // Interrupt service routine for input fan hall sensor
 void inputFanISR() {
@@ -146,66 +151,40 @@ void drawBox(int x1, int y1, int x2, int y2) {
 // Function to visualize the state of the furnace
 void visualizationTask() {
   vt100.clearScreen();
-  
-  // Header
-  vt100.setCursorPosition(5, 1);
-  vt100.setBold(true);
-  vt100.setForeground(VT100::BLUE);
-  vt100.print("   OIL FURNACE CONTROL SYSTEM v2.0   ");
-  vt100.setBold(false);
+  visualizer.drawBorder(1, 1, 39, 23, VT100::BLUE);
+  visualizer.drawHeader("OIL FURNACE SYSTEM v3.0");
 
-  drawBox(1, 2, 38, 8); // Data Box
-  drawBox(1, 9, 38, 15); // Status Box
+  // Telemetry Box
+  visualizer.drawBorder(2, 2, 20, 9, VT100::WHITE);
+  vt100.setCursorPosition(3, 3); vt100.print("RPM:");
+  vt100.setCursorPosition(10, 3); vt100.print(inputFanRPM);
+  visualizer.drawProgressBar(3, 4, 15, (inputFanRPM / 3000.0) * 100.0, VT100::GREEN);
 
-  // Data Section
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(3, 4);
-  vt100.print("FAN RPM:  ");
-  vt100.setForeground(inputFanRPM < RPM_THRESHOLD ? VT100::RED : VT100::GREEN);
-  vt100.print(inputFanRPM);
+  vt100.setCursorPosition(3, 6); vt100.print("TEMP:");
+  vt100.setCursorPosition(10, 6); vt100.print(temperature);
+  visualizer.drawProgressBar(3, 7, 15, (temperature / 150.0) * 100.0, VT100::YELLOW);
 
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(3, 6);
-  vt100.print("COMB LVL: ");
-  vt100.print(combustionLevel);
+  // Furnace Art
+  visualizer.drawFurnaceArt(24, 4, combustionLevel);
+  visualizer.drawFan(28, 9, (int)(millis() / 100), inputFanRPM);
 
-  vt100.setCursorPosition(20, 4);
-  vt100.print("PWM OUT: ");
-  vt100.print(outputFanSpeed);
-
-  vt100.setCursorPosition(20, 6);
-  vt100.print("TEMP C:  ");
-  vt100.setForeground(temperature > TEMPERATURE_THRESHOLD ? VT100::YELLOW : VT100::GREEN);
-  vt100.print(temperature);
-
-  // Status Section
-  vt100.setForeground(VT100::BLUE);
-  vt100.setCursorPosition(15, 10);
-  vt100.print("[ SYSTEM STATUS ]");
-  
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(4, 12);
-  vt100.print("ALARM BEEP: ");
+  // Status Box
+  visualizer.drawBorder(2, 10, 38, 15, VT100::WHITE);
+  vt100.setCursorPosition(4, 11); vt100.setForeground(VT100::BLUE); vt100.print("[ STATUS ]");
+  vt100.setCursorPosition(4, 13); vt100.setForeground(VT100::WHITE); vt100.print("ALARM: ");
   if (beepState) { vt100.setForeground(VT100::RED); vt100.setBold(true); vt100.print("!! ACTIVE !!"); }
-  else { vt100.setForeground(VT100::GREEN); vt100.print("  STABLE  "); }
+  else { vt100.setForeground(VT100::GREEN); vt100.print("SAFE"); }
   vt100.setBold(false);
 
+  // History Graph
+  tempHistory[historyIndex] = temperature;
+  historyIndex = (historyIndex + 1) % 20;
   vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(4, 14);
-  vt100.print("OVERLOAD:   ");
-  if (overloadState) {
-      vt100.setForeground(VT100::RED);
-      vt100.setBackground(1); // Mapped to RED background in renderer if possible or just use FG
-      vt100.print("  OVERLOAD  ");
-      vt100.setBackground(0);
-  }
-  else { vt100.setForeground(VT100::GREEN); vt100.print("  OPTIMAL   "); }
+  vt100.setCursorPosition(4, 17); vt100.print("TEMP HISTORY:");
+  visualizer.drawGraph(4, 18, 20, 4, tempHistory, 20, 150, VT100::YELLOW);
 
   vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 17);
-  vt100.print("Runtime: ");
-  vt100.print(millis() / 1000);
-  vt100.print("s");
+  vt100.setCursorPosition(30, 22); vt100.print("T:"); vt100.print(millis()/1000); vt100.print("s");
 }
 
 // Setup function

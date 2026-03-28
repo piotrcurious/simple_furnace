@@ -76,10 +76,18 @@ def render_vt100(log_file, output_file):
             char, fg, bg, bold = screen[r][c]
             # Draw background
             draw.rectangle([c * char_w, r * char_h, (c+1) * char_w, (r+1) * char_h], fill=bg)
+
+            # Map # to a block character if needed, or handle Unicode
+            if char == '#': char = '█'
+
             # Draw text (Simplified bold: just draw offset)
-            draw.text((c * char_w, r * char_h), char, font=font, fill=fg)
-            if bold:
-                draw.text((c * char_w + 1, r * char_h), char, font=font, fill=fg)
+            try:
+                draw.text((c * char_w, r * char_h), char, font=font, fill=fg)
+                if bold:
+                    draw.text((c * char_w + 1, r * char_h), char, font=font, fill=fg)
+            except:
+                # Fallback for characters not in font
+                draw.text((c * char_w, r * char_h), '?', font=font, fill=fg)
 
     img.save(output_file)
 

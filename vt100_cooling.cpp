@@ -9,6 +9,7 @@
 #include <avr/wdt.h>
 #include <SmoothThermistor.h> // Include the SmoothThermistor library
 #include <VT100.h> // Include the VT100 library
+#include "VT100Visualizer.h"
 
 // Define the pins
 #define INPUT_FAN_PIN 2 // Input fan hall sensor pin
@@ -83,6 +84,7 @@ Ticker safetyTicker; // Ticker object for safety tasks
 Ticker visualizationTicker; // Ticker object for visualization tasks
 SmoothThermistor smoothThermistor(TEMPERATURE_PIN, ADC_SIZE_10_BIT, 10000, 10000, 3950, 25, 10); // Create a SmoothThermistor object with the given parameters
 VT100 vt100; // Create a VT100 object
+VT100Visualizer visualizer(vt100);
 
 // Interrupt service routine for input fan hall sensor
 void inputFanISR() {
@@ -176,58 +178,38 @@ void safetyTask() {
 
 // Function to visualize the state of the furnace
 void visualizationTask() {
-  // Clear the screen
   vt100.clearScreen();
+  visualizer.drawBorder(1, 1, 39, 23, VT100::GREEN);
+  visualizer.drawHeader("COOLING CONTROL v3.0");
 
-  // Draw the input fan RPM
-  vt100.setCursorPosition(INPUT_FAN_RPM_X, INPUT_FAN_RPM_Y); // Set the cursor position
-  vt100.print("Input fan RPM: "); // Print the label
-  vt100.print(inputFanRPM); // Print the value
+  // Telemetry Box
+  visualizer.drawBorder(2, 2, 20, 10, VT100::WHITE);
+  vt100.setCursorPosition(3, 3); vt100.print("RPM:  "); vt100.print(inputFanRPM);
+  vt100.setCursorPosition(3, 5); vt100.print("TEMP: "); vt100.print(temperature);
+  vt100.setCursorPosition(3, 7); vt100.print("T-LIM:"); vt100.print(thresholdTemperature);
 
-  // Draw the output fan speed
-  vt100.setCursorPosition(OUTPUT_FAN_SPEED_X, OUTPUT_FAN_SPEED_Y); // Set the cursor position
-  vt100.print("Output fan speed: "); // Print the label
-  vt100.print(outputFanSpeed); // Print the value
+  // Indicators
+  vt100.setCursorPosition(22, 4); vt100.print("FAN:");
+  visualizer.drawFan(28, 4, (int)(millis() / 100), inputFanRPM);
 
-  // Draw the combustion level
-  vt100.setCursorPosition(COMBUSTION_LEVEL_X, COMBUSTION_LEVEL_Y); // Set the cursor position
-  vt100.print("Combustion level: "); // Print the label
-  vt100.print(combustionLevel); // Print the value
+  vt100.setCursorPosition(22, 6); vt100.print("COOL:");
+  visualizer.drawProgressBar(22, 7, 12, (coolingSpeed / 255.0) * 100.0, VT100::BLUE);
 
-  // Draw the temperature
-  vt100.setCursorPosition(TEMPERATURE_X, TEMPERATURE_Y); // Set the cursor position
-  vt100.print("Temperature: "); // Print the label
-  vt100.print(temperature); // Print the value
+  // Alert Box
+  visualizer.drawBorder(2, 11, 38, 16, VT100::WHITE);
+  vt100.setCursorPosition(15, 12); vt100.setForeground(VT100::BLUE); vt100.print("[ ALERTS ]");
 
-  // Draw the ratio of input RPM to output PWM
-  vt100.setCursorPosition(RATIO_X, RATIO_Y); // Set the cursor position
-  vt100.print("Ratio: "); // Print the label
-  if (outputFanSpeed == 0) { // If the output fan speed is zero
-    vt100.print("N/A"); // Print N/A
-  }
-  else { // If the output fan speed is not zero
-    vt100.print(inputFanRPM / outputFanSpeed); // Print the ratio
-  }
+  vt100.setCursorPosition(4, 14); vt100.setForeground(VT100::WHITE); vt100.print("SAFETY: ");
+  if (overloadState) { vt100.setForeground(VT100::RED); vt100.setBold(true); vt100.print("!! OVERLOAD !!"); }
+  else { vt100.setForeground(VT100::GREEN); vt100.print("OK"); }
+  vt100.setBold(false);
 
-  // Draw the beep state
-  vt100.setCursorPosition(BEEP_X, BEEP_Y); // Set the cursor position
-  vt100.print("Beep: "); // Print the label
-  vt100.print(beepState ? "ON" : "OFF"); // Print the state
+  vt100.setCursorPosition(4, 15); vt100.setForeground(VT100::WHITE); vt100.print("BEEP:   ");
+  if (beepState) { vt100.setForeground(VT100::RED); vt100.print("ON"); }
+  else { vt100.setForeground(VT100::WHITE); vt100.print("OFF"); }
 
-  // Draw the overload state
-  vt100.setCursorPosition(OVERLOAD_X, OVERLOAD_Y); // Set the cursor position
-  vt100.print("Overload: "); // Print the label
-  vt100.print(overloadState ? "ON" : "OFF"); // Print the state
-
-  // Draw the cooling speed
-  vt100.setCursorPosition(COOLING_X, COOLING_Y); // Set the cursor position
-  vt100.print("Cooling speed: "); // Print the label
-  vt100.print(coolingSpeed); // Print the value
-
-  // Draw the threshold temperature
-  vt100.setCursorPosition(THRESHOLD_X, THRESHOLD_Y); // Set the cursor position
-  vt100.print("Threshold temperature: "); // Print the label
-  vt100.print(thresholdTemperature); // Print the value
+  // ASCII Art
+  visualizer.drawFurnaceArt(15, 18, combustionLevel);
 }
 
 // Setup function
