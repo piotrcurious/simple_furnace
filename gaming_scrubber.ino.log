@@ -23,22 +23,38 @@ Function parameter: 0.90 Score: -2.03
 Function parameter: 0.59 Score: -2.03
 Function parameter: 0.63 Score: -2.03
 Function parameter: 0.26 Score: -2.03
-Perturbed function parameter: 0.83 Delta: 0.00
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.15 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.92 Delta: 0.00
-Perturbed function parameter: 0.35 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.49 Delta: 0.00
-Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.59 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 0.0 | 400.0 | 400.0 | 25.0 | 49.7 | 0.0 | 0.0 | 20.3
 Input exhaust temperature: 397.95 C
 Output exhaust temperature: 397.95 C
@@ -46,1882 +62,2667 @@ Scrubber fluid input temperature: 24.90 C
 Scrubber fluid output temperature: 47.85 C
 Fan duty cycle: 0.00 %
 Pump duty cycle: 19.05 %
-Function parameter: 0.83 Score: -1.90
+Function parameter: 0.84 Score: -1.90
 Function parameter: 0.86 Score: -1.90
 Function parameter: 0.77 Score: -1.90
 Function parameter: 0.15 Score: -1.90
 Function parameter: 0.92 Score: -1.90
-Function parameter: 0.35 Score: -1.90
-Function parameter: 0.85 Score: -1.90
-Function parameter: 0.91 Score: -1.90
-Function parameter: 0.49 Score: -1.90
-Function parameter: 0.21 Score: -1.90
+Function parameter: 0.34 Score: -1.90
+Function parameter: 0.86 Score: -1.90
+Function parameter: 0.92 Score: -1.90
+Function parameter: 0.48 Score: -1.90
+Function parameter: 0.22 Score: -1.90
 Function parameter: 0.62 Score: -1.90
 Function parameter: 0.26 Score: -1.90
 Function parameter: 0.89 Score: -1.90
-Function parameter: 0.60 Score: -1.90
-Function parameter: 0.63 Score: -1.90
+Function parameter: 0.59 Score: -1.90
+Function parameter: 0.64 Score: -1.90
 Function parameter: 0.26 Score: -1.90
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.15 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.92 Delta: 0.00
-Perturbed function parameter: 0.36 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.49 Delta: 0.00
-Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 392.58 C
 Output exhaust temperature: 392.58 C
 Scrubber fluid input temperature: 24.90 C
 Scrubber fluid output temperature: 46.39 C
 Fan duty cycle: 0.00 %
 Pump duty cycle: 17.83 %
-Function parameter: 0.83 Score: -1.78
-Function parameter: 0.86 Score: -1.78
-Function parameter: 0.76 Score: -1.78
-Function parameter: 0.16 Score: -1.78
+Function parameter: 0.84 Score: -1.78
+Function parameter: 0.87 Score: -1.78
+Function parameter: 0.77 Score: -1.78
+Function parameter: 0.15 Score: -1.78
+Function parameter: 0.93 Score: -1.78
+Function parameter: 0.34 Score: -1.78
+Function parameter: 0.87 Score: -1.78
 Function parameter: 0.92 Score: -1.78
-Function parameter: 0.36 Score: -1.78
-Function parameter: 0.86 Score: -1.78
-Function parameter: 0.91 Score: -1.78
-Function parameter: 0.49 Score: -1.78
-Function parameter: 0.21 Score: -1.78
+Function parameter: 0.47 Score: -1.78
+Function parameter: 0.22 Score: -1.78
 Function parameter: 0.62 Score: -1.78
-Function parameter: 0.26 Score: -1.78
+Function parameter: 0.27 Score: -1.78
 Function parameter: 0.89 Score: -1.78
 Function parameter: 0.59 Score: -1.78
-Function parameter: 0.63 Score: -1.78
+Function parameter: 0.64 Score: -1.78
 Function parameter: 0.26 Score: -1.78
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.75 Delta: 0.00
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.94 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.92 Delta: 0.00
-Perturbed function parameter: 0.35 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.50 Delta: 0.00
-Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.58 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 382.81 C
 Output exhaust temperature: 382.81 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 45.90 C
 Fan duty cycle: 0.00 %
 Pump duty cycle: 17.83 %
-Function parameter: 0.82 Score: -1.78
-Function parameter: 0.86 Score: -1.78
-Function parameter: 0.75 Score: -1.78
+Function parameter: 0.84 Score: -1.78
+Function parameter: 0.87 Score: -1.78
+Function parameter: 0.77 Score: -1.78
 Function parameter: 0.16 Score: -1.78
+Function parameter: 0.94 Score: -1.78
+Function parameter: 0.34 Score: -1.78
+Function parameter: 0.87 Score: -1.78
 Function parameter: 0.92 Score: -1.78
-Function parameter: 0.35 Score: -1.78
-Function parameter: 0.86 Score: -1.78
-Function parameter: 0.91 Score: -1.78
-Function parameter: 0.50 Score: -1.78
-Function parameter: 0.22 Score: -1.78
+Function parameter: 0.47 Score: -1.78
+Function parameter: 0.23 Score: -1.78
 Function parameter: 0.62 Score: -1.78
 Function parameter: 0.26 Score: -1.78
-Function parameter: 0.88 Score: -1.78
+Function parameter: 0.89 Score: -1.78
 Function parameter: 0.58 Score: -1.78
 Function parameter: 0.64 Score: -1.78
 Function parameter: 0.26 Score: -1.78
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.78 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.94 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.35 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.50 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.57 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.65 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 369.63 C
 Output exhaust temperature: 369.14 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 44.43 C
 Fan duty cycle: 0.41 %
 Pump duty cycle: 16.62 %
-Function parameter: 0.82 Score: 8.06
-Best function parameter: 0.82 Best score: 8.06
-Function parameter: 0.85 Score: 8.06
-Function parameter: 0.76 Score: 8.06
+Function parameter: 0.84 Score: 8.06
+Best function parameter: 0.84 Best score: 8.06
+Function parameter: 0.86 Score: 8.06
+Function parameter: 0.78 Score: 8.06
 Function parameter: 0.16 Score: 8.06
-Function parameter: 0.92 Score: 8.06
+Function parameter: 0.94 Score: 8.06
 Function parameter: 0.35 Score: 8.06
-Function parameter: 0.85 Score: 8.06
-Function parameter: 0.91 Score: 8.06
-Function parameter: 0.50 Score: 8.06
-Function parameter: 0.23 Score: 8.06
-Function parameter: 0.62 Score: 8.06
+Function parameter: 0.86 Score: 8.06
+Function parameter: 0.92 Score: 8.06
+Function parameter: 0.47 Score: 8.06
+Function parameter: 0.22 Score: 8.06
+Function parameter: 0.63 Score: 8.06
+Function parameter: 0.27 Score: 8.06
+Function parameter: 0.88 Score: 8.06
+Function parameter: 0.57 Score: 8.06
+Function parameter: 0.64 Score: 8.06
 Function parameter: 0.25 Score: 8.06
-Function parameter: 0.89 Score: 8.06
-Function parameter: 0.58 Score: 8.06
-Function parameter: 0.65 Score: 8.06
-Function parameter: 0.26 Score: 8.06
-Perturbed function parameter: 0.83 Delta: 0.00
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.17 Delta: 0.00
-Perturbed function parameter: 0.92 Delta: 0.00
-Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.78 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.94 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.35 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.57 Delta: 0.00
-Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.56 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 353.52 C
 Output exhaust temperature: 353.52 C
 Scrubber fluid input temperature: 24.90 C
 Scrubber fluid output temperature: 43.46 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 15.25 %
-Function parameter: 0.83 Score: -1.53
-Function parameter: 0.85 Score: -1.53
-Function parameter: 0.76 Score: -1.53
-Function parameter: 0.17 Score: -1.53
-Function parameter: 0.92 Score: -1.53
-Function parameter: 0.34 Score: -1.53
-Function parameter: 0.86 Score: -1.53
-Function parameter: 0.90 Score: -1.53
-Function parameter: 0.51 Score: -1.53
-Function parameter: 0.23 Score: -1.53
-Function parameter: 0.62 Score: -1.53
-Function parameter: 0.26 Score: -1.53
-Function parameter: 0.88 Score: -1.53
-Function parameter: 0.57 Score: -1.53
-Function parameter: 0.64 Score: -1.53
-Function parameter: 0.25 Score: -1.53
-Perturbed function parameter: 0.82 Delta: 0.00
+Pump duty cycle: 15.55 %
+Function parameter: 0.85 Score: -1.55
+Function parameter: 0.86 Score: -1.55
+Function parameter: 0.78 Score: -1.55
+Function parameter: 0.16 Score: -1.55
+Function parameter: 0.94 Score: -1.55
+Function parameter: 0.35 Score: -1.55
+Function parameter: 0.87 Score: -1.55
+Function parameter: 0.93 Score: -1.55
+Function parameter: 0.46 Score: -1.55
+Function parameter: 0.21 Score: -1.55
+Function parameter: 0.63 Score: -1.55
+Function parameter: 0.27 Score: -1.55
+Function parameter: 0.88 Score: -1.55
+Function parameter: 0.56 Score: -1.55
+Function parameter: 0.65 Score: -1.55
+Function parameter: 0.25 Score: -1.55
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.18 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.78 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.15 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.35 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.92 Delta: 0.00
-Perturbed function parameter: 0.34 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.57 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.64 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-5.0 | 354.0 | 353.4 | 25.0 | 43.4 | 0.0 | 0.0 | 15.3
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.57 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+5.0 | 354.0 | 353.4 | 25.0 | 43.4 | 0.0 | 0.0 | 15.5
 Input exhaust temperature: 335.94 C
 Output exhaust temperature: 336.43 C
 Scrubber fluid input temperature: 25.39 C
 Scrubber fluid output temperature: 42.97 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 14.45 %
-Function parameter: 0.82 Score: -11.21
-Function parameter: 0.85 Score: -11.21
-Function parameter: 0.76 Score: -11.21
-Function parameter: 0.18 Score: -11.21
-Function parameter: 0.92 Score: -11.21
-Function parameter: 0.34 Score: -11.21
-Function parameter: 0.85 Score: -11.21
-Function parameter: 0.90 Score: -11.21
-Function parameter: 0.51 Score: -11.21
-Function parameter: 0.23 Score: -11.21
-Function parameter: 0.62 Score: -11.21
-Function parameter: 0.27 Score: -11.21
-Function parameter: 0.89 Score: -11.21
-Function parameter: 0.57 Score: -11.21
-Function parameter: 0.64 Score: -11.21
-Function parameter: 0.25 Score: -11.21
-Perturbed function parameter: 0.81 Delta: 0.00
+Pump duty cycle: 14.73 %
+Function parameter: 0.86 Score: -11.24
+Function parameter: 0.85 Score: -11.24
+Function parameter: 0.78 Score: -11.24
+Function parameter: 0.15 Score: -11.24
+Function parameter: 0.93 Score: -11.24
+Function parameter: 0.35 Score: -11.24
+Function parameter: 0.86 Score: -11.24
+Function parameter: 0.92 Score: -11.24
+Function parameter: 0.47 Score: -11.24
+Function parameter: 0.22 Score: -11.24
+Function parameter: 0.64 Score: -11.24
+Function parameter: 0.27 Score: -11.24
+Function parameter: 0.87 Score: -11.24
+Function parameter: 0.57 Score: -11.24
+Function parameter: 0.65 Score: -11.24
+Function parameter: 0.26 Score: -11.24
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.18 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.78 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.15 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.35 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.50 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-Perturbed function parameter: 0.61 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.57 Delta: 0.00
-Perturbed function parameter: 0.65 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 317.38 C
 Output exhaust temperature: 316.41 C
 Scrubber fluid input temperature: 24.90 C
 Scrubber fluid output temperature: 41.99 C
-Fan duty cycle: 0.80 %
-Pump duty cycle: 14.05 %
-Function parameter: 0.81 Score: 18.05
-Best function parameter: 0.81 Best score: 18.05
-Function parameter: 0.85 Score: 18.05
-Function parameter: 0.76 Score: 18.05
-Function parameter: 0.18 Score: 18.05
-Function parameter: 0.92 Score: 18.05
-Function parameter: 0.35 Score: 18.05
-Function parameter: 0.85 Score: 18.05
-Function parameter: 0.90 Score: 18.05
-Function parameter: 0.50 Score: 18.05
-Function parameter: 0.23 Score: 18.05
-Function parameter: 0.61 Score: 18.05
-Function parameter: 0.26 Score: 18.05
-Function parameter: 0.89 Score: 18.05
-Function parameter: 0.57 Score: 18.05
-Function parameter: 0.65 Score: 18.05
-Function parameter: 0.24 Score: 18.05
-Perturbed function parameter: 0.82 Delta: 0.00
+Fan duty cycle: 0.82 %
+Pump duty cycle: 14.32 %
+Function parameter: 0.85 Score: 18.02
+Best function parameter: 0.85 Best score: 18.02
+Function parameter: 0.84 Score: 18.02
+Function parameter: 0.78 Score: 18.02
+Function parameter: 0.15 Score: 18.02
+Function parameter: 0.92 Score: 18.02
+Function parameter: 0.35 Score: 18.02
+Function parameter: 0.85 Score: 18.02
+Function parameter: 0.91 Score: 18.02
+Function parameter: 0.47 Score: 18.02
+Function parameter: 0.22 Score: 18.02
+Function parameter: 0.64 Score: 18.02
+Function parameter: 0.27 Score: 18.02
+Function parameter: 0.88 Score: 18.02
+Function parameter: 0.57 Score: 18.02
+Function parameter: 0.66 Score: 18.02
+Function parameter: 0.26 Score: 18.02
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.17 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.35 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.15 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.36 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.23 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.57 Delta: 0.00
-Perturbed function parameter: 0.64 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 297.36 C
 Output exhaust temperature: 295.90 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 40.53 C
-Fan duty cycle: 1.19 %
-Pump duty cycle: 13.13 %
-Function parameter: 0.82 Score: 27.86
-Best function parameter: 0.82 Best score: 27.86
-Function parameter: 0.85 Score: 27.86
-Function parameter: 0.76 Score: 27.86
-Function parameter: 0.17 Score: 27.86
-Function parameter: 0.91 Score: 27.86
-Function parameter: 0.35 Score: 27.86
-Function parameter: 0.85 Score: 27.86
-Function parameter: 0.89 Score: 27.86
-Function parameter: 0.51 Score: 27.86
-Function parameter: 0.23 Score: 27.86
-Function parameter: 0.60 Score: 27.86
-Function parameter: 0.27 Score: 27.86
-Function parameter: 0.89 Score: 27.86
-Function parameter: 0.57 Score: 27.86
-Function parameter: 0.64 Score: 27.86
-Function parameter: 0.24 Score: 27.86
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
+Fan duty cycle: 1.25 %
+Pump duty cycle: 13.73 %
+Function parameter: 0.85 Score: 27.80
+Best function parameter: 0.85 Best score: 27.80
+Function parameter: 0.83 Score: 27.80
+Function parameter: 0.77 Score: 27.80
+Function parameter: 0.15 Score: 27.80
+Function parameter: 0.93 Score: 27.80
+Function parameter: 0.36 Score: 27.80
+Function parameter: 0.85 Score: 27.80
+Function parameter: 0.92 Score: 27.80
+Function parameter: 0.46 Score: 27.80
+Function parameter: 0.23 Score: 27.80
+Function parameter: 0.65 Score: 27.80
+Function parameter: 0.27 Score: 27.80
+Function parameter: 0.89 Score: 27.80
+Function parameter: 0.57 Score: 27.80
+Function parameter: 0.65 Score: 27.80
+Function parameter: 0.25 Score: 27.80
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.17 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.35 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.28 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.57 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 276.37 C
 Output exhaust temperature: 275.39 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 39.55 C
-Fan duty cycle: 0.80 %
-Pump duty cycle: 12.47 %
-Function parameter: 0.83 Score: 18.20
-Function parameter: 0.85 Score: 18.20
-Function parameter: 0.77 Score: 18.20
-Function parameter: 0.17 Score: 18.20
-Function parameter: 0.91 Score: 18.20
-Function parameter: 0.34 Score: 18.20
-Function parameter: 0.85 Score: 18.20
-Function parameter: 0.88 Score: 18.20
-Function parameter: 0.52 Score: 18.20
-Function parameter: 0.23 Score: 18.20
-Function parameter: 0.60 Score: 18.20
-Function parameter: 0.28 Score: 18.20
-Function parameter: 0.90 Score: 18.20
-Function parameter: 0.58 Score: 18.20
-Function parameter: 0.65 Score: 18.20
-Function parameter: 0.24 Score: 18.20
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.17 Delta: 0.00
-Perturbed function parameter: 0.92 Delta: 0.00
-Perturbed function parameter: 0.35 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
+Fan duty cycle: 0.83 %
+Pump duty cycle: 12.91 %
+Function parameter: 0.86 Score: 18.16
+Function parameter: 0.84 Score: 18.16
+Function parameter: 0.77 Score: 18.16
+Function parameter: 0.16 Score: 18.16
+Function parameter: 0.92 Score: 18.16
+Function parameter: 0.35 Score: 18.16
+Function parameter: 0.85 Score: 18.16
+Function parameter: 0.91 Score: 18.16
+Function parameter: 0.47 Score: 18.16
+Function parameter: 0.24 Score: 18.16
+Function parameter: 0.65 Score: 18.16
+Function parameter: 0.26 Score: 18.16
+Function parameter: 0.89 Score: 18.16
+Function parameter: 0.57 Score: 18.16
+Function parameter: 0.65 Score: 18.16
+Function parameter: 0.25 Score: 18.16
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.24 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.57 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 258.79 C
 Output exhaust temperature: 256.84 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 40.04 C
-Fan duty cycle: 1.61 %
-Pump duty cycle: 12.88 %
-Function parameter: 0.83 Score: 37.61
-Best function parameter: 0.83 Best score: 37.61
-Function parameter: 0.85 Score: 37.61
-Function parameter: 0.76 Score: 37.61
-Function parameter: 0.17 Score: 37.61
-Function parameter: 0.92 Score: 37.61
-Function parameter: 0.35 Score: 37.61
-Function parameter: 0.85 Score: 37.61
-Function parameter: 0.87 Score: 37.61
-Function parameter: 0.51 Score: 37.61
-Function parameter: 0.24 Score: 37.61
-Function parameter: 0.60 Score: 37.61
-Function parameter: 0.27 Score: 37.61
-Function parameter: 0.90 Score: 37.61
-Function parameter: 0.58 Score: 37.61
-Function parameter: 0.66 Score: 37.61
-Function parameter: 0.25 Score: 37.61
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.35 Delta: 0.00
+Fan duty cycle: 1.67 %
+Pump duty cycle: 13.33 %
+Function parameter: 0.87 Score: 37.56
+Best function parameter: 0.87 Best score: 37.56
+Function parameter: 0.84 Score: 37.56
+Function parameter: 0.77 Score: 37.56
+Function parameter: 0.16 Score: 37.56
+Function parameter: 0.93 Score: 37.56
+Function parameter: 0.34 Score: 37.56
+Function parameter: 0.86 Score: 37.56
+Function parameter: 0.91 Score: 37.56
+Function parameter: 0.46 Score: 37.56
+Function parameter: 0.24 Score: 37.56
+Function parameter: 0.64 Score: 37.56
+Function parameter: 0.27 Score: 37.56
+Function parameter: 0.89 Score: 37.56
+Function parameter: 0.57 Score: 37.56
+Function parameter: 0.65 Score: 37.56
+Function parameter: 0.25 Score: 37.56
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.24 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.58 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.66 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
-10.0 | 258.4 | 257.5 | 25.0 | 39.8 | 0.0 | 1.6 | 12.9
+Mutation accepted.
+Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+10.0 | 258.4 | 257.5 | 25.0 | 39.7 | 0.0 | 1.7 | 13.3
 Input exhaust temperature: 240.23 C
 Output exhaust temperature: 239.26 C
 Scrubber fluid input temperature: 25.39 C
 Scrubber fluid output temperature: 39.55 C
-Fan duty cycle: 0.81 %
-Pump duty cycle: 11.78 %
-Function parameter: 0.83 Score: 18.27
-Function parameter: 0.86 Score: 18.27
-Function parameter: 0.76 Score: 18.27
-Function parameter: 0.16 Score: 18.27
-Function parameter: 0.91 Score: 18.27
-Function parameter: 0.35 Score: 18.27
-Function parameter: 0.85 Score: 18.27
-Function parameter: 0.88 Score: 18.27
-Function parameter: 0.51 Score: 18.27
-Function parameter: 0.24 Score: 18.27
-Function parameter: 0.60 Score: 18.27
-Function parameter: 0.27 Score: 18.27
-Function parameter: 0.89 Score: 18.27
-Function parameter: 0.58 Score: 18.27
-Function parameter: 0.66 Score: 18.27
-Function parameter: 0.24 Score: 18.27
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.35 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
+Fan duty cycle: 0.85 %
+Pump duty cycle: 12.31 %
+Function parameter: 0.87 Score: 18.22
+Function parameter: 0.85 Score: 18.22
+Function parameter: 0.77 Score: 18.22
+Function parameter: 0.16 Score: 18.22
+Function parameter: 0.93 Score: 18.22
+Function parameter: 0.34 Score: 18.22
+Function parameter: 0.86 Score: 18.22
+Function parameter: 0.90 Score: 18.22
+Function parameter: 0.46 Score: 18.22
+Function parameter: 0.24 Score: 18.22
+Function parameter: 0.65 Score: 18.22
+Function parameter: 0.26 Score: 18.22
+Function parameter: 0.90 Score: 18.22
+Function parameter: 0.58 Score: 18.22
+Function parameter: 0.66 Score: 18.22
+Function parameter: 0.25 Score: 18.22
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.78 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 225.59 C
 Output exhaust temperature: 225.59 C
 Scrubber fluid input temperature: 24.90 C
 Scrubber fluid output temperature: 38.09 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 10.97 %
-Function parameter: 0.82 Score: -1.10
-Function parameter: 0.85 Score: -1.10
-Function parameter: 0.77 Score: -1.10
-Function parameter: 0.15 Score: -1.10
-Function parameter: 0.91 Score: -1.10
-Function parameter: 0.35 Score: -1.10
-Function parameter: 0.84 Score: -1.10
-Function parameter: 0.87 Score: -1.10
-Function parameter: 0.51 Score: -1.10
-Function parameter: 0.24 Score: -1.10
-Function parameter: 0.59 Score: -1.10
-Function parameter: 0.26 Score: -1.10
-Function parameter: 0.88 Score: -1.10
-Function parameter: 0.58 Score: -1.10
-Function parameter: 0.67 Score: -1.10
-Function parameter: 0.24 Score: -1.10
-Perturbed function parameter: 0.82 Delta: 0.00
+Pump duty cycle: 11.46 %
+Function parameter: 0.87 Score: -1.15
+Function parameter: 0.85 Score: -1.15
+Function parameter: 0.78 Score: -1.15
+Function parameter: 0.16 Score: -1.15
+Function parameter: 0.92 Score: -1.15
+Function parameter: 0.34 Score: -1.15
+Function parameter: 0.87 Score: -1.15
+Function parameter: 0.91 Score: -1.15
+Function parameter: 0.46 Score: -1.15
+Function parameter: 0.23 Score: -1.15
+Function parameter: 0.64 Score: -1.15
+Function parameter: 0.25 Score: -1.15
+Function parameter: 0.89 Score: -1.15
+Function parameter: 0.58 Score: -1.15
+Function parameter: 0.66 Score: -1.15
+Function parameter: 0.25 Score: -1.15
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.36 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.23 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.58 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 214.36 C
 Output exhaust temperature: 214.36 C
 Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 38.57 C
+Scrubber fluid output temperature: 38.09 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 11.78 %
-Function parameter: 0.82 Score: -1.18
-Function parameter: 0.85 Score: -1.18
-Function parameter: 0.77 Score: -1.18
-Function parameter: 0.16 Score: -1.18
-Function parameter: 0.90 Score: -1.18
-Function parameter: 0.36 Score: -1.18
-Function parameter: 0.83 Score: -1.18
-Function parameter: 0.88 Score: -1.18
-Function parameter: 0.51 Score: -1.18
-Function parameter: 0.23 Score: -1.18
-Function parameter: 0.58 Score: -1.18
-Function parameter: 0.26 Score: -1.18
-Function parameter: 0.88 Score: -1.18
-Function parameter: 0.59 Score: -1.18
-Function parameter: 0.68 Score: -1.18
-Function parameter: 0.24 Score: -1.18
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.35 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
+Pump duty cycle: 11.88 %
+Function parameter: 0.86 Score: -1.19
+Function parameter: 0.85 Score: -1.19
+Function parameter: 0.77 Score: -1.19
+Function parameter: 0.17 Score: -1.19
+Function parameter: 0.92 Score: -1.19
+Function parameter: 0.33 Score: -1.19
+Function parameter: 0.87 Score: -1.19
+Function parameter: 0.91 Score: -1.19
+Function parameter: 0.46 Score: -1.19
+Function parameter: 0.23 Score: -1.19
+Function parameter: 0.64 Score: -1.19
+Function parameter: 0.24 Score: -1.19
+Function parameter: 0.89 Score: -1.19
+Function parameter: 0.58 Score: -1.19
+Function parameter: 0.66 Score: -1.19
+Function parameter: 0.25 Score: -1.19
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.24 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 206.05 C
 Output exhaust temperature: 206.05 C
 Scrubber fluid input temperature: 25.39 C
-Scrubber fluid output temperature: 37.11 C
+Scrubber fluid output temperature: 36.62 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 9.75 %
-Function parameter: 0.81 Score: -0.97
-Function parameter: 0.85 Score: -0.97
-Function parameter: 0.77 Score: -0.97
-Function parameter: 0.16 Score: -0.97
-Function parameter: 0.89 Score: -0.97
-Function parameter: 0.35 Score: -0.97
-Function parameter: 0.84 Score: -0.97
-Function parameter: 0.87 Score: -0.97
-Function parameter: 0.52 Score: -0.97
-Function parameter: 0.24 Score: -0.97
-Function parameter: 0.59 Score: -0.97
-Function parameter: 0.27 Score: -0.97
-Function parameter: 0.88 Score: -0.97
-Function parameter: 0.58 Score: -0.97
-Function parameter: 0.68 Score: -0.97
-Function parameter: 0.24 Score: -0.97
-Perturbed function parameter: 0.81 Delta: 0.00
+Pump duty cycle: 9.76 %
+Function parameter: 0.87 Score: -0.98
+Function parameter: 0.84 Score: -0.98
+Function parameter: 0.77 Score: -0.98
+Function parameter: 0.17 Score: -0.98
+Function parameter: 0.92 Score: -0.98
+Function parameter: 0.33 Score: -0.98
+Function parameter: 0.86 Score: -0.98
+Function parameter: 0.90 Score: -0.98
+Function parameter: 0.46 Score: -0.98
+Function parameter: 0.23 Score: -0.98
+Function parameter: 0.63 Score: -0.98
+Function parameter: 0.24 Score: -0.98
+Function parameter: 0.89 Score: -0.98
+Function parameter: 0.58 Score: -0.98
+Function parameter: 0.66 Score: -0.98
+Function parameter: 0.26 Score: -0.98
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.35 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.69 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.76 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.45 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.59 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 201.17 C
 Output exhaust temperature: 201.17 C
 Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 37.60 C
+Scrubber fluid output temperature: 37.11 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 10.97 %
-Function parameter: 0.81 Score: -1.10
+Pump duty cycle: 11.03 %
+Function parameter: 0.87 Score: -1.10
 Function parameter: 0.84 Score: -1.10
-Function parameter: 0.78 Score: -1.10
-Function parameter: 0.16 Score: -1.10
-Function parameter: 0.89 Score: -1.10
-Function parameter: 0.35 Score: -1.10
-Function parameter: 0.83 Score: -1.10
-Function parameter: 0.88 Score: -1.10
-Function parameter: 0.52 Score: -1.10
-Function parameter: 0.25 Score: -1.10
-Function parameter: 0.59 Score: -1.10
-Function parameter: 0.27 Score: -1.10
-Function parameter: 0.88 Score: -1.10
-Function parameter: 0.59 Score: -1.10
-Function parameter: 0.69 Score: -1.10
+Function parameter: 0.76 Score: -1.10
+Function parameter: 0.17 Score: -1.10
+Function parameter: 0.93 Score: -1.10
+Function parameter: 0.33 Score: -1.10
+Function parameter: 0.87 Score: -1.10
+Function parameter: 0.90 Score: -1.10
+Function parameter: 0.45 Score: -1.10
+Function parameter: 0.22 Score: -1.10
+Function parameter: 0.63 Score: -1.10
 Function parameter: 0.24 Score: -1.10
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
+Function parameter: 0.88 Score: -1.10
+Function parameter: 0.59 Score: -1.10
+Function parameter: 0.65 Score: -1.10
+Function parameter: 0.26 Score: -1.10
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.76 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.35 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.45 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.24 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
-15.0 | 201.0 | 201.0 | 25.0 | 37.2 | 0.0 | 0.0 | 11.0
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.59 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+15.0 | 201.0 | 201.0 | 25.0 | 37.0 | 0.0 | 0.0 | 11.0
 Input exhaust temperature: 200.20 C
 Output exhaust temperature: 200.20 C
 Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 36.62 C
+Scrubber fluid output temperature: 36.13 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 10.16 %
-Function parameter: 0.80 Score: -1.02
-Function parameter: 0.83 Score: -1.02
-Function parameter: 0.78 Score: -1.02
-Function parameter: 0.16 Score: -1.02
+Pump duty cycle: 10.18 %
+Function parameter: 0.86 Score: -1.02
+Function parameter: 0.85 Score: -1.02
+Function parameter: 0.76 Score: -1.02
+Function parameter: 0.17 Score: -1.02
+Function parameter: 0.92 Score: -1.02
+Function parameter: 0.34 Score: -1.02
 Function parameter: 0.88 Score: -1.02
-Function parameter: 0.35 Score: -1.02
-Function parameter: 0.84 Score: -1.02
-Function parameter: 0.89 Score: -1.02
-Function parameter: 0.52 Score: -1.02
+Function parameter: 0.91 Score: -1.02
+Function parameter: 0.45 Score: -1.02
+Function parameter: 0.22 Score: -1.02
+Function parameter: 0.64 Score: -1.02
 Function parameter: 0.24 Score: -1.02
-Function parameter: 0.60 Score: -1.02
-Function parameter: 0.27 Score: -1.02
-Function parameter: 0.87 Score: -1.02
-Function parameter: 0.58 Score: -1.02
-Function parameter: 0.68 Score: -1.02
-Function parameter: 0.24 Score: -1.02
-Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.34 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
+Function parameter: 0.88 Score: -1.02
+Function parameter: 0.59 Score: -1.02
+Function parameter: 0.65 Score: -1.02
+Function parameter: 0.26 Score: -1.02
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.59 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 203.12 C
 Output exhaust temperature: 203.61 C
 Scrubber fluid input temperature: 25.39 C
-Scrubber fluid output temperature: 36.62 C
+Scrubber fluid output temperature: 36.13 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 9.34 %
-Function parameter: 0.79 Score: -10.70
-Function parameter: 0.83 Score: -10.70
-Function parameter: 0.77 Score: -10.70
-Function parameter: 0.16 Score: -10.70
-Function parameter: 0.89 Score: -10.70
-Function parameter: 0.34 Score: -10.70
-Function parameter: 0.84 Score: -10.70
-Function parameter: 0.88 Score: -10.70
-Function parameter: 0.52 Score: -10.70
-Function parameter: 0.24 Score: -10.70
-Function parameter: 0.60 Score: -10.70
-Function parameter: 0.27 Score: -10.70
+Pump duty cycle: 9.33 %
 Function parameter: 0.87 Score: -10.70
-Function parameter: 0.58 Score: -10.70
-Function parameter: 0.68 Score: -10.70
+Function parameter: 0.85 Score: -10.70
+Function parameter: 0.77 Score: -10.70
+Function parameter: 0.17 Score: -10.70
+Function parameter: 0.92 Score: -10.70
+Function parameter: 0.34 Score: -10.70
+Function parameter: 0.88 Score: -10.70
+Function parameter: 0.91 Score: -10.70
+Function parameter: 0.46 Score: -10.70
+Function parameter: 0.22 Score: -10.70
+Function parameter: 0.65 Score: -10.70
 Function parameter: 0.25 Score: -10.70
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.33 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Function parameter: 0.88 Score: -10.70
+Function parameter: 0.59 Score: -10.70
+Function parameter: 0.65 Score: -10.70
+Function parameter: 0.26 Score: -10.70
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.76 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.35 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.59 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 209.47 C
 Output exhaust temperature: 209.96 C
 Scrubber fluid input temperature: 24.90 C
 Scrubber fluid output temperature: 35.64 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 8.94 %
-Function parameter: 0.80 Score: -10.66
-Function parameter: 0.83 Score: -10.66
-Function parameter: 0.77 Score: -10.66
-Function parameter: 0.16 Score: -10.66
-Function parameter: 0.89 Score: -10.66
-Function parameter: 0.33 Score: -10.66
-Function parameter: 0.85 Score: -10.66
-Function parameter: 0.89 Score: -10.66
-Function parameter: 0.52 Score: -10.66
-Function parameter: 0.25 Score: -10.66
-Function parameter: 0.60 Score: -10.66
-Function parameter: 0.26 Score: -10.66
-Function parameter: 0.88 Score: -10.66
-Function parameter: 0.58 Score: -10.66
-Function parameter: 0.68 Score: -10.66
-Function parameter: 0.25 Score: -10.66
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
+Pump duty cycle: 9.33 %
+Function parameter: 0.86 Score: -10.70
+Function parameter: 0.84 Score: -10.70
+Function parameter: 0.76 Score: -10.70
+Function parameter: 0.17 Score: -10.70
+Function parameter: 0.93 Score: -10.70
+Function parameter: 0.35 Score: -10.70
+Function parameter: 0.88 Score: -10.70
+Function parameter: 0.90 Score: -10.70
+Function parameter: 0.46 Score: -10.70
+Function parameter: 0.23 Score: -10.70
+Function parameter: 0.65 Score: -10.70
+Function parameter: 0.24 Score: -10.70
+Function parameter: 0.87 Score: -10.70
+Function parameter: 0.59 Score: -10.70
+Function parameter: 0.65 Score: -10.70
+Function parameter: 0.26 Score: -10.70
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.33 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.36 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.57 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.59 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 221.19 C
 Output exhaust temperature: 220.70 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 34.67 C
-Fan duty cycle: 0.41 %
-Pump duty cycle: 8.53 %
-Function parameter: 0.81 Score: 8.87
-Function parameter: 0.82 Score: 8.87
-Function parameter: 0.77 Score: 8.87
-Function parameter: 0.15 Score: 8.87
-Function parameter: 0.88 Score: 8.87
-Function parameter: 0.33 Score: 8.87
-Function parameter: 0.85 Score: 8.87
-Function parameter: 0.89 Score: 8.87
-Function parameter: 0.51 Score: 8.87
-Function parameter: 0.25 Score: 8.87
-Function parameter: 0.60 Score: 8.87
-Function parameter: 0.27 Score: 8.87
-Function parameter: 0.87 Score: 8.87
-Function parameter: 0.57 Score: 8.87
-Function parameter: 0.67 Score: 8.87
-Function parameter: 0.25 Score: 8.87
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.34 Delta: 0.00
+Fan duty cycle: 0.42 %
+Pump duty cycle: 8.91 %
+Function parameter: 0.86 Score: 8.83
+Function parameter: 0.84 Score: 8.83
+Function parameter: 0.77 Score: 8.83
+Function parameter: 0.17 Score: 8.83
+Function parameter: 0.93 Score: 8.83
+Function parameter: 0.36 Score: 8.83
+Function parameter: 0.89 Score: 8.83
+Function parameter: 0.91 Score: 8.83
+Function parameter: 0.47 Score: 8.83
+Function parameter: 0.22 Score: 8.83
+Function parameter: 0.65 Score: 8.83
+Function parameter: 0.25 Score: 8.83
+Function parameter: 0.87 Score: 8.83
+Function parameter: 0.59 Score: 8.83
+Function parameter: 0.65 Score: 8.83
+Function parameter: 0.25 Score: 8.83
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.76 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.18 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.36 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.57 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.59 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 234.38 C
 Output exhaust temperature: 233.40 C
 Scrubber fluid input temperature: 25.39 C
 Scrubber fluid output temperature: 34.18 C
-Fan duty cycle: 0.81 %
-Pump duty cycle: 7.31 %
-Function parameter: 0.81 Score: 18.72
-Function parameter: 0.82 Score: 18.72
-Function parameter: 0.77 Score: 18.72
-Function parameter: 0.15 Score: 18.72
-Function parameter: 0.89 Score: 18.72
-Function parameter: 0.34 Score: 18.72
-Function parameter: 0.85 Score: 18.72
-Function parameter: 0.89 Score: 18.72
-Function parameter: 0.51 Score: 18.72
-Function parameter: 0.25 Score: 18.72
-Function parameter: 0.59 Score: 18.72
-Function parameter: 0.27 Score: 18.72
-Function parameter: 0.87 Score: 18.72
-Function parameter: 0.57 Score: 18.72
-Function parameter: 0.67 Score: 18.72
-Function parameter: 0.25 Score: 18.72
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
+Fan duty cycle: 0.85 %
+Pump duty cycle: 7.64 %
+Function parameter: 0.86 Score: 18.68
+Function parameter: 0.85 Score: 18.68
+Function parameter: 0.76 Score: 18.68
+Function parameter: 0.18 Score: 18.68
+Function parameter: 0.92 Score: 18.68
+Function parameter: 0.36 Score: 18.68
+Function parameter: 0.89 Score: 18.68
+Function parameter: 0.90 Score: 18.68
+Function parameter: 0.47 Score: 18.68
+Function parameter: 0.23 Score: 18.68
+Function parameter: 0.66 Score: 18.68
+Function parameter: 0.24 Score: 18.68
+Function parameter: 0.87 Score: 18.68
+Function parameter: 0.59 Score: 18.68
+Function parameter: 0.64 Score: 18.68
+Function parameter: 0.25 Score: 18.68
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.18 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.36 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.34 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.28 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.56 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-20.0 | 234.6 | 234.2 | 25.0 | 35.1 | 0.0 | 0.8 | 7.3
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+20.0 | 234.6 | 234.2 | 25.0 | 34.9 | 0.0 | 0.8 | 7.6
 Input exhaust temperature: 250.49 C
 Output exhaust temperature: 250.49 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 34.18 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 8.12 %
-Function parameter: 0.80 Score: -0.81
-Function parameter: 0.82 Score: -0.81
-Function parameter: 0.77 Score: -0.81
-Function parameter: 0.16 Score: -0.81
-Function parameter: 0.89 Score: -0.81
-Function parameter: 0.34 Score: -0.81
-Function parameter: 0.84 Score: -0.81
-Function parameter: 0.89 Score: -0.81
-Function parameter: 0.51 Score: -0.81
-Function parameter: 0.26 Score: -0.81
-Function parameter: 0.60 Score: -0.81
-Function parameter: 0.28 Score: -0.81
-Function parameter: 0.87 Score: -0.81
-Function parameter: 0.56 Score: -0.81
-Function parameter: 0.67 Score: -0.81
-Function parameter: 0.26 Score: -0.81
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.33 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
+Pump duty cycle: 8.49 %
+Function parameter: 0.86 Score: -0.85
+Function parameter: 0.85 Score: -0.85
+Function parameter: 0.77 Score: -0.85
+Function parameter: 0.18 Score: -0.85
+Function parameter: 0.92 Score: -0.85
+Function parameter: 0.36 Score: -0.85
+Function parameter: 0.89 Score: -0.85
+Function parameter: 0.90 Score: -0.85
+Function parameter: 0.46 Score: -0.85
+Function parameter: 0.24 Score: -0.85
+Function parameter: 0.66 Score: -0.85
+Function parameter: 0.23 Score: -0.85
+Function parameter: 0.87 Score: -0.85
+Function parameter: 0.60 Score: -0.85
+Function parameter: 0.65 Score: -0.85
+Function parameter: 0.25 Score: -0.85
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.57 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.37 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 269.53 C
 Output exhaust temperature: 269.53 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 33.69 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 7.72 %
-Function parameter: 0.80 Score: -0.77
-Function parameter: 0.81 Score: -0.77
-Function parameter: 0.77 Score: -0.77
-Function parameter: 0.15 Score: -0.77
-Function parameter: 0.88 Score: -0.77
-Function parameter: 0.33 Score: -0.77
-Function parameter: 0.84 Score: -0.77
-Function parameter: 0.89 Score: -0.77
-Function parameter: 0.51 Score: -0.77
-Function parameter: 0.25 Score: -0.77
-Function parameter: 0.60 Score: -0.77
-Function parameter: 0.27 Score: -0.77
-Function parameter: 0.87 Score: -0.77
-Function parameter: 0.57 Score: -0.77
-Function parameter: 0.68 Score: -0.77
-Function parameter: 0.25 Score: -0.77
-Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.80 Delta: 0.00
+Pump duty cycle: 8.06 %
+Function parameter: 0.87 Score: -0.81
+Function parameter: 0.84 Score: -0.81
+Function parameter: 0.77 Score: -0.81
+Function parameter: 0.17 Score: -0.81
+Function parameter: 0.92 Score: -0.81
+Function parameter: 0.37 Score: -0.81
+Function parameter: 0.88 Score: -0.81
+Function parameter: 0.91 Score: -0.81
+Function parameter: 0.47 Score: -0.81
+Function parameter: 0.23 Score: -0.81
+Function parameter: 0.67 Score: -0.81
+Function parameter: 0.22 Score: -0.81
+Function parameter: 0.87 Score: -0.81
+Function parameter: 0.60 Score: -0.81
+Function parameter: 0.65 Score: -0.81
+Function parameter: 0.26 Score: -0.81
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.33 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.61 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.37 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.57 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 289.06 C
 Output exhaust temperature: 288.57 C
 Scrubber fluid input temperature: 25.39 C
 Scrubber fluid output temperature: 33.69 C
-Fan duty cycle: 0.41 %
-Pump duty cycle: 6.91 %
-Function parameter: 0.79 Score: 9.03
-Function parameter: 0.80 Score: 9.03
-Function parameter: 0.77 Score: 9.03
-Function parameter: 0.16 Score: 9.03
-Function parameter: 0.89 Score: 9.03
-Function parameter: 0.33 Score: 9.03
-Function parameter: 0.85 Score: 9.03
-Function parameter: 0.89 Score: 9.03
-Function parameter: 0.52 Score: 9.03
-Function parameter: 0.26 Score: 9.03
-Function parameter: 0.61 Score: 9.03
-Function parameter: 0.27 Score: 9.03
-Function parameter: 0.87 Score: 9.03
-Function parameter: 0.57 Score: 9.03
-Function parameter: 0.68 Score: 9.03
-Function parameter: 0.25 Score: 9.03
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
+Fan duty cycle: 0.42 %
+Pump duty cycle: 7.21 %
+Function parameter: 0.86 Score: 9.00
+Function parameter: 0.84 Score: 9.00
+Function parameter: 0.77 Score: 9.00
+Function parameter: 0.17 Score: 9.00
+Function parameter: 0.93 Score: 9.00
+Function parameter: 0.37 Score: 9.00
+Function parameter: 0.87 Score: 9.00
+Function parameter: 0.91 Score: 9.00
+Function parameter: 0.48 Score: 9.00
+Function parameter: 0.23 Score: 9.00
+Function parameter: 0.66 Score: 9.00
+Function parameter: 0.22 Score: 9.00
+Function parameter: 0.88 Score: 9.00
+Function parameter: 0.61 Score: 9.00
+Function parameter: 0.65 Score: 9.00
+Function parameter: 0.26 Score: 9.00
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.77 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.33 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.94 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.37 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.57 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 308.11 C
 Output exhaust temperature: 307.62 C
 Scrubber fluid input temperature: 25.39 C
 Scrubber fluid output temperature: 34.18 C
-Fan duty cycle: 0.41 %
-Pump duty cycle: 7.31 %
-Function parameter: 0.80 Score: 8.99
-Function parameter: 0.79 Score: 8.99
-Function parameter: 0.78 Score: 8.99
-Function parameter: 0.16 Score: 8.99
-Function parameter: 0.89 Score: 8.99
-Function parameter: 0.33 Score: 8.99
-Function parameter: 0.84 Score: 8.99
-Function parameter: 0.89 Score: 8.99
-Function parameter: 0.52 Score: 8.99
-Function parameter: 0.26 Score: 8.99
-Function parameter: 0.60 Score: 8.99
-Function parameter: 0.26 Score: 8.99
-Function parameter: 0.87 Score: 8.99
-Function parameter: 0.57 Score: 8.99
-Function parameter: 0.67 Score: 8.99
-Function parameter: 0.24 Score: 8.99
-Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.32 Delta: 0.00
+Fan duty cycle: 0.42 %
+Pump duty cycle: 7.64 %
+Function parameter: 0.86 Score: 8.96
+Function parameter: 0.83 Score: 8.96
+Function parameter: 0.77 Score: 8.96
+Function parameter: 0.16 Score: 8.96
+Function parameter: 0.94 Score: 8.96
+Function parameter: 0.37 Score: 8.96
+Function parameter: 0.87 Score: 8.96
+Function parameter: 0.91 Score: 8.96
+Function parameter: 0.48 Score: 8.96
+Function parameter: 0.23 Score: 8.96
+Function parameter: 0.66 Score: 8.96
+Function parameter: 0.22 Score: 8.96
+Function parameter: 0.89 Score: 8.96
+Function parameter: 0.61 Score: 8.96
+Function parameter: 0.64 Score: 8.96
+Function parameter: 0.26 Score: 8.96
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.78 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.94 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.36 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.57 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 328.12 C
 Output exhaust temperature: 328.12 C
 Scrubber fluid input temperature: 25.39 C
 Scrubber fluid output temperature: 33.69 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 6.91 %
-Function parameter: 0.79 Score: -0.69
-Function parameter: 0.78 Score: -0.69
-Function parameter: 0.77 Score: -0.69
-Function parameter: 0.16 Score: -0.69
-Function parameter: 0.88 Score: -0.69
-Function parameter: 0.32 Score: -0.69
-Function parameter: 0.84 Score: -0.69
-Function parameter: 0.89 Score: -0.69
-Function parameter: 0.52 Score: -0.69
-Function parameter: 0.26 Score: -0.69
-Function parameter: 0.60 Score: -0.69
-Function parameter: 0.26 Score: -0.69
-Function parameter: 0.87 Score: -0.69
-Function parameter: 0.57 Score: -0.69
-Function parameter: 0.67 Score: -0.69
-Function parameter: 0.23 Score: -0.69
+Pump duty cycle: 7.21 %
+Function parameter: 0.86 Score: -0.72
+Function parameter: 0.84 Score: -0.72
+Function parameter: 0.78 Score: -0.72
+Function parameter: 0.16 Score: -0.72
+Function parameter: 0.94 Score: -0.72
+Function parameter: 0.36 Score: -0.72
+Function parameter: 0.87 Score: -0.72
+Function parameter: 0.91 Score: -0.72
+Function parameter: 0.48 Score: -0.72
+Function parameter: 0.22 Score: -0.72
+Function parameter: 0.67 Score: -0.72
+Function parameter: 0.22 Score: -0.72
+Function parameter: 0.88 Score: -0.72
+Function parameter: 0.62 Score: -0.72
+Function parameter: 0.64 Score: -0.72
+Function parameter: 0.27 Score: -0.72
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.35 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.32 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.61 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.57 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-25.0 | 328.4 | 327.8 | 25.0 | 33.7 | 0.0 | 0.0 | 6.9
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+25.0 | 328.4 | 327.8 | 25.0 | 33.5 | 0.0 | 0.0 | 7.2
 Input exhaust temperature: 346.19 C
 Output exhaust temperature: 346.19 C
 Scrubber fluid input temperature: 25.39 C
 Scrubber fluid output temperature: 33.20 C
 Fan duty cycle: 0.00 %
-Pump duty cycle: 6.50 %
-Function parameter: 0.79 Score: -0.65
-Function parameter: 0.79 Score: -0.65
-Function parameter: 0.77 Score: -0.65
-Function parameter: 0.16 Score: -0.65
-Function parameter: 0.87 Score: -0.65
-Function parameter: 0.32 Score: -0.65
-Function parameter: 0.83 Score: -0.65
-Function parameter: 0.89 Score: -0.65
-Function parameter: 0.52 Score: -0.65
-Function parameter: 0.26 Score: -0.65
-Function parameter: 0.61 Score: -0.65
-Function parameter: 0.26 Score: -0.65
-Function parameter: 0.87 Score: -0.65
-Function parameter: 0.57 Score: -0.65
-Function parameter: 0.67 Score: -0.65
-Function parameter: 0.23 Score: -0.65
+Pump duty cycle: 6.79 %
+Function parameter: 0.85 Score: -0.68
+Function parameter: 0.84 Score: -0.68
+Function parameter: 0.79 Score: -0.68
+Function parameter: 0.17 Score: -0.68
+Function parameter: 0.95 Score: -0.68
+Function parameter: 0.35 Score: -0.68
+Function parameter: 0.87 Score: -0.68
+Function parameter: 0.91 Score: -0.68
+Function parameter: 0.48 Score: -0.68
+Function parameter: 0.22 Score: -0.68
+Function parameter: 0.67 Score: -0.68
+Function parameter: 0.22 Score: -0.68
+Function parameter: 0.87 Score: -0.68
+Function parameter: 0.61 Score: -0.68
+Function parameter: 0.63 Score: -0.68
+Function parameter: 0.27 Score: -0.68
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.94 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.33 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.61 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.28 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 363.77 C
 Output exhaust temperature: 362.79 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 32.71 C
-Fan duty cycle: 0.81 %
-Pump duty cycle: 6.91 %
-Function parameter: 0.79 Score: 18.76
-Function parameter: 0.79 Score: 18.76
-Function parameter: 0.77 Score: 18.76
-Function parameter: 0.16 Score: 18.76
-Function parameter: 0.87 Score: 18.76
-Function parameter: 0.33 Score: 18.76
-Function parameter: 0.83 Score: 18.76
-Function parameter: 0.89 Score: 18.76
-Function parameter: 0.52 Score: 18.76
-Function parameter: 0.27 Score: 18.76
-Function parameter: 0.61 Score: 18.76
-Function parameter: 0.25 Score: 18.76
-Function parameter: 0.87 Score: 18.76
-Function parameter: 0.58 Score: 18.76
-Function parameter: 0.68 Score: 18.76
-Function parameter: 0.22 Score: 18.76
+Fan duty cycle: 0.85 %
+Pump duty cycle: 7.21 %
+Function parameter: 0.86 Score: 18.73
+Function parameter: 0.84 Score: 18.73
+Function parameter: 0.79 Score: 18.73
+Function parameter: 0.17 Score: 18.73
+Function parameter: 0.94 Score: 18.73
+Function parameter: 0.34 Score: 18.73
+Function parameter: 0.87 Score: 18.73
+Function parameter: 0.92 Score: 18.73
+Function parameter: 0.48 Score: 18.73
+Function parameter: 0.21 Score: 18.73
+Function parameter: 0.67 Score: 18.73
+Function parameter: 0.22 Score: 18.73
+Function parameter: 0.86 Score: 18.73
+Function parameter: 0.60 Score: 18.73
+Function parameter: 0.62 Score: 18.73
+Function parameter: 0.28 Score: 18.73
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.94 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.33 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.61 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.28 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 377.44 C
 Output exhaust temperature: 376.46 C
 Scrubber fluid input temperature: 25.39 C
 Scrubber fluid output temperature: 33.20 C
-Fan duty cycle: 0.81 %
-Pump duty cycle: 6.50 %
-Function parameter: 0.80 Score: 18.80
-Function parameter: 0.78 Score: 18.80
-Function parameter: 0.77 Score: 18.80
-Function parameter: 0.15 Score: 18.80
-Function parameter: 0.88 Score: 18.80
-Function parameter: 0.33 Score: 18.80
-Function parameter: 0.83 Score: 18.80
-Function parameter: 0.88 Score: 18.80
-Function parameter: 0.52 Score: 18.80
-Function parameter: 0.27 Score: 18.80
-Function parameter: 0.61 Score: 18.80
-Function parameter: 0.26 Score: 18.80
-Function parameter: 0.88 Score: 18.80
-Function parameter: 0.58 Score: 18.80
-Function parameter: 0.67 Score: 18.80
-Function parameter: 0.22 Score: 18.80
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
+Fan duty cycle: 0.85 %
+Pump duty cycle: 6.79 %
+Function parameter: 0.86 Score: 18.77
+Function parameter: 0.85 Score: 18.77
+Function parameter: 0.80 Score: 18.77
+Function parameter: 0.17 Score: 18.77
+Function parameter: 0.94 Score: 18.77
+Function parameter: 0.33 Score: 18.77
+Function parameter: 0.86 Score: 18.77
+Function parameter: 0.91 Score: 18.77
+Function parameter: 0.48 Score: 18.77
+Function parameter: 0.22 Score: 18.77
+Function parameter: 0.66 Score: 18.77
+Function parameter: 0.21 Score: 18.77
+Function parameter: 0.86 Score: 18.77
+Function parameter: 0.61 Score: 18.77
+Function parameter: 0.63 Score: 18.77
+Function parameter: 0.28 Score: 18.77
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.81 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.94 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.34 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.51 Delta: 0.00
-Perturbed function parameter: 0.28 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.28 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 388.18 C
 Output exhaust temperature: 386.72 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 32.23 C
-Fan duty cycle: 1.22 %
-Pump duty cycle: 6.50 %
-Function parameter: 0.80 Score: 28.52
-Function parameter: 0.77 Score: 28.52
-Function parameter: 0.77 Score: 28.52
-Function parameter: 0.16 Score: 28.52
-Function parameter: 0.89 Score: 28.52
-Function parameter: 0.34 Score: 28.52
-Function parameter: 0.83 Score: 28.52
-Function parameter: 0.88 Score: 28.52
-Function parameter: 0.51 Score: 28.52
-Function parameter: 0.28 Score: 28.52
-Function parameter: 0.62 Score: 28.52
-Function parameter: 0.27 Score: 28.52
-Function parameter: 0.87 Score: 28.52
-Function parameter: 0.58 Score: 28.52
-Function parameter: 0.67 Score: 28.52
-Function parameter: 0.22 Score: 28.52
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.17 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.33 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.28 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Fan duty cycle: 1.27 %
+Pump duty cycle: 6.79 %
+Function parameter: 0.86 Score: 28.49
+Function parameter: 0.85 Score: 28.49
+Function parameter: 0.81 Score: 28.49
+Function parameter: 0.17 Score: 28.49
+Function parameter: 0.94 Score: 28.49
+Function parameter: 0.34 Score: 28.49
+Function parameter: 0.86 Score: 28.49
+Function parameter: 0.92 Score: 28.49
+Function parameter: 0.47 Score: 28.49
+Function parameter: 0.22 Score: 28.49
+Function parameter: 0.65 Score: 28.49
+Function parameter: 0.22 Score: 28.49
+Function parameter: 0.86 Score: 28.49
+Function parameter: 0.60 Score: 28.49
+Function parameter: 0.62 Score: 28.49
+Function parameter: 0.28 Score: 28.49
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.81 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.59 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.28 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 396.48 C
 Output exhaust temperature: 393.07 C
 Scrubber fluid input temperature: 25.39 C
-Scrubber fluid output temperature: 33.20 C
-Fan duty cycle: 2.84 %
-Pump duty cycle: 6.50 %
-Function parameter: 0.80 Score: 67.43
-Best function parameter: 0.80 Best score: 67.43
-Function parameter: 0.78 Score: 67.43
-Function parameter: 0.78 Score: 67.43
-Function parameter: 0.17 Score: 67.43
-Function parameter: 0.89 Score: 67.43
-Function parameter: 0.33 Score: 67.43
-Function parameter: 0.82 Score: 67.43
-Function parameter: 0.89 Score: 67.43
-Function parameter: 0.52 Score: 67.43
-Function parameter: 0.28 Score: 67.43
-Function parameter: 0.62 Score: 67.43
-Function parameter: 0.26 Score: 67.43
+Scrubber fluid output temperature: 32.71 C
+Fan duty cycle: 2.97 %
+Pump duty cycle: 6.36 %
+Function parameter: 0.85 Score: 67.43
+Best function parameter: 0.85 Best score: 67.43
 Function parameter: 0.86 Score: 67.43
-Function parameter: 0.58 Score: 67.43
-Function parameter: 0.68 Score: 67.43
+Function parameter: 0.81 Score: 67.43
+Function parameter: 0.17 Score: 67.43
+Function parameter: 0.95 Score: 67.43
+Function parameter: 0.34 Score: 67.43
+Function parameter: 0.85 Score: 67.43
+Function parameter: 0.92 Score: 67.43
+Function parameter: 0.48 Score: 67.43
 Function parameter: 0.22 Score: 67.43
+Function parameter: 0.66 Score: 67.43
+Function parameter: 0.21 Score: 67.43
+Function parameter: 0.86 Score: 67.43
+Function parameter: 0.59 Score: 67.43
+Function parameter: 0.62 Score: 67.43
+Function parameter: 0.28 Score: 67.43
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.17 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.32 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.28 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.18 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.96 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.21 Delta: 0.00
-30.0 | 396.0 | 393.9 | 25.0 | 32.9 | 0.0 | 2.8 | 6.5
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+30.0 | 396.0 | 393.9 | 25.0 | 32.7 | 0.0 | 3.0 | 6.4
 Input exhaust temperature: 398.93 C
 Output exhaust temperature: 394.04 C
 Scrubber fluid input temperature: 25.39 C
 Scrubber fluid output temperature: 32.71 C
-Fan duty cycle: 3.91 %
-Pump duty cycle: 5.87 %
-Function parameter: 0.81 Score: 96.68
-Best function parameter: 0.81 Best score: 96.68
-Function parameter: 0.78 Score: 96.68
-Function parameter: 0.77 Score: 96.68
-Function parameter: 0.17 Score: 96.68
-Function parameter: 0.89 Score: 96.68
-Function parameter: 0.32 Score: 96.68
-Function parameter: 0.83 Score: 96.68
-Function parameter: 0.88 Score: 96.68
-Function parameter: 0.52 Score: 96.68
-Function parameter: 0.28 Score: 96.68
-Function parameter: 0.62 Score: 96.68
-Function parameter: 0.26 Score: 96.68
-Function parameter: 0.85 Score: 96.68
-Function parameter: 0.59 Score: 96.68
-Function parameter: 0.68 Score: 96.68
-Function parameter: 0.21 Score: 96.68
+Fan duty cycle: 4.15 %
+Pump duty cycle: 6.23 %
+Function parameter: 0.84 Score: 96.62
+Best function parameter: 0.84 Best score: 96.62
+Function parameter: 0.87 Score: 96.62
+Function parameter: 0.81 Score: 96.62
+Function parameter: 0.18 Score: 96.62
+Function parameter: 0.96 Score: 96.62
+Function parameter: 0.34 Score: 96.62
+Function parameter: 0.85 Score: 96.62
+Function parameter: 0.93 Score: 96.62
+Function parameter: 0.48 Score: 96.62
+Function parameter: 0.23 Score: 96.62
+Function parameter: 0.65 Score: 96.62
+Function parameter: 0.22 Score: 96.62
+Function parameter: 0.86 Score: 96.62
+Function parameter: 0.60 Score: 96.62
+Function parameter: 0.62 Score: 96.62
+Function parameter: 0.27 Score: 96.62
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.16 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.31 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.53 Delta: 0.00
-Perturbed function parameter: 0.28 Delta: 0.00
-Perturbed function parameter: 0.63 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.18 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.96 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.49 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 398.44 C
-Output exhaust temperature: 392.58 C
+Output exhaust temperature: 392.09 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 32.71 C
-Fan duty cycle: 4.72 %
-Pump duty cycle: 6.68 %
-Function parameter: 0.81 Score: 116.05
-Best function parameter: 0.81 Best score: 116.05
-Function parameter: 0.77 Score: 116.05
-Function parameter: 0.78 Score: 116.05
-Function parameter: 0.16 Score: 116.05
-Function parameter: 0.89 Score: 116.05
-Function parameter: 0.31 Score: 116.05
-Function parameter: 0.83 Score: 116.05
-Function parameter: 0.89 Score: 116.05
-Function parameter: 0.53 Score: 116.05
-Function parameter: 0.28 Score: 116.05
-Function parameter: 0.63 Score: 116.05
-Function parameter: 0.25 Score: 116.05
-Function parameter: 0.86 Score: 116.05
-Function parameter: 0.58 Score: 116.05
-Function parameter: 0.68 Score: 116.05
-Function parameter: 0.22 Score: 116.05
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.31 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
+Fan duty cycle: 5.36 %
+Pump duty cycle: 7.01 %
+Function parameter: 0.84 Score: 125.72
+Best function parameter: 0.84 Best score: 125.72
+Function parameter: 0.87 Score: 125.72
+Function parameter: 0.81 Score: 125.72
+Function parameter: 0.18 Score: 125.72
+Function parameter: 0.96 Score: 125.72
+Function parameter: 0.33 Score: 125.72
+Function parameter: 0.85 Score: 125.72
+Function parameter: 0.92 Score: 125.72
+Function parameter: 0.49 Score: 125.72
+Function parameter: 0.23 Score: 125.72
+Function parameter: 0.64 Score: 125.72
+Function parameter: 0.22 Score: 125.72
+Function parameter: 0.86 Score: 125.72
+Function parameter: 0.60 Score: 125.72
+Function parameter: 0.62 Score: 125.72
+Function parameter: 0.27 Score: 125.72
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.28 Delta: 0.00
-Perturbed function parameter: 0.63 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.82 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.96 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.32 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.49 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 395.02 C
-Output exhaust temperature: 386.23 C
+Output exhaust temperature: 385.74 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 34.18 C
-Fan duty cycle: 7.15 %
-Pump duty cycle: 7.94 %
-Function parameter: 0.81 Score: 174.27
-Best function parameter: 0.81 Best score: 174.27
-Function parameter: 0.77 Score: 174.27
-Function parameter: 0.79 Score: 174.27
-Function parameter: 0.15 Score: 174.27
-Function parameter: 0.89 Score: 174.27
-Function parameter: 0.31 Score: 174.27
-Function parameter: 0.82 Score: 174.27
-Function parameter: 0.88 Score: 174.27
-Function parameter: 0.52 Score: 174.27
-Function parameter: 0.28 Score: 174.27
-Function parameter: 0.63 Score: 174.27
-Function parameter: 0.26 Score: 174.27
-Function parameter: 0.86 Score: 174.27
-Function parameter: 0.59 Score: 174.27
-Function parameter: 0.68 Score: 174.27
-Function parameter: 0.23 Score: 174.27
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.14 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.31 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
+Fan duty cycle: 7.78 %
+Pump duty cycle: 8.19 %
+Function parameter: 0.84 Score: 183.95
+Best function parameter: 0.84 Best score: 183.95
+Function parameter: 0.88 Score: 183.95
+Function parameter: 0.82 Score: 183.95
+Function parameter: 0.17 Score: 183.95
+Function parameter: 0.96 Score: 183.95
+Function parameter: 0.32 Score: 183.95
+Function parameter: 0.85 Score: 183.95
+Function parameter: 0.93 Score: 183.95
+Function parameter: 0.49 Score: 183.95
+Function parameter: 0.23 Score: 183.95
+Function parameter: 0.64 Score: 183.95
+Function parameter: 0.23 Score: 183.95
+Function parameter: 0.87 Score: 183.95
+Function parameter: 0.60 Score: 183.95
+Function parameter: 0.62 Score: 183.95
+Function parameter: 0.26 Score: 183.95
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.52 Delta: 0.00
-Perturbed function parameter: 0.28 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.82 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.96 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.32 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.93 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.50 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.69 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 387.21 C
-Output exhaust temperature: 374.51 C
+Output exhaust temperature: 374.02 C
 Scrubber fluid input temperature: 24.41 C
 Scrubber fluid output temperature: 35.16 C
-Fan duty cycle: 10.28 %
-Pump duty cycle: 8.70 %
-Function parameter: 0.81 Score: 252.01
-Best function parameter: 0.81 Best score: 252.01
-Function parameter: 0.77 Score: 252.01
-Function parameter: 0.78 Score: 252.01
-Function parameter: 0.14 Score: 252.01
-Function parameter: 0.90 Score: 252.01
-Function parameter: 0.31 Score: 252.01
-Function parameter: 0.83 Score: 252.01
-Function parameter: 0.89 Score: 252.01
-Function parameter: 0.52 Score: 252.01
-Function parameter: 0.28 Score: 252.01
-Function parameter: 0.62 Score: 252.01
-Function parameter: 0.26 Score: 252.01
-Function parameter: 0.85 Score: 252.01
-Function parameter: 0.59 Score: 252.01
-Function parameter: 0.69 Score: 252.01
-Function parameter: 0.23 Score: 252.01
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.14 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.31 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
+Fan duty cycle: 11.03 %
+Pump duty cycle: 8.99 %
+Function parameter: 0.84 Score: 261.67
+Best function parameter: 0.84 Best score: 261.67
+Function parameter: 0.89 Score: 261.67
+Function parameter: 0.82 Score: 261.67
+Function parameter: 0.16 Score: 261.67
+Function parameter: 0.96 Score: 261.67
+Function parameter: 0.32 Score: 261.67
+Function parameter: 0.84 Score: 261.67
+Function parameter: 0.93 Score: 261.67
+Function parameter: 0.50 Score: 261.67
+Function parameter: 0.22 Score: 261.67
+Function parameter: 0.64 Score: 261.67
+Function parameter: 0.22 Score: 261.67
+Function parameter: 0.88 Score: 261.67
+Function parameter: 0.60 Score: 261.67
+Function parameter: 0.61 Score: 261.67
+Function parameter: 0.26 Score: 261.67
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.53 Delta: 0.00
-Perturbed function parameter: 0.28 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.97 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.49 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Input exhaust temperature: 375.49 C
-Output exhaust temperature: 357.42 C
+Output exhaust temperature: 355.96 C
 Scrubber fluid input temperature: 24.90 C
 Scrubber fluid output temperature: 35.64 C
-Fan duty cycle: 14.54 %
-Pump duty cycle: 8.65 %
-Function parameter: 0.80 Score: 359.01
-Best function parameter: 0.80 Best score: 359.01
-Function parameter: 0.78 Score: 359.01
-Function parameter: 0.78 Score: 359.01
-Function parameter: 0.14 Score: 359.01
-Function parameter: 0.91 Score: 359.01
-Function parameter: 0.31 Score: 359.01
-Function parameter: 0.82 Score: 359.01
-Function parameter: 0.89 Score: 359.01
-Function parameter: 0.53 Score: 359.01
-Function parameter: 0.28 Score: 359.01
-Function parameter: 0.62 Score: 359.01
-Function parameter: 0.25 Score: 359.01
-Function parameter: 0.86 Score: 359.01
-Function parameter: 0.59 Score: 359.01
-Function parameter: 0.68 Score: 359.01
-Function parameter: 0.23 Score: 359.01
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.31 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.53 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Fan duty cycle: 16.39 %
+Pump duty cycle: 9.01 %
+Function parameter: 0.84 Score: 388.09
+Best function parameter: 0.84 Best score: 388.09
+Function parameter: 0.89 Score: 388.09
+Function parameter: 0.83 Score: 388.09
+Function parameter: 0.16 Score: 388.09
+Function parameter: 0.97 Score: 388.09
+Function parameter: 0.33 Score: 388.09
+Function parameter: 0.84 Score: 388.09
+Function parameter: 0.92 Score: 388.09
+Function parameter: 0.49 Score: 388.09
+Function parameter: 0.21 Score: 388.09
+Function parameter: 0.63 Score: 388.09
+Function parameter: 0.23 Score: 388.09
+Function parameter: 0.87 Score: 388.09
+Function parameter: 0.61 Score: 388.09
+Function parameter: 0.62 Score: 388.09
+Function parameter: 0.26 Score: 388.09
 Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-35.0 | 375.4 | 358.0 | 25.0 | 36.4 | 0.0 | 14.5 | 8.6
-Input exhaust temperature: 359.86 C
-Output exhaust temperature: 337.40 C
-Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 38.57 C
-Fan duty cycle: 18.04 %
-Pump duty cycle: 11.37 %
-Function parameter: 0.80 Score: 446.28
-Best function parameter: 0.80 Best score: 446.28
-Function parameter: 0.78 Score: 446.28
-Function parameter: 0.78 Score: 446.28
-Function parameter: 0.15 Score: 446.28
-Function parameter: 0.91 Score: 446.28
-Function parameter: 0.31 Score: 446.28
-Function parameter: 0.82 Score: 446.28
-Function parameter: 0.88 Score: 446.28
-Function parameter: 0.53 Score: 446.28
-Function parameter: 0.27 Score: 446.28
-Function parameter: 0.62 Score: 446.28
-Function parameter: 0.26 Score: 446.28
-Function parameter: 0.85 Score: 446.28
-Function parameter: 0.59 Score: 446.28
-Function parameter: 0.68 Score: 446.28
-Function parameter: 0.23 Score: 446.28
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.79 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.14 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.30 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.53 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
-Input exhaust temperature: 343.26 C
-Output exhaust temperature: 316.41 C
-Scrubber fluid input temperature: 25.39 C
-Scrubber fluid output temperature: 40.04 C
-Fan duty cycle: 21.38 %
-Pump duty cycle: 11.66 %
-Function parameter: 0.80 Score: 533.81
-Best function parameter: 0.80 Best score: 533.81
-Function parameter: 0.79 Score: 533.81
-Function parameter: 0.78 Score: 533.81
-Function parameter: 0.14 Score: 533.81
-Function parameter: 0.90 Score: 533.81
-Function parameter: 0.30 Score: 533.81
-Function parameter: 0.82 Score: 533.81
-Function parameter: 0.89 Score: 533.81
-Function parameter: 0.53 Score: 533.81
-Function parameter: 0.27 Score: 533.81
-Function parameter: 0.62 Score: 533.81
-Function parameter: 0.25 Score: 533.81
-Function parameter: 0.86 Score: 533.81
-Function parameter: 0.59 Score: 533.81
-Function parameter: 0.68 Score: 533.81
-Function parameter: 0.24 Score: 533.81
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.78 Delta: 0.00
-Perturbed function parameter: 0.14 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.30 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.53 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.97 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.92 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.20 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.63 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
-Input exhaust temperature: 324.71 C
-Output exhaust temperature: 295.41 C
-Scrubber fluid input temperature: 24.90 C
-Scrubber fluid output temperature: 41.99 C
-Fan duty cycle: 23.47 %
-Pump duty cycle: 13.69 %
-Function parameter: 0.81 Score: 582.22
-Best function parameter: 0.81 Best score: 582.22
-Function parameter: 0.78 Score: 582.22
-Function parameter: 0.78 Score: 582.22
-Function parameter: 0.14 Score: 582.22
-Function parameter: 0.90 Score: 582.22
-Function parameter: 0.30 Score: 582.22
-Function parameter: 0.82 Score: 582.22
-Function parameter: 0.88 Score: 582.22
-Function parameter: 0.53 Score: 582.22
-Function parameter: 0.27 Score: 582.22
-Function parameter: 0.63 Score: 582.22
-Function parameter: 0.25 Score: 582.22
-Function parameter: 0.85 Score: 582.22
-Function parameter: 0.59 Score: 582.22
-Function parameter: 0.68 Score: 582.22
-Function parameter: 0.24 Score: 582.22
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.14 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.30 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.54 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.23 Delta: 0.00
-Input exhaust temperature: 305.66 C
-Output exhaust temperature: 274.90 C
-Scrubber fluid input temperature: 24.90 C
-Scrubber fluid output temperature: 45.41 C
-Fan duty cycle: 24.92 %
-Pump duty cycle: 16.61 %
-Function parameter: 0.81 Score: 611.08
-Best function parameter: 0.81 Best score: 611.08
-Function parameter: 0.77 Score: 611.08
-Function parameter: 0.77 Score: 611.08
-Function parameter: 0.14 Score: 611.08
-Function parameter: 0.91 Score: 611.08
-Function parameter: 0.30 Score: 611.08
-Function parameter: 0.82 Score: 611.08
-Function parameter: 0.87 Score: 611.08
-Function parameter: 0.54 Score: 611.08
-Function parameter: 0.26 Score: 611.08
-Function parameter: 0.62 Score: 611.08
-Function parameter: 0.25 Score: 611.08
-Function parameter: 0.86 Score: 611.08
-Function parameter: 0.58 Score: 611.08
-Function parameter: 0.67 Score: 611.08
-Function parameter: 0.23 Score: 611.08
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.14 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.30 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.54 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-Input exhaust temperature: 285.64 C
-Output exhaust temperature: 254.88 C
-Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 47.36 C
-Fan duty cycle: 24.82 %
-Pump duty cycle: 18.52 %
-Function parameter: 0.81 Score: 610.90
-Function parameter: 0.77 Score: 610.90
-Function parameter: 0.77 Score: 610.90
-Function parameter: 0.14 Score: 610.90
-Function parameter: 0.90 Score: 610.90
-Function parameter: 0.30 Score: 610.90
-Function parameter: 0.82 Score: 610.90
-Function parameter: 0.87 Score: 610.90
-Function parameter: 0.54 Score: 610.90
-Function parameter: 0.27 Score: 610.90
-Function parameter: 0.62 Score: 610.90
-Function parameter: 0.26 Score: 610.90
-Function parameter: 0.85 Score: 610.90
-Function parameter: 0.58 Score: 610.90
-Function parameter: 0.67 Score: 610.90
-Function parameter: 0.23 Score: 610.90
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.14 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.31 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.54 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.85 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-40.0 | 285.4 | 255.8 | 25.0 | 46.9 | 0.0 | 24.8 | 18.5
-Input exhaust temperature: 265.62 C
-Output exhaust temperature: 238.77 C
-Scrubber fluid input temperature: 24.90 C
-Scrubber fluid output temperature: 47.85 C
-Fan duty cycle: 21.67 %
-Pump duty cycle: 18.52 %
-Function parameter: 0.82 Score: 533.09
-Function parameter: 0.76 Score: 533.09
-Function parameter: 0.77 Score: 533.09
-Function parameter: 0.14 Score: 533.09
-Function parameter: 0.90 Score: 533.09
-Function parameter: 0.31 Score: 533.09
-Function parameter: 0.82 Score: 533.09
-Function parameter: 0.88 Score: 533.09
-Function parameter: 0.54 Score: 533.09
-Function parameter: 0.27 Score: 533.09
-Function parameter: 0.62 Score: 533.09
-Function parameter: 0.26 Score: 533.09
-Function parameter: 0.85 Score: 533.09
-Function parameter: 0.59 Score: 533.09
-Function parameter: 0.67 Score: 533.09
-Function parameter: 0.23 Score: 533.09
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.31 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.54 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.62 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-Input exhaust temperature: 248.05 C
-Output exhaust temperature: 225.59 C
-Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 48.83 C
-Fan duty cycle: 18.13 %
-Pump duty cycle: 19.70 %
-Function parameter: 0.81 Score: 445.44
-Function parameter: 0.76 Score: 445.44
-Function parameter: 0.77 Score: 445.44
-Function parameter: 0.15 Score: 445.44
-Function parameter: 0.89 Score: 445.44
-Function parameter: 0.31 Score: 445.44
-Function parameter: 0.83 Score: 445.44
-Function parameter: 0.88 Score: 445.44
-Function parameter: 0.54 Score: 445.44
-Function parameter: 0.27 Score: 445.44
-Function parameter: 0.62 Score: 445.44
-Function parameter: 0.26 Score: 445.44
-Function parameter: 0.84 Score: 445.44
-Function parameter: 0.59 Score: 445.44
-Function parameter: 0.67 Score: 445.44
-Function parameter: 0.23 Score: 445.44
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.32 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.53 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.61 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.23 Delta: 0.00
-Input exhaust temperature: 231.93 C
-Output exhaust temperature: 214.84 C
-Scrubber fluid input temperature: 24.90 C
-Scrubber fluid output temperature: 49.32 C
-Fan duty cycle: 13.79 %
-Pump duty cycle: 19.70 %
-Function parameter: 0.81 Score: 338.45
-Function parameter: 0.77 Score: 338.45
-Function parameter: 0.77 Score: 338.45
-Function parameter: 0.15 Score: 338.45
-Function parameter: 0.90 Score: 338.45
-Function parameter: 0.32 Score: 338.45
-Function parameter: 0.83 Score: 338.45
-Function parameter: 0.87 Score: 338.45
-Function parameter: 0.53 Score: 338.45
-Function parameter: 0.26 Score: 338.45
-Function parameter: 0.61 Score: 338.45
-Function parameter: 0.26 Score: 338.45
-Function parameter: 0.84 Score: 338.45
-Function parameter: 0.58 Score: 338.45
-Function parameter: 0.67 Score: 338.45
-Function parameter: 0.23 Score: 338.45
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.31 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.54 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.61 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.66 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
-Input exhaust temperature: 218.75 C
-Output exhaust temperature: 207.52 C
-Scrubber fluid input temperature: 24.90 C
-Scrubber fluid output temperature: 48.34 C
-Fan duty cycle: 9.06 %
-Pump duty cycle: 18.91 %
-Function parameter: 0.81 Score: 221.81
-Function parameter: 0.77 Score: 221.81
-Function parameter: 0.77 Score: 221.81
-Function parameter: 0.15 Score: 221.81
-Function parameter: 0.90 Score: 221.81
-Function parameter: 0.31 Score: 221.81
-Function parameter: 0.83 Score: 221.81
-Function parameter: 0.87 Score: 221.81
-Function parameter: 0.54 Score: 221.81
-Function parameter: 0.26 Score: 221.81
-Function parameter: 0.61 Score: 221.81
-Function parameter: 0.27 Score: 221.81
-Function parameter: 0.83 Score: 221.81
-Function parameter: 0.58 Score: 221.81
-Function parameter: 0.66 Score: 221.81
-Function parameter: 0.24 Score: 221.81
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.30 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.53 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.61 Delta: 0.00
-Perturbed function parameter: 0.27 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.66 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
-Input exhaust temperature: 208.50 C
-Output exhaust temperature: 201.66 C
-Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 47.36 C
-Fan duty cycle: 5.52 %
-Pump duty cycle: 18.52 %
-Function parameter: 0.81 Score: 134.32
-Function parameter: 0.76 Score: 134.32
-Function parameter: 0.76 Score: 134.32
-Function parameter: 0.15 Score: 134.32
-Function parameter: 0.89 Score: 134.32
-Function parameter: 0.30 Score: 134.32
-Function parameter: 0.82 Score: 134.32
-Function parameter: 0.87 Score: 134.32
-Function parameter: 0.53 Score: 134.32
-Function parameter: 0.26 Score: 134.32
-Function parameter: 0.61 Score: 134.32
-Function parameter: 0.27 Score: 134.32
-Function parameter: 0.83 Score: 134.32
-Function parameter: 0.58 Score: 134.32
-Function parameter: 0.66 Score: 134.32
-Function parameter: 0.24 Score: 134.32
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.29 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.54 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.66 Delta: 0.00
-Perturbed function parameter: 0.24 Delta: 0.00
-45.0 | 208.9 | 201.7 | 25.0 | 48.3 | 0.0 | 5.5 | 18.5
-Input exhaust temperature: 202.64 C
-Output exhaust temperature: 198.24 C
+Mutation accepted.
+35.0 | 375.4 | 356.7 | 25.0 | 36.6 | 0.0 | 16.4 | 9.0
+Input exhaust temperature: 359.86 C
+Output exhaust temperature: 334.96 C
 Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 47.85 C
-Fan duty cycle: 3.55 %
-Pump duty cycle: 18.91 %
-Function parameter: 0.81 Score: 85.64
-Function parameter: 0.77 Score: 85.64
-Function parameter: 0.76 Score: 85.64
-Function parameter: 0.15 Score: 85.64
-Function parameter: 0.90 Score: 85.64
-Function parameter: 0.29 Score: 85.64
-Function parameter: 0.83 Score: 85.64
-Function parameter: 0.87 Score: 85.64
-Function parameter: 0.54 Score: 85.64
-Function parameter: 0.26 Score: 85.64
-Function parameter: 0.60 Score: 85.64
-Function parameter: 0.26 Score: 85.64
-Function parameter: 0.83 Score: 85.64
-Function parameter: 0.58 Score: 85.64
-Function parameter: 0.66 Score: 85.64
-Function parameter: 0.24 Score: 85.64
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.75 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
+Scrubber fluid output temperature: 39.06 C
+Fan duty cycle: 20.99 %
+Pump duty cycle: 12.35 %
+Function parameter: 0.85 Score: 494.71
+Best function parameter: 0.85 Best score: 494.71
+Function parameter: 0.90 Score: 494.71
+Function parameter: 0.83 Score: 494.71
+Function parameter: 0.16 Score: 494.71
+Function parameter: 0.97 Score: 494.71
+Function parameter: 0.33 Score: 494.71
+Function parameter: 0.83 Score: 494.71
+Function parameter: 0.92 Score: 494.71
+Function parameter: 0.48 Score: 494.71
+Function parameter: 0.20 Score: 494.71
+Function parameter: 0.63 Score: 494.71
+Function parameter: 0.23 Score: 494.71
+Function parameter: 0.87 Score: 494.71
+Function parameter: 0.60 Score: 494.71
+Function parameter: 0.63 Score: 494.71
+Function parameter: 0.26 Score: 494.71
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.97 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.30 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.86 Delta: 0.00
-Perturbed function parameter: 0.54 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.48 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.63 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.25 Delta: 0.00
-Input exhaust temperature: 199.22 C
-Output exhaust temperature: 197.27 C
+Mutation accepted.
+Input exhaust temperature: 343.26 C
+Output exhaust temperature: 311.52 C
 Scrubber fluid input temperature: 25.39 C
-Scrubber fluid output temperature: 45.41 C
-Fan duty cycle: 1.58 %
-Pump duty cycle: 16.16 %
-Function parameter: 0.81 Score: 37.29
-Function parameter: 0.76 Score: 37.29
-Function parameter: 0.75 Score: 37.29
-Function parameter: 0.15 Score: 37.29
-Function parameter: 0.91 Score: 37.29
-Function parameter: 0.30 Score: 37.29
-Function parameter: 0.83 Score: 37.29
-Function parameter: 0.86 Score: 37.29
-Function parameter: 0.54 Score: 37.29
-Function parameter: 0.26 Score: 37.29
-Function parameter: 0.60 Score: 37.29
-Function parameter: 0.26 Score: 37.29
-Function parameter: 0.83 Score: 37.29
-Function parameter: 0.58 Score: 37.29
-Function parameter: 0.67 Score: 37.29
-Function parameter: 0.25 Score: 37.29
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.76 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.91 Delta: 0.00
-Perturbed function parameter: 0.30 Delta: 0.00
-Perturbed function parameter: 0.83 Delta: 0.00
-Perturbed function parameter: 0.87 Delta: 0.00
-Perturbed function parameter: 0.55 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.82 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.67 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Input exhaust temperature: 201.66 C
-Output exhaust temperature: 199.71 C
-Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 45.41 C
-Fan duty cycle: 1.58 %
-Pump duty cycle: 16.94 %
-Function parameter: 0.81 Score: 37.21
-Function parameter: 0.77 Score: 37.21
-Function parameter: 0.76 Score: 37.21
-Function parameter: 0.15 Score: 37.21
-Function parameter: 0.91 Score: 37.21
-Function parameter: 0.30 Score: 37.21
-Function parameter: 0.83 Score: 37.21
-Function parameter: 0.87 Score: 37.21
-Function parameter: 0.55 Score: 37.21
-Function parameter: 0.25 Score: 37.21
-Function parameter: 0.60 Score: 37.21
-Function parameter: 0.26 Score: 37.21
-Function parameter: 0.82 Score: 37.21
-Function parameter: 0.59 Score: 37.21
-Function parameter: 0.67 Score: 37.21
-Function parameter: 0.25 Score: 37.21
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.30 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
-Perturbed function parameter: 0.88 Delta: 0.00
-Perturbed function parameter: 0.55 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.60 Delta: 0.00
-Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.58 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
-Input exhaust temperature: 206.54 C
-Output exhaust temperature: 205.57 C
-Scrubber fluid input temperature: 24.41 C
-Scrubber fluid output temperature: 44.43 C
-Fan duty cycle: 0.79 %
-Pump duty cycle: 16.16 %
-Function parameter: 0.80 Score: 17.84
-Function parameter: 0.77 Score: 17.84
-Function parameter: 0.77 Score: 17.84
-Function parameter: 0.15 Score: 17.84
-Function parameter: 0.90 Score: 17.84
-Function parameter: 0.30 Score: 17.84
-Function parameter: 0.84 Score: 17.84
-Function parameter: 0.88 Score: 17.84
-Function parameter: 0.55 Score: 17.84
-Function parameter: 0.26 Score: 17.84
-Function parameter: 0.60 Score: 17.84
-Function parameter: 0.26 Score: 17.84
-Function parameter: 0.81 Score: 17.84
-Function parameter: 0.58 Score: 17.84
-Function parameter: 0.68 Score: 17.84
-Function parameter: 0.25 Score: 17.84
-Perturbed function parameter: 0.81 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.77 Delta: 0.00
-Perturbed function parameter: 0.15 Delta: 0.00
-Perturbed function parameter: 0.90 Delta: 0.00
-Perturbed function parameter: 0.31 Delta: 0.00
-Perturbed function parameter: 0.84 Delta: 0.00
+Scrubber fluid output temperature: 41.02 C
+Fan duty cycle: 26.98 %
+Pump duty cycle: 13.28 %
+Function parameter: 0.85 Score: 630.74
+Best function parameter: 0.85 Best score: 630.74
+Function parameter: 0.90 Score: 630.74
+Function parameter: 0.84 Score: 630.74
+Function parameter: 0.16 Score: 630.74
+Function parameter: 0.97 Score: 630.74
+Function parameter: 0.33 Score: 630.74
+Function parameter: 0.84 Score: 630.74
+Function parameter: 0.91 Score: 630.74
+Function parameter: 0.48 Score: 630.74
+Function parameter: 0.21 Score: 630.74
+Function parameter: 0.64 Score: 630.74
+Function parameter: 0.23 Score: 630.74
+Function parameter: 0.87 Score: 630.74
+Function parameter: 0.61 Score: 630.74
+Function parameter: 0.63 Score: 630.74
+Function parameter: 0.25 Score: 630.74
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.89 Delta: 0.00
-Perturbed function parameter: 0.56 Delta: 0.00
-Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.96 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.64 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.26 Delta: 0.00
-Perturbed function parameter: 0.80 Delta: 0.00
-Perturbed function parameter: 0.59 Delta: 0.00
-Perturbed function parameter: 0.68 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 324.71 C
+Output exhaust temperature: 287.60 C
+Scrubber fluid input temperature: 24.90 C
+Scrubber fluid output temperature: 43.46 C
+Fan duty cycle: 31.62 %
+Pump duty cycle: 15.81 %
+Function parameter: 0.86 Score: 737.44
+Best function parameter: 0.86 Best score: 737.44
+Function parameter: 0.89 Score: 737.44
+Function parameter: 0.85 Score: 737.44
+Function parameter: 0.17 Score: 737.44
+Function parameter: 0.96 Score: 737.44
+Function parameter: 0.34 Score: 737.44
+Function parameter: 0.84 Score: 737.44
+Function parameter: 0.91 Score: 737.44
+Function parameter: 0.47 Score: 737.44
+Function parameter: 0.21 Score: 737.44
+Function parameter: 0.64 Score: 737.44
+Function parameter: 0.23 Score: 737.44
+Function parameter: 0.87 Score: 737.44
+Function parameter: 0.60 Score: 737.44
+Function parameter: 0.62 Score: 737.44
+Function parameter: 0.26 Score: 737.44
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.96 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.35 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 305.66 C
+Output exhaust temperature: 264.16 C
+Scrubber fluid input temperature: 24.90 C
+Scrubber fluid output temperature: 47.85 C
+Fan duty cycle: 35.73 %
+Pump duty cycle: 19.76 %
+Function parameter: 0.87 Score: 824.53
+Best function parameter: 0.87 Best score: 824.53
+Function parameter: 0.90 Score: 824.53
+Function parameter: 0.84 Score: 824.53
+Function parameter: 0.16 Score: 824.53
+Function parameter: 0.96 Score: 824.53
+Function parameter: 0.35 Score: 824.53
+Function parameter: 0.83 Score: 824.53
+Function parameter: 0.91 Score: 824.53
+Function parameter: 0.47 Score: 824.53
+Function parameter: 0.21 Score: 824.53
+Function parameter: 0.65 Score: 824.53
+Function parameter: 0.23 Score: 824.53
+Function parameter: 0.87 Score: 824.53
+Function parameter: 0.61 Score: 824.53
+Function parameter: 0.62 Score: 824.53
+Function parameter: 0.26 Score: 824.53
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.15 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.97 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.65 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
 Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 285.64 C
+Output exhaust temperature: 242.19 C
+Scrubber fluid input temperature: 24.41 C
+Scrubber fluid output temperature: 50.78 C
+Fan duty cycle: 37.63 %
+Pump duty cycle: 22.83 %
+Function parameter: 0.87 Score: 863.09
+Best function parameter: 0.87 Best score: 863.09
+Function parameter: 0.90 Score: 863.09
+Function parameter: 0.84 Score: 863.09
+Function parameter: 0.15 Score: 863.09
+Function parameter: 0.97 Score: 863.09
+Function parameter: 0.34 Score: 863.09
+Function parameter: 0.84 Score: 863.09
+Function parameter: 0.91 Score: 863.09
+Function parameter: 0.47 Score: 863.09
+Function parameter: 0.22 Score: 863.09
+Function parameter: 0.65 Score: 863.09
+Function parameter: 0.22 Score: 863.09
+Function parameter: 0.87 Score: 863.09
+Function parameter: 0.61 Score: 863.09
+Function parameter: 0.61 Score: 863.09
+Function parameter: 0.25 Score: 863.09
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.16 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.96 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+40.0 | 285.4 | 243.0 | 25.0 | 50.3 | 0.0 | 37.6 | 22.8
+Input exhaust temperature: 265.62 C
+Output exhaust temperature: 225.59 C
+Scrubber fluid input temperature: 24.90 C
+Scrubber fluid output temperature: 51.76 C
+Fan duty cycle: 35.03 %
+Pump duty cycle: 23.50 %
+Function parameter: 0.88 Score: 794.93
+Function parameter: 0.90 Score: 794.93
+Function parameter: 0.83 Score: 794.93
+Function parameter: 0.16 Score: 794.93
+Function parameter: 0.96 Score: 794.93
+Function parameter: 0.34 Score: 794.93
+Function parameter: 0.83 Score: 794.93
+Function parameter: 0.91 Score: 794.93
+Function parameter: 0.47 Score: 794.93
+Function parameter: 0.21 Score: 794.93
+Function parameter: 0.66 Score: 794.93
+Function parameter: 0.22 Score: 794.93
+Function parameter: 0.87 Score: 794.93
+Function parameter: 0.62 Score: 794.93
+Function parameter: 0.62 Score: 794.93
+Function parameter: 0.26 Score: 794.93
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.82 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.96 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.34 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.82 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.25 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 248.05 C
+Output exhaust temperature: 213.38 C
+Scrubber fluid input temperature: 24.41 C
+Scrubber fluid output temperature: 53.71 C
+Fan duty cycle: 30.33 %
+Pump duty cycle: 25.63 %
+Function parameter: 0.87 Score: 687.76
+Function parameter: 0.91 Score: 687.76
+Function parameter: 0.82 Score: 687.76
+Function parameter: 0.17 Score: 687.76
+Function parameter: 0.96 Score: 687.76
+Function parameter: 0.34 Score: 687.76
+Function parameter: 0.82 Score: 687.76
+Function parameter: 0.91 Score: 687.76
+Function parameter: 0.47 Score: 687.76
+Function parameter: 0.22 Score: 687.76
+Function parameter: 0.66 Score: 687.76
+Function parameter: 0.22 Score: 687.76
+Function parameter: 0.86 Score: 687.76
+Function parameter: 0.62 Score: 687.76
+Function parameter: 0.61 Score: 687.76
+Function parameter: 0.25 Score: 687.76
+Perturbed function parameter: 0.87 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.82 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.82 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.62 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 231.93 C
+Output exhaust temperature: 204.59 C
+Scrubber fluid input temperature: 24.90 C
+Scrubber fluid output temperature: 54.20 C
+Fan duty cycle: 23.93 %
+Pump duty cycle: 25.63 %
+Function parameter: 0.87 Score: 541.92
+Function parameter: 0.90 Score: 541.92
+Function parameter: 0.82 Score: 541.92
+Function parameter: 0.17 Score: 541.92
+Function parameter: 0.95 Score: 541.92
+Function parameter: 0.33 Score: 541.92
+Function parameter: 0.82 Score: 541.92
+Function parameter: 0.90 Score: 541.92
+Function parameter: 0.47 Score: 541.92
+Function parameter: 0.22 Score: 541.92
+Function parameter: 0.67 Score: 541.92
+Function parameter: 0.22 Score: 541.92
+Function parameter: 0.86 Score: 541.92
+Function parameter: 0.62 Score: 541.92
+Function parameter: 0.61 Score: 541.92
+Function parameter: 0.26 Score: 541.92
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.82 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.68 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.26 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 218.75 C
+Output exhaust temperature: 199.71 C
+Scrubber fluid input temperature: 24.90 C
+Scrubber fluid output temperature: 53.71 C
+Fan duty cycle: 16.66 %
+Pump duty cycle: 25.21 %
+Function parameter: 0.86 Score: 376.67
+Function parameter: 0.91 Score: 376.67
+Function parameter: 0.83 Score: 376.67
+Function parameter: 0.17 Score: 376.67
+Function parameter: 0.95 Score: 376.67
+Function parameter: 0.33 Score: 376.67
+Function parameter: 0.82 Score: 376.67
+Function parameter: 0.91 Score: 376.67
+Function parameter: 0.47 Score: 376.67
+Function parameter: 0.23 Score: 376.67
+Function parameter: 0.68 Score: 376.67
+Function parameter: 0.22 Score: 376.67
+Function parameter: 0.86 Score: 376.67
+Function parameter: 0.61 Score: 376.67
+Function parameter: 0.60 Score: 376.67
+Function parameter: 0.26 Score: 376.67
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.32 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 208.50 C
+Output exhaust temperature: 195.80 C
+Scrubber fluid input temperature: 24.41 C
+Scrubber fluid output temperature: 52.73 C
+Fan duty cycle: 11.11 %
+Pump duty cycle: 24.78 %
+Function parameter: 0.86 Score: 250.32
+Function parameter: 0.91 Score: 250.32
+Function parameter: 0.83 Score: 250.32
+Function parameter: 0.17 Score: 250.32
+Function parameter: 0.95 Score: 250.32
+Function parameter: 0.32 Score: 250.32
+Function parameter: 0.83 Score: 250.32
+Function parameter: 0.90 Score: 250.32
+Function parameter: 0.46 Score: 250.32
+Function parameter: 0.22 Score: 250.32
+Function parameter: 0.67 Score: 250.32
+Function parameter: 0.22 Score: 250.32
+Function parameter: 0.86 Score: 250.32
+Function parameter: 0.60 Score: 250.32
+Function parameter: 0.60 Score: 250.32
+Function parameter: 0.27 Score: 250.32
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.18 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.32 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.82 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.66 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.22 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.28 Delta: 0.00
+Mutation accepted.
+45.0 | 208.9 | 196.2 | 25.0 | 53.4 | 0.0 | 11.1 | 24.8
+Input exhaust temperature: 202.64 C
+Output exhaust temperature: 193.85 C
+Scrubber fluid input temperature: 24.41 C
+Scrubber fluid output temperature: 52.25 C
+Fan duty cycle: 7.69 %
+Pump duty cycle: 24.35 %
+Function parameter: 0.86 Score: 172.58
+Function parameter: 0.91 Score: 172.58
+Function parameter: 0.83 Score: 172.58
+Function parameter: 0.18 Score: 172.58
+Function parameter: 0.95 Score: 172.58
+Function parameter: 0.32 Score: 172.58
+Function parameter: 0.82 Score: 172.58
+Function parameter: 0.91 Score: 172.58
+Function parameter: 0.46 Score: 172.58
+Function parameter: 0.23 Score: 172.58
+Function parameter: 0.66 Score: 172.58
+Function parameter: 0.22 Score: 172.58
+Function parameter: 0.86 Score: 172.58
+Function parameter: 0.61 Score: 172.58
+Function parameter: 0.60 Score: 172.58
+Function parameter: 0.28 Score: 172.58
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.17 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.90 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.23 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.27 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 199.22 C
+Output exhaust temperature: 194.34 C
+Scrubber fluid input temperature: 25.39 C
+Scrubber fluid output temperature: 49.80 C
+Fan duty cycle: 4.27 %
+Pump duty cycle: 21.36 %
+Function parameter: 0.86 Score: 95.09
+Function parameter: 0.91 Score: 95.09
+Function parameter: 0.83 Score: 95.09
+Function parameter: 0.17 Score: 95.09
+Function parameter: 0.95 Score: 95.09
+Function parameter: 0.33 Score: 95.09
+Function parameter: 0.83 Score: 95.09
+Function parameter: 0.90 Score: 95.09
+Function parameter: 0.46 Score: 95.09
+Function parameter: 0.23 Score: 95.09
+Function parameter: 0.67 Score: 95.09
+Function parameter: 0.21 Score: 95.09
+Function parameter: 0.86 Score: 95.09
+Function parameter: 0.60 Score: 95.09
+Function parameter: 0.61 Score: 95.09
+Function parameter: 0.27 Score: 95.09
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.83 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.18 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.89 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.47 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.20 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.28 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 201.66 C
+Output exhaust temperature: 197.75 C
+Scrubber fluid input temperature: 24.41 C
+Scrubber fluid output temperature: 49.80 C
+Fan duty cycle: 3.42 %
+Pump duty cycle: 22.22 %
+Function parameter: 0.86 Score: 75.56
+Function parameter: 0.91 Score: 75.56
+Function parameter: 0.83 Score: 75.56
+Function parameter: 0.18 Score: 75.56
+Function parameter: 0.95 Score: 75.56
+Function parameter: 0.33 Score: 75.56
+Function parameter: 0.84 Score: 75.56
+Function parameter: 0.89 Score: 75.56
+Function parameter: 0.47 Score: 75.56
+Function parameter: 0.24 Score: 75.56
+Function parameter: 0.67 Score: 75.56
+Function parameter: 0.20 Score: 75.56
+Function parameter: 0.86 Score: 75.56
+Function parameter: 0.60 Score: 75.56
+Function parameter: 0.60 Score: 75.56
+Function parameter: 0.28 Score: 75.56
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.19 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.60 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.28 Delta: 0.00
+Mutation accepted.
+Input exhaust temperature: 206.54 C
+Output exhaust temperature: 204.10 C
+Scrubber fluid input temperature: 24.41 C
+Scrubber fluid output temperature: 48.34 C
+Fan duty cycle: 2.14 %
+Pump duty cycle: 20.94 %
+Function parameter: 0.86 Score: 46.52
+Function parameter: 0.91 Score: 46.52
+Function parameter: 0.84 Score: 46.52
+Function parameter: 0.19 Score: 46.52
+Function parameter: 0.95 Score: 46.52
+Function parameter: 0.33 Score: 46.52
+Function parameter: 0.85 Score: 46.52
+Function parameter: 0.88 Score: 46.52
+Function parameter: 0.46 Score: 46.52
+Function parameter: 0.24 Score: 46.52
+Function parameter: 0.67 Score: 46.52
+Function parameter: 0.21 Score: 46.52
+Function parameter: 0.86 Score: 46.52
+Function parameter: 0.60 Score: 46.52
+Function parameter: 0.61 Score: 46.52
+Function parameter: 0.28 Score: 46.52
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.91 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.84 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.20 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.95 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.33 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.85 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.88 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.46 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.24 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.67 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.21 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.86 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.59 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.61 Delta: 0.00
+Mutation accepted.
+Perturbed function parameter: 0.28 Delta: 0.00
+Mutation accepted.

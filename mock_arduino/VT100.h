@@ -8,7 +8,9 @@ public:
     void begin(Serial_* s) { this->s = s; }
     void clearScreen() { s->println("[CLEAR]"); }
     void setCursorPosition(int x, int y) { s->print("[SET CURSOR "); s->print(x); s->print(","); s->print(y); s->print("]"); }
-    void setForeground(int color) { s->print("[COLOR "); s->print(color); s->print("]"); }
+    void setForeground(int color) { s->print("[FG "); s->print(color); s->print("]"); }
+    void setBackground(int color) { s->print("[BG "); s->print(color); s->print("]"); }
+    void setBold(bool bold) { s->print("[BOLD "); s->print(bold ? 1 : 0); s->print("]"); }
     void print(const char* val) { s->print(val); }
     void print(int val) { s->print(val); }
     void print(double val) { s->print(val); }

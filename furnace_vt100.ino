@@ -129,54 +129,83 @@ void safetyTask() {
   checkAirflowRate(); // Check the airflow rate
 }
 
+// Function to draw a box
+void drawBox(int x1, int y1, int x2, int y2) {
+    vt100.setBold(true);
+    for (int x = x1; x <= x2; x++) {
+        vt100.setCursorPosition(x, y1); vt100.print("-");
+        vt100.setCursorPosition(x, y2); vt100.print("-");
+    }
+    for (int y = y1; y <= y2; y++) {
+        vt100.setCursorPosition(x1, y); vt100.print("|");
+        vt100.setCursorPosition(x2, y); vt100.print("|");
+    }
+    vt100.setBold(false);
+}
+
 // Function to visualize the state of the furnace
 void visualizationTask() {
   vt100.clearScreen();
   
-  vt100.setCursorPosition(10, 1);
+  // Header
+  vt100.setCursorPosition(5, 1);
+  vt100.setBold(true);
   vt100.setForeground(VT100::BLUE);
-  vt100.print("=== OIL FURNACE DASHBOARD ===");
+  vt100.print("   OIL FURNACE CONTROL SYSTEM v2.0   ");
+  vt100.setBold(false);
+
+  drawBox(1, 2, 38, 8); // Data Box
+  drawBox(1, 9, 38, 15); // Status Box
 
   // Data Section
   vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 4);
-  vt100.print("INPUT FAN RPM:  ");
+  vt100.setCursorPosition(3, 4);
+  vt100.print("FAN RPM:  ");
   vt100.setForeground(inputFanRPM < RPM_THRESHOLD ? VT100::RED : VT100::GREEN);
   vt100.print(inputFanRPM);
 
   vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 6);
-  vt100.print("COMBUSTION LVL: ");
+  vt100.setCursorPosition(3, 6);
+  vt100.print("COMB LVL: ");
   vt100.print(combustionLevel);
 
-  vt100.setCursorPosition(22, 4);
-  vt100.print("OUTPUT FAN: ");
+  vt100.setCursorPosition(20, 4);
+  vt100.print("PWM OUT: ");
   vt100.print(outputFanSpeed);
 
-  vt100.setCursorPosition(22, 6);
-  vt100.print("TEMP (C):   ");
+  vt100.setCursorPosition(20, 6);
+  vt100.print("TEMP C:  ");
   vt100.setForeground(temperature > TEMPERATURE_THRESHOLD ? VT100::YELLOW : VT100::GREEN);
   vt100.print(temperature);
 
   // Status Section
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 10);
-  vt100.print("------------------------------------");
-  
-  vt100.setCursorPosition(5, 12);
-  vt100.print("BEEP:     ");
-  if (beepState) { vt100.setForeground(VT100::RED); vt100.print("[ ACTIVE ]"); }
-  else { vt100.setForeground(VT100::GREEN); vt100.print("[ SILENT ]"); }
-
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(5, 14);
-  vt100.print("OVERLOAD: ");
-  if (overloadState) { vt100.setForeground(VT100::RED); vt100.print("[ DANGER ]"); }
-  else { vt100.setForeground(VT100::GREEN); vt100.print("[ NORMAL ]"); }
-
   vt100.setForeground(VT100::BLUE);
-  vt100.setCursorPosition(2, 16);
-  vt100.print("------------------------------------");
+  vt100.setCursorPosition(15, 10);
+  vt100.print("[ SYSTEM STATUS ]");
+  
+  vt100.setForeground(VT100::WHITE);
+  vt100.setCursorPosition(4, 12);
+  vt100.print("ALARM BEEP: ");
+  if (beepState) { vt100.setForeground(VT100::RED); vt100.setBold(true); vt100.print("!! ACTIVE !!"); }
+  else { vt100.setForeground(VT100::GREEN); vt100.print("  STABLE  "); }
+  vt100.setBold(false);
+
+  vt100.setForeground(VT100::WHITE);
+  vt100.setCursorPosition(4, 14);
+  vt100.print("OVERLOAD:   ");
+  if (overloadState) {
+      vt100.setForeground(VT100::RED);
+      vt100.setBackground(1); // Mapped to RED background in renderer if possible or just use FG
+      vt100.print("  OVERLOAD  ");
+      vt100.setBackground(0);
+  }
+  else { vt100.setForeground(VT100::GREEN); vt100.print("  OPTIMAL   "); }
+
+  vt100.setForeground(VT100::WHITE);
+  vt100.setCursorPosition(2, 17);
+  vt100.print("Runtime: ");
+  vt100.print(millis() / 1000);
+  vt100.print("s");
 }
 
 // Setup function

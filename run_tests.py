@@ -130,8 +130,8 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         results[sys.argv[1]] = test_file(sys.argv[1])
     else:
-        # Test all .ino files
-        for f in os.listdir("."):
+        # Test all .ino files, sorted for consistent logs
+        for f in sorted(os.listdir(".")):
             if f.endswith(".ino"):
                 results[f] = test_file(f)
 

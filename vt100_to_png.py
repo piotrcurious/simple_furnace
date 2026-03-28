@@ -14,10 +14,11 @@ def render_vt100(log_file, output_file):
     except:
         font = ImageFont.load_default()
 
-    # screen[row][col] = (char, color)
-    screen = [[(' ', (255, 255, 255)) for _ in range(cols)] for _ in range(rows)]
+    # screen[row][col] = (char, fg_color, bg_color, bold)
+    screen = [[(' ', (255, 255, 255), (0, 0, 0), False) for _ in range(cols)] for _ in range(rows)]
 
     color_map = {
+        30: (0, 0, 0),       # BLACK
         31: (255, 50, 50),   # RED
         32: (50, 255, 50),   # GREEN
         33: (255, 255, 50),  # YELLOW
@@ -37,14 +38,15 @@ def render_vt100(log_file, output_file):
     parts = re.split(r"\[(.*?)\]", last_screen)
 
     cur_x, cur_y = 0, 0
-    cur_color = (255, 255, 255)
+    cur_fg = (255, 255, 255)
+    cur_bg = (0, 0, 0)
+    cur_bold = False
 
     for i in range(0, len(parts), 2):
         text = parts[i]
-        # Write text at current cursor with current color
         for char in text:
             if cur_x < cols and cur_y < rows:
-                screen[cur_y][cur_x] = (char, cur_color)
+                screen[cur_y][cur_x] = (char, cur_fg, cur_bg, cur_bold)
                 cur_x += 1
 
         if i + 1 < len(parts):
@@ -53,17 +55,31 @@ def render_vt100(log_file, output_file):
                 m = re.match(r"SET CURSOR (\d+),(\d+)", tag)
                 if m:
                     cur_x, cur_y = int(m.group(1)), int(m.group(2))
-            elif tag.startswith("COLOR"):
-                m = re.match(r"COLOR (\d+)", tag)
+            elif tag.startswith("FG"):
+                m = re.match(r"FG (\d+)", tag)
                 if m:
                     code = int(m.group(1))
-                    cur_color = color_map.get(code, (255, 255, 255))
+                    cur_fg = color_map.get(code, (255, 255, 255))
+            elif tag.startswith("BG"):
+                m = re.match(r"BG (\d+)", tag)
+                if m:
+                    code = int(m.group(1))
+                    cur_bg = color_map.get(code + 30, (0, 0, 0)) # Assuming simple mapping
+            elif tag.startswith("BOLD"):
+                m = re.match(r"BOLD (\d+)", tag)
+                if m:
+                    cur_bold = (int(m.group(1)) == 1)
 
     # Draw the screen
     for r in range(rows):
         for c in range(cols):
-            char, color = screen[r][c]
-            draw.text((c * char_w, r * char_h), char, font=font, fill=color)
+            char, fg, bg, bold = screen[r][c]
+            # Draw background
+            draw.rectangle([c * char_w, r * char_h, (c+1) * char_w, (r+1) * char_h], fill=bg)
+            # Draw text (Simplified bold: just draw offset)
+            draw.text((c * char_w, r * char_h), char, font=font, fill=fg)
+            if bold:
+                draw.text((c * char_w + 1, r * char_h), char, font=font, fill=fg)
 
     img.save(output_file)
 
