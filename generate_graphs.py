@@ -34,30 +34,41 @@ def parse_scrubber_log(filename):
 
 def generate_graphs():
     os.makedirs("docs/images", exist_ok=True)
+    plt.style.use('bmh')
 
-    # Furnace graph
+    # Furnace graph - Comprehensive
     if os.path.exists("furnace.ino.log"):
         t, r, temp = parse_furnace_log("furnace.ino.log")
-        plt.figure(figsize=(10, 5))
-        plt.plot(t, temp, label="Temperature (C)")
-        plt.plot(t, [x/10 for x in r], label="RPM / 10", alpha=0.5)
-        plt.title("Furnace Controller Response")
-        plt.xlabel("Time (s)")
-        plt.legend()
-        plt.grid(True)
+        fig, ax1 = plt.subplots(figsize=(12, 6))
+
+        ax1.set_xlabel('Time (s)')
+        ax1.set_ylabel('Temperature (C)', color='tab:red')
+        ax1.plot(t, temp, color='tab:red', linewidth=2, label="Temperature")
+        ax1.tick_params(axis='y', labelcolor='tab:red')
+
+        ax2 = ax1.twinx()
+        ax2.set_ylabel('Fan RPM', color='tab:blue')
+        ax2.plot(t, r, color='tab:blue', linestyle='--', label="Fan RPM")
+        ax2.tick_params(axis='y', labelcolor='tab:blue')
+
+        plt.title("Furnace Stress Test: Load Fluctuations & Sensor Failure")
+        fig.tight_layout()
         plt.savefig("docs/images/furnace_graph.png")
         plt.close()
 
-    # Scrubber graph
+    # Scrubber graph - Comprehensive
     if os.path.exists("scrubber_optimized.ino.log"):
         t, tin, tout, fin, fout = parse_scrubber_log("scrubber_optimized.ino.log")
-        plt.figure(figsize=(10, 5))
-        plt.plot(t, tin, label="Exhaust In")
-        plt.plot(t, tout, label="Exhaust Out")
-        plt.plot(t, fout, label="Fluid Out")
-        plt.title("Scrubber Performance")
+        plt.figure(figsize=(12, 6))
+        plt.plot(t, tin, 'r-', label="Exhaust In (Hot)")
+        plt.plot(t, tout, 'g-', label="Exhaust Out (Cooled)")
+        plt.plot(t, fout, 'b--', label="Scrubber Fluid Out")
+        plt.fill_between(t, tout, tin, color='orange', alpha=0.2, label="Heat Extracted")
+
+        plt.title("Advanced Scrubber Dynamics: Variable Flow & Thermal Adaptation")
         plt.xlabel("Time (s)")
-        plt.legend()
+        plt.ylabel("Temperature (C)")
+        plt.legend(loc='upper right')
         plt.grid(True)
         plt.savefig("docs/images/scrubber_graph.png")
         plt.close()

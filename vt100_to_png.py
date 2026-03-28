@@ -9,40 +9,61 @@ def render_vt100(log_file, output_file):
     img = Image.new('RGB', (cols * char_w, rows * char_h), color=(0, 0, 0))
     draw = ImageDraw.Draw(img)
 
-    # Try to load a mono font
     try:
         font = ImageFont.truetype("/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf", 14)
     except:
         font = ImageFont.load_default()
 
-    screen = [[' ' for _ in range(cols)] for _ in range(rows)]
+    # screen[row][col] = (char, color)
+    screen = [[(' ', (255, 255, 255)) for _ in range(cols)] for _ in range(rows)]
+
+    color_map = {
+        31: (255, 50, 50),   # RED
+        32: (50, 255, 50),   # GREEN
+        33: (255, 255, 50),  # YELLOW
+        34: (80, 80, 255),   # BLUE
+        37: (255, 255, 255)  # WHITE
+    }
 
     with open(log_file, "r") as f:
         content = f.read()
 
-    # Look for the last screen refresh (starts with [CLEAR])
     screens = content.split("[CLEAR]")
     if len(screens) < 2: return
     last_screen = screens[-1]
 
-    # Simple regex to parse our mocked VT100 codes
-    # [SET CURSOR 5,5]Text
-    moves = re.split(r"\[SET CURSOR (\d+),(\d+)\]", last_screen)
-    # moves[0] is junk, then moves[1]=x, moves[2]=y, moves[3]=text...
-    for i in range(1, len(moves), 3):
-        x = int(moves[i])
-        y = int(moves[i+1])
-        text = moves[i+2].split("[")[0] # Stop at next code
+    # We need to parse color changes along with cursor moves
+    # Strategy: split by any [ tag
+    parts = re.split(r"\[(.*?)\]", last_screen)
 
-        # Write to virtual screen
-        for j, char in enumerate(text):
-            if x + j < cols and y < rows:
-                screen[y][x+j] = char
+    cur_x, cur_y = 0, 0
+    cur_color = (255, 255, 255)
+
+    for i in range(0, len(parts), 2):
+        text = parts[i]
+        # Write text at current cursor with current color
+        for char in text:
+            if cur_x < cols and cur_y < rows:
+                screen[cur_y][cur_x] = (char, cur_color)
+                cur_x += 1
+
+        if i + 1 < len(parts):
+            tag = parts[i+1]
+            if tag.startswith("SET CURSOR"):
+                m = re.match(r"SET CURSOR (\d+),(\d+)", tag)
+                if m:
+                    cur_x, cur_y = int(m.group(1)), int(m.group(2))
+            elif tag.startswith("COLOR"):
+                m = re.match(r"COLOR (\d+)", tag)
+                if m:
+                    code = int(m.group(1))
+                    cur_color = color_map.get(code, (255, 255, 255))
 
     # Draw the screen
     for r in range(rows):
         for c in range(cols):
-            draw.text((c * char_w, r * char_h), screen[r][c], font=font, fill=(0, 255, 0))
+            char, color = screen[r][c]
+            draw.text((c * char_w, r * char_h), char, font=font, fill=color)
 
     img.save(output_file)
 

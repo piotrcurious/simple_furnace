@@ -1,8 +1,13 @@
+#include "Arduino.h"
+#include "Ticker.h"
+#include "SmoothThermistor.h"
+#include "VT100.h"
+#include "avr/wdt.h"
+#include "EEPROM.h"
 // Include the libraries
 #include <Ticker.h>
 #include <avr/wdt.h>
 #include <SmoothThermistor.h> // Include the SmoothThermistor library
-#include <VT100.h> // Include the VT100 library
 
 // Define the pins
 #define INPUT_FAN_PIN 2 // Input fan hall sensor pin
@@ -20,37 +25,6 @@
 #define SAFETY_INTERVAL 100 // Safety task interval in ms
 #define TEMPERATURE_THRESHOLD 50 // Temperature threshold to boost output fan speed in Celsius
 #define BOOST_VALUE 50 // Output fan speed boost value
-#define VISUALIZATION_INTERVAL 1000 // Visualization task interval in ms
-
-// Define the positions and sizes of the visualization objects
-#define INPUT_FAN_RPM_X 5 // Input fan RPM x position
-#define INPUT_FAN_RPM_Y 5 // Input fan RPM y position
-#define INPUT_FAN_RPM_W 10 // Input fan RPM width
-#define INPUT_FAN_RPM_H 3 // Input fan RPM height
-#define OUTPUT_FAN_SPEED_X 20 // Output fan speed x position
-#define OUTPUT_FAN_SPEED_Y 5 // Output fan speed y position
-#define OUTPUT_FAN_SPEED_W 10 // Output fan speed width
-#define OUTPUT_FAN_SPEED_H 3 // Output fan speed height
-#define COMBUSTION_LEVEL_X 5 // Combustion level x position
-#define COMBUSTION_LEVEL_Y 10 // Combustion level y position
-#define COMBUSTION_LEVEL_W 10 // Combustion level width
-#define COMBUSTION_LEVEL_H 3 // Combustion level height
-#define TEMPERATURE_X 20 // Temperature x position
-#define TEMPERATURE_Y 10 // Temperature y position
-#define TEMPERATURE_W 10 // Temperature width
-#define TEMPERATURE_H 3 // Temperature height
-#define RATIO_X 5 // Ratio x position
-#define RATIO_Y 15 // Ratio y position
-#define RATIO_W 10 // Ratio width
-#define RATIO_H 3 // Ratio height
-#define BEEP_X 20 // Beep x position
-#define BEEP_Y 15 // Beep y position
-#define BEEP_W 10 // Beep width
-#define BEEP_H 3 // Beep height
-#define OVERLOAD_X 20 // Overload x position
-#define OVERLOAD_Y 20 // Overload y position
-#define OVERLOAD_W 10 // Overload width
-#define OVERLOAD_H 3 // Overload height
 
 // Declare the global variables
 volatile int inputFanCount = 0; // Input fan pulse count
@@ -61,9 +35,7 @@ bool beepState = false; // Beep state
 int temperature = 0; // Temperature in Celsius
 bool overloadState = false; // Overload state
 Ticker safetyTicker; // Ticker object for safety tasks
-Ticker visualizationTicker; // Ticker object for visualization tasks
 SmoothThermistor smoothThermistor(TEMPERATURE_PIN, ADC_SIZE_10_BIT, 10000, 10000, 3950, 25, 10); // Create a SmoothThermistor object with the given parameters
-VT100 vt100; // Create a VT100 object
 
 // Interrupt service routine for input fan hall sensor
 void inputFanISR() {
@@ -84,11 +56,24 @@ void readCombustionLevel() {
 // Function to read the temperature
 void readTemperature() {
   temperature = smoothThermistor.temperature(); // Read the temperature using the SmoothThermistor library
+  // Safety: Plausibility check
+  if (temperature < -10 || temperature > 150) {
+      overloadState = true;
+      digitalWrite(OVERLOAD_PIN, HIGH);
+  }
 }
 
 // Function to control the output fan speed
 void controlOutputFanSpeed() {
   outputFanSpeed = map(combustionLevel, 0, 1023, 0, 255); // Map the combustion level to output fan speed
+
+  // Safety: If sensors fail (e.g. RPM is 0 but we are trying to run), enter safe mode
+  if (combustionLevel > 100 && inputFanRPM < 50) {
+      outputFanSpeed = 255; // Max output fan for safety
+      overloadState = true;
+      digitalWrite(OVERLOAD_PIN, HIGH);
+  }
+
   if (inputFanRPM < RPM_BOOST || temperature > TEMPERATURE_THRESHOLD) { // If the input fan RPM is below the boost threshold or the temperature is above the threshold
     if (outputFanSpeed + BOOST_VALUE > 255) { // If the output fan speed plus the boost value exceeds the maximum PWM value
       overloadState = true; // Set the overload state to true
@@ -129,83 +114,24 @@ void safetyTask() {
   checkAirflowRate(); // Check the airflow rate
 }
 
-// Function to visualize the state of the furnace
-void visualizationTask() {
-  vt100.clearScreen();
-  
-  vt100.setCursorPosition(10, 1);
-  vt100.setForeground(VT100::BLUE);
-  vt100.print("=== OIL FURNACE DASHBOARD ===");
-
-  // Data Section
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 4);
-  vt100.print("INPUT FAN RPM:  ");
-  vt100.setForeground(inputFanRPM < RPM_THRESHOLD ? VT100::RED : VT100::GREEN);
-  vt100.print(inputFanRPM);
-
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 6);
-  vt100.print("COMBUSTION LVL: ");
-  vt100.print(combustionLevel);
-
-  vt100.setCursorPosition(22, 4);
-  vt100.print("OUTPUT FAN: ");
-  vt100.print(outputFanSpeed);
-
-  vt100.setCursorPosition(22, 6);
-  vt100.print("TEMP (C):   ");
-  vt100.setForeground(temperature > TEMPERATURE_THRESHOLD ? VT100::YELLOW : VT100::GREEN);
-  vt100.print(temperature);
-
-  // Status Section
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 10);
-  vt100.print("------------------------------------");
-  
-  vt100.setCursorPosition(5, 12);
-  vt100.print("BEEP:     ");
-  if (beepState) { vt100.setForeground(VT100::RED); vt100.print("[ ACTIVE ]"); }
-  else { vt100.setForeground(VT100::GREEN); vt100.print("[ SILENT ]"); }
-
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(5, 14);
-  vt100.print("OVERLOAD: ");
-  if (overloadState) { vt100.setForeground(VT100::RED); vt100.print("[ DANGER ]"); }
-  else { vt100.setForeground(VT100::GREEN); vt100.print("[ NORMAL ]"); }
-
-  vt100.setForeground(VT100::BLUE);
-  vt100.setCursorPosition(2, 16);
-  vt100.print("------------------------------------");
-}
-
 // Setup function
 void setup() {
   // Initialize the pins
   pinMode(INPUT_FAN_PIN, INPUT_PULLUP); // Set the input fan pin as input with pullup
-  pinMode(OUTPUT_FAN_PIN, OUTPUT); // Setthe output fan pin as output
+  pinMode(OUTPUT_FAN_PIN, OUTPUT); // Set the output fan pin as output
   pinMode(RESTART_PIN, OUTPUT); // Set the restart pin as output
   pinMode(BEEP_PIN, OUTPUT); // Set the beep pin as output
   pinMode(TEMPERATURE_PIN, INPUT); // Set the temperature pin as input
   pinMode(OVERLOAD_PIN, OUTPUT); // Set the overload pin as output
-  
+
   // Attach the interrupt for input fan hall sensor
   attachInterrupt(digitalPinToInterrupt(INPUT_FAN_PIN), inputFanISR, FALLING);
-  
+
   // Start the safety ticker
   safetyTicker.attach_ms(SAFETY_INTERVAL, safetyTask);
-  
-  // Start the visualization ticker
-  visualizationTicker.attach_ms(VISUALIZATION_INTERVAL, visualizationTask);
-  
+
   // Enable the watchdog timer
   wdt_enable(WDTO_2S);
-  
-  // Initialize the serial communication
-  Serial.begin(9600);
-  
-  // Initialize the VT100 terminal
-  vt100.begin(&Serial);
 }
 
 // Loop function

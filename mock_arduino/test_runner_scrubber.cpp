@@ -10,12 +10,18 @@ int main() {
     setup();
     FurnaceSimulator sim;
 
+    std::cout << "=== SCENARIO: DYNAMIC LOAD TEST ===" << std::endl;
     std::cout << "Time(s) | Tin | Tout | Fin | Fout | Power | FanDuty | PumpDuty" << std::endl;
     std::cout << "-------------------------------------------------------------------" << std::endl;
 
     extern bool _loop_enabled;
     for (int i = 0; i < 50; i++) {
         if (!_loop_enabled) break;
+
+        // Complex scenario: varying mass flow and exhaust temp
+        sim.mass_flow = 1.0 + 0.5 * sin(i / 10.0);
+        sim.exhaust_in_temp = 300.0 + 100.0 * cos(i / 5.0);
+
         // Advance time and update simulator
         sim.update(1.0); // 1s step
 

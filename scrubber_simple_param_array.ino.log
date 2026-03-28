@@ -1,0 +1,178 @@
+=== SCENARIO: DYNAMIC LOAD TEST ===
+Time(s) | Tin | Tout | Fin | Fout | Power | FanDuty | PumpDuty
+-------------------------------------------------------------------
+Exhaust in: 399.41 C, Exhaust out: 399.41 C, Fluid in: 24.90 C, Fluid out: 49.32 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: 0.00
+0.0 | 400.0 | 400.0 | 25.0 | 49.7 | 0.0 | 0.0 | 0.0
+Exhaust in: 398.44 C, Exhaust out: 253.91 C, Fluid in: 24.41 C, Fluid out: 62.01 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: 144.53
+Exhaust in: 392.58 C, Exhaust out: 255.86 C, Fluid in: 25.39 C, Fluid out: 74.22 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: 136.72
+Exhaust in: 382.32 C, Exhaust out: 254.88 C, Fluid in: 25.39 C, Fluid out: 83.98 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: 87.60
+Exhaust in: 369.14 C, Exhaust out: 250.98 C, Fluid in: 25.39 C, Fluid out: 92.29 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: -4.69
+Exhaust in: 354.00 C, Exhaust out: 246.09 C, Fluid in: 24.90 C, Fluid out: 100.10 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: -93.07
+5.0 | 354.0 | 246.1 | 25.0 | 100.3 | 0.0 | 0.0 | 0.0
+Exhaust in: 335.45 C, Exhaust out: 237.79 C, Fluid in: 24.41 C, Fluid out: 106.45 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: -166.80
+Exhaust in: 317.38 C, Exhaust out: 229.49 C, Fluid in: 25.39 C, Fluid out: 110.84 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: -220.51
+Exhaust in: 297.36 C, Exhaust out: 219.24 C, Fluid in: 25.39 C, Fluid out: 113.28 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: -254.69
+Exhaust in: 276.86 C, Exhaust out: 209.96 C, Fluid in: 25.39 C, Fluid out: 115.23 C
+Fan duty: 83 %, Pump duty: 17 %
+Objective: -285.45
+Average for current parameter: -65.63
+Best parameter: 1, Best average: 0.00
+Current parameter: 0.86
+Exhaust in: 258.79 C, Exhaust out: 199.71 C, Fluid in: 24.90 C, Fluid out: 116.70 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -307.91
+10.0 | 258.4 | 199.4 | 25.0 | 117.0 | 0.0 | 0.0 | 0.0
+Exhaust in: 240.23 C, Exhaust out: 187.01 C, Fluid in: 25.39 C, Fluid out: 117.68 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -323.54
+Exhaust in: 226.56 C, Exhaust out: 180.18 C, Fluid in: 24.90 C, Fluid out: 118.16 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -335.25
+Exhaust in: 213.87 C, Exhaust out: 173.83 C, Fluid in: 24.41 C, Fluid out: 118.16 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -341.60
+Exhaust in: 205.08 C, Exhaust out: 167.97 C, Fluid in: 25.39 C, Fluid out: 118.16 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -344.53
+Exhaust in: 201.17 C, Exhaust out: 166.02 C, Fluid in: 24.41 C, Fluid out: 118.65 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -351.37
+15.0 | 201.0 | 165.7 | 25.0 | 118.2 | 0.0 | 0.0 | 0.0
+Exhaust in: 199.71 C, Exhaust out: 164.06 C, Fluid in: 24.41 C, Fluid out: 118.16 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -346.00
+Exhaust in: 203.61 C, Exhaust out: 166.02 C, Fluid in: 24.41 C, Fluid out: 117.68 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -339.16
+Exhaust in: 210.45 C, Exhaust out: 170.41 C, Fluid in: 24.41 C, Fluid out: 116.70 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -326.95
+Exhaust in: 221.19 C, Exhaust out: 175.78 C, Fluid in: 24.90 C, Fluid out: 117.68 C
+Fan duty: 86 %, Pump duty: 13 %
+Objective: -331.35
+Average for current parameter: -334.77
+Best parameter: 2, Best average: 0.00
+Current parameter: 0.77
+Exhaust in: 234.38 C, Exhaust out: 183.59 C, Fluid in: 24.41 C, Fluid out: 119.14 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -340.62
+20.0 | 234.6 | 184.5 | 25.0 | 119.0 | 0.0 | 0.0 | 0.0
+Exhaust in: 250.00 C, Exhaust out: 200.20 C, Fluid in: 25.39 C, Fluid out: 117.68 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -326.95
+Exhaust in: 269.53 C, Exhaust out: 210.45 C, Fluid in: 25.39 C, Fluid out: 117.68 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -317.68
+Exhaust in: 288.09 C, Exhaust out: 222.17 C, Fluid in: 24.90 C, Fluid out: 117.68 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -310.84
+Exhaust in: 308.59 C, Exhaust out: 235.35 C, Fluid in: 25.39 C, Fluid out: 118.65 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -313.28
+Exhaust in: 327.64 C, Exhaust out: 248.05 C, Fluid in: 24.90 C, Fluid out: 120.61 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -326.46
+25.0 | 328.4 | 247.8 | 25.0 | 120.5 | 0.0 | 0.0 | 0.0
+Exhaust in: 346.68 C, Exhaust out: 259.28 C, Fluid in: 24.41 C, Fluid out: 122.56 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -338.18
+Exhaust in: 362.79 C, Exhaust out: 271.00 C, Fluid in: 24.41 C, Fluid out: 125.49 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -363.09
+Exhaust in: 376.95 C, Exhaust out: 280.27 C, Fluid in: 24.41 C, Fluid out: 127.93 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -382.62
+Exhaust in: 388.67 C, Exhaust out: 287.60 C, Fluid in: 24.41 C, Fluid out: 131.84 C
+Fan duty: 77 %, Pump duty: 23 %
+Objective: -417.29
+Average for current parameter: -343.70
+Best parameter: 3, Best average: 0.00
+Current parameter: 0.15
+Exhaust in: 396.00 C, Exhaust out: 294.43 C, Fluid in: 25.39 C, Fluid out: 134.77 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: -446.09
+30.0 | 396.0 | 294.3 | 25.0 | 134.4 | 0.0 | 0.0 | 0.0
+Exhaust in: 399.41 C, Exhaust out: 379.39 C, Fluid in: 25.39 C, Fluid out: 112.30 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: -303.03
+Exhaust in: 398.44 C, Exhaust out: 377.93 C, Fluid in: 24.41 C, Fluid out: 94.24 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: -121.88
+Exhaust in: 395.02 C, Exhaust out: 373.05 C, Fluid in: 24.90 C, Fluid out: 80.57 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: 16.31
+Exhaust in: 386.23 C, Exhaust out: 364.26 C, Fluid in: 25.39 C, Fluid out: 70.80 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: 21.97
+Exhaust in: 375.49 C, Exhaust out: 352.05 C, Fluid in: 24.90 C, Fluid out: 63.48 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: 23.44
+35.0 | 375.4 | 352.7 | 25.0 | 63.2 | 0.0 | 0.0 | 0.0
+Exhaust in: 360.84 C, Exhaust out: 338.38 C, Fluid in: 25.39 C, Fluid out: 57.13 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: 22.46
+Exhaust in: 343.75 C, Exhaust out: 322.75 C, Fluid in: 24.90 C, Fluid out: 51.76 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: 21.00
+Exhaust in: 325.20 C, Exhaust out: 304.69 C, Fluid in: 24.41 C, Fluid out: 47.85 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: 20.51
+Exhaust in: 305.66 C, Exhaust out: 286.62 C, Fluid in: 24.41 C, Fluid out: 43.95 C
+Fan duty: 15 %, Pump duty: 85 %
+Objective: 19.04
+Average for current parameter: -72.63
+Best parameter: 4, Best average: 0.00
+Current parameter: 0.93
+Exhaust in: 285.64 C, Exhaust out: 267.09 C, Fluid in: 24.41 C, Fluid out: 41.99 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: 18.55
+40.0 | 285.4 | 267.5 | 25.0 | 42.1 | 0.0 | 0.0 | 0.0
+Exhaust in: 265.62 C, Exhaust out: 162.11 C, Fluid in: 25.39 C, Fluid out: 51.76 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: 103.52
+Exhaust in: 248.54 C, Exhaust out: 157.23 C, Fluid in: 24.41 C, Fluid out: 60.06 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: 91.31
+Exhaust in: 232.42 C, Exhaust out: 151.86 C, Fluid in: 25.39 C, Fluid out: 67.38 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: 80.57
+Exhaust in: 218.26 C, Exhaust out: 148.44 C, Fluid in: 25.39 C, Fluid out: 73.73 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: 69.82
+Exhaust in: 208.01 C, Exhaust out: 145.02 C, Fluid in: 24.41 C, Fluid out: 77.64 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: 62.99
+45.0 | 208.9 | 145.9 | 25.0 | 78.5 | 0.0 | 0.0 | 0.0
+Exhaust in: 202.64 C, Exhaust out: 144.53 C, Fluid in: 24.90 C, Fluid out: 82.52 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: 32.91
+Exhaust in: 200.20 C, Exhaust out: 146.00 C, Fluid in: 25.39 C, Fluid out: 86.43 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: -10.06
+Exhaust in: 201.17 C, Exhaust out: 147.95 C, Fluid in: 24.41 C, Fluid out: 89.84 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: -45.21
+Exhaust in: 206.05 C, Exhaust out: 152.34 C, Fluid in: 25.39 C, Fluid out: 93.75 C
+Fan duty: 93 %, Pump duty: 6 %
+Objective: -83.79
+Average for current parameter: 32.06
+Best parameter: 4, Best average: 32.06
+Current parameter: 0.35

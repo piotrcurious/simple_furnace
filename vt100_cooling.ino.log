@@ -1,0 +1,43 @@
+=== SCENARIO: STRESS TEST WITH FAILURE ===
+Time(s) | RPM | Temp(C) | OutFan | Beep | Overload
+----------------------------------------------------
+0.0 | 0.0 | 0 | 0 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 150.00[SET CURSOR 20,5]Output fan speed: 202[SET CURSOR 5,10]Combustion level: 613[SET CURSOR 20,10]Temperature: 50[SET CURSOR 5,15]Ratio: 0.74[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 40[SET CURSOR 5,18]Threshold temperature: 421.0 | 150.0 | 50 | 202 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 540.00[SET CURSOR 20,5]Output fan speed: 153[SET CURSOR 5,10]Combustion level: 614[SET CURSOR 20,10]Temperature: 53[SET CURSOR 5,15]Ratio: 3.53[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 56[SET CURSOR 5,18]Threshold temperature: 422.0 | 540.0 | 53 | 153 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 690.00[SET CURSOR 20,5]Output fan speed: 153[SET CURSOR 5,10]Combustion level: 614[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 4.51[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 423.0 | 690.0 | 54 | 153 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 780.00[SET CURSOR 20,5]Output fan speed: 153[SET CURSOR 5,10]Combustion level: 615[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.10[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 424.0 | 780.0 | 54 | 153 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 810.00[SET CURSOR 20,5]Output fan speed: 153[SET CURSOR 5,10]Combustion level: 615[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.29[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 425.0 | 810.0 | 54 | 153 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 870.00[SET CURSOR 20,5]Output fan speed: 153[SET CURSOR 5,10]Combustion level: 615[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.69[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 426.0 | 870.0 | 54 | 153 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 870.00[SET CURSOR 20,5]Output fan speed: 152[SET CURSOR 5,10]Combustion level: 613[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.72[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 427.0 | 870.0 | 54 | 152 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 870.00[SET CURSOR 20,5]Output fan speed: 152[SET CURSOR 5,10]Combustion level: 613[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.72[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 428.0 | 870.0 | 54 | 152 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 870.00[SET CURSOR 20,5]Output fan speed: 153[SET CURSOR 5,10]Combustion level: 615[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.69[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 429.0 | 870.0 | 54 | 153 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 900.00[SET CURSOR 20,5]Output fan speed: 152[SET CURSOR 5,10]Combustion level: 613[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.92[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 4210.0 | 900.0 | 54 | 152 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 900.00[SET CURSOR 20,5]Output fan speed: 153[SET CURSOR 5,10]Combustion level: 614[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.88[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 4211.0 | 900.0 | 54 | 153 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 900.00[SET CURSOR 20,5]Output fan speed: 152[SET CURSOR 5,10]Combustion level: 613[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.92[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 4212.0 | 900.0 | 54 | 152 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 900.00[SET CURSOR 20,5]Output fan speed: 152[SET CURSOR 5,10]Combustion level: 613[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.92[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 4213.0 | 900.0 | 54 | 152 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 900.00[SET CURSOR 20,5]Output fan speed: 153[SET CURSOR 5,10]Combustion level: 614[SET CURSOR 20,10]Temperature: 54[SET CURSOR 5,15]Ratio: 5.88[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 61[SET CURSOR 5,18]Threshold temperature: 4214.0 | 900.0 | 54 | 153 | OFF | OFF
+[SIM] Triggering critical sensor failure on pin 1
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 900.00[SET CURSOR 20,5]Output fan speed: 195[SET CURSOR 5,10]Combustion level: 614[SET CURSOR 20,10]Temperature: 0[SET CURSOR 5,15]Ratio: 4.62[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 0[SET CURSOR 5,18]Threshold temperature: 4215.0 | 900.0 | 0 | 195 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 990.00[SET CURSOR 20,5]Output fan speed: 195[SET CURSOR 5,10]Combustion level: 615[SET CURSOR 20,10]Temperature: 0[SET CURSOR 5,15]Ratio: 5.08[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 0[SET CURSOR 5,18]Threshold temperature: 4216.0 | 990.0 | 0 | 195 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 1050.00[SET CURSOR 20,5]Output fan speed: 195[SET CURSOR 5,10]Combustion level: 615[SET CURSOR 20,10]Temperature: 0[SET CURSOR 5,15]Ratio: 5.38[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 0[SET CURSOR 5,18]Threshold temperature: 4217.0 | 1050.0 | 0 | 195 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 1080.00[SET CURSOR 20,5]Output fan speed: 194[SET CURSOR 5,10]Combustion level: 613[SET CURSOR 20,10]Temperature: 0[SET CURSOR 5,15]Ratio: 5.57[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 0[SET CURSOR 5,18]Threshold temperature: 4218.0 | 1080.0 | 0 | 194 | OFF | OFF
+[CLEAR]
+[SET CURSOR 5,5]Input fan RPM: 1110.00[SET CURSOR 20,5]Output fan speed: 195[SET CURSOR 5,10]Combustion level: 615[SET CURSOR 20,10]Temperature: 0[SET CURSOR 5,15]Ratio: 5.69[SET CURSOR 20,15]Beep: OFF[SET CURSOR 20,20]Overload: OFF[SET CURSOR 5,20]Cooling speed: 0[SET CURSOR 5,18]Threshold temperature: 4219.0 | 1110.0 | 0 | 195 | OFF | OFF

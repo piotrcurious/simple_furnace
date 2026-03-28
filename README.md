@@ -51,14 +51,21 @@ This repository includes a comprehensive mock Arduino environment and physics si
 
 ### Performance Visualizations
 
-![Furnace Response](docs/images/furnace_graph.png)
-*Figure 1: Furnace temperature and fan RPM response.*
+![Furnace Stress Test](docs/images/furnace_graph.png)
+*Figure 1: Comprehensive furnace stress test showing temperature control and fan response during varying loads and a simulated sensor failure.*
 
-![Scrubber Performance](docs/images/scrubber_graph.png)
-*Figure 2: Scrubber heat exchange performance under dynamic loads.*
+![Scrubber Dynamic Performance](docs/images/scrubber_graph.png)
+*Figure 2: Scrubber performance under dynamic mass flow and exhaust temperature fluctuations. The orange area represents heat extraction efficiency.*
 
-![VT100 Terminal](docs/images/vt100_grab.png)
-*Figure 3: Rendered VT100 terminal visualization from the simulation.*
+![Enhanced VT100 Dashboard](docs/images/vt100_grab.png)
+*Figure 3: Redesigned high-visibility VT100 terminal dashboard with color-coded status indicators and improved layout.*
+
+## Simulation Scenarios
+The testing suite now evaluates controllers against multiple challenging scenarios:
+1. **Cold Start**: Initial heat-up and stabilization.
+2. **Stress Test**: Heavy combustion loads followed by sudden drops.
+3. **Sensor Failure**: Transition to fail-safe modes when hardware fails.
+4. **Dynamic Flow**: Continuous fluctuations in exhaust temperature and mass flow rate.
 
 ### Advanced Testing Features
 - **Production-Level Hardening**: Includes sensor noise, failure simulation (stuck-at readings), and thermal runaway detection.

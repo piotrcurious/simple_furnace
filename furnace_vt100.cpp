@@ -1,3 +1,9 @@
+#include "Arduino.h"
+#include "Ticker.h"
+#include "SmoothThermistor.h"
+#include "VT100.h"
+#include "avr/wdt.h"
+#include "EEPROM.h"
 // Include the libraries
 #include <Ticker.h>
 #include <avr/wdt.h>
@@ -132,7 +138,7 @@ void safetyTask() {
 // Function to visualize the state of the furnace
 void visualizationTask() {
   vt100.clearScreen();
-  
+
   vt100.setCursorPosition(10, 1);
   vt100.setForeground(VT100::BLUE);
   vt100.print("=== OIL FURNACE DASHBOARD ===");
@@ -162,7 +168,7 @@ void visualizationTask() {
   vt100.setForeground(VT100::WHITE);
   vt100.setCursorPosition(2, 10);
   vt100.print("------------------------------------");
-  
+
   vt100.setCursorPosition(5, 12);
   vt100.print("BEEP:     ");
   if (beepState) { vt100.setForeground(VT100::RED); vt100.print("[ ACTIVE ]"); }
@@ -188,22 +194,22 @@ void setup() {
   pinMode(BEEP_PIN, OUTPUT); // Set the beep pin as output
   pinMode(TEMPERATURE_PIN, INPUT); // Set the temperature pin as input
   pinMode(OVERLOAD_PIN, OUTPUT); // Set the overload pin as output
-  
+
   // Attach the interrupt for input fan hall sensor
   attachInterrupt(digitalPinToInterrupt(INPUT_FAN_PIN), inputFanISR, FALLING);
-  
+
   // Start the safety ticker
   safetyTicker.attach_ms(SAFETY_INTERVAL, safetyTask);
-  
+
   // Start the visualization ticker
   visualizationTicker.attach_ms(VISUALIZATION_INTERVAL, visualizationTask);
-  
+
   // Enable the watchdog timer
   wdt_enable(WDTO_2S);
-  
+
   // Initialize the serial communication
   Serial.begin(9600);
-  
+
   // Initialize the VT100 terminal
   vt100.begin(&Serial);
 }

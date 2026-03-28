@@ -1,3 +1,9 @@
+#include "Arduino.h"
+#include "Ticker.h"
+#include "SmoothThermistor.h"
+#include "VT100.h"
+#include "avr/wdt.h"
+#include "EEPROM.h"
 // Include the libraries
 #include <Ticker.h>
 #include <avr/wdt.h>
@@ -12,13 +18,16 @@
 #define BEEP_PIN 5 // Beep pin
 #define TEMPERATURE_PIN A1 // Temperature sensor pin
 #define OVERLOAD_PIN 6 // Overload warning light pin
+#define COOLING_PIN 9 // Cooling PWM pin
+#define THRESHOLD_PIN A2 // Threshold temperature analog input pin
 
 // Define the constants
 #define RPM_THRESHOLD 100 // Minimum RPM of input fan
 #define RPM_BOOST 200 // RPM of input fan to boost output fan speed
-#define RESTART_TIME 500 // Restart time for input fan in ms
-#define SAFETY_INTERVAL 100 // Safety task interval in ms
-#define TEMPERATURE_THRESHOLD 50 // Temperature threshold to boost output fan speed in Celsius
+#define RESTART_TIME 200 // Restart time for input fan in ms
+#define SAFETY_INTERVAL 500 // Safety task interval in ms
+#define TEMPERATURE_THRESHOLD_MIN 40 // Minimum temperature threshold to boost output fan speed in Celsius
+#define TEMPERATURE_THRESHOLD_MAX 85 // Maximum temperature threshold to boost output fan speed in Celsius
 #define BOOST_VALUE 50 // Output fan speed boost value
 #define VISUALIZATION_INTERVAL 1000 // Visualization task interval in ms
 
@@ -51,6 +60,14 @@
 #define OVERLOAD_Y 20 // Overload y position
 #define OVERLOAD_W 10 // Overload width
 #define OVERLOAD_H 3 // Overload height
+#define COOLING_X 5 // Cooling x position
+#define COOLING_Y 20 // Cooling y position
+#define COOLING_W 10 // Cooling width
+#define COOLING_H 3 // Cooling height
+#define THRESHOLD_X 5 // Threshold temperature x position
+#define THRESHOLD_Y 18 // Threshold temperature y position
+#define THRESHOLD_W 10 // Threshold temperature width
+#define THRESHOLD_H 3 // Threshold temperature height
 
 // Declare the global variables
 volatile int inputFanCount = 0; // Input fan pulse count
@@ -59,7 +76,9 @@ int outputFanSpeed = 0; // Output fan speed
 int combustionLevel = 0; // Combustion level
 bool beepState = false; // Beep state
 int temperature = 0; // Temperature in Celsius
+int thresholdTemperature = 0; // Threshold temperature
 bool overloadState = false; // Overload state
+int coolingSpeed = 0; // Cooling speed
 Ticker safetyTicker; // Ticker object for safety tasks
 Ticker visualizationTicker; // Ticker object for visualization tasks
 SmoothThermistor smoothThermistor(TEMPERATURE_PIN, ADC_SIZE_10_BIT, 10000, 10000, 3950, 25, 10); // Create a SmoothThermistor object with the given parameters
@@ -86,21 +105,45 @@ void readTemperature() {
   temperature = smoothThermistor.temperature(); // Read the temperature using the SmoothThermistor library
 }
 
+// Function to read the threshold temperature
+void readThresholdTemperature() {
+  int rawThreshold = analogRead(THRESHOLD_PIN); // Read the threshold temperature
+  thresholdTemperature = map(rawThreshold, 0, 1023, TEMPERATURE_THRESHOLD_MIN, TEMPERATURE_THRESHOLD_MAX); // Map the threshold temperature to Celsius
+}
+
 // Function to control the output fan speed
 void controlOutputFanSpeed() {
   outputFanSpeed = map(combustionLevel, 0, 1023, 0, 255); // Map the combustion level to output fan speed
-  if (inputFanRPM < RPM_BOOST || temperature > TEMPERATURE_THRESHOLD) { // If the input fan RPM is below the boost threshold or the temperature is above the threshold
-    if (outputFanSpeed + BOOST_VALUE > 255) { // If the output fan speed plus the boost value exceeds the maximum PWM value
+  if (inputFanRPM < RPM_BOOST || temperature < (int)thresholdTemperature) { // If the input fan RPM is below the boost threshold or the temperature is below the threshold
+    int boostRate = BOOST_VALUE; // Set the boost rate to the default value
+    if (temperature < (int)thresholdTemperature) { // If the temperature is below the threshold
+      boostRate = (int)thresholdTemperature - temperature; // Set the boost rate to the difference of current temperature and threshold
+    }
+    if (outputFanSpeed + boostRate > 255) { // If the output fan speed plus the boost rate exceeds the maximum PWM value
       overloadState = true; // Set the overload state to true
       digitalWrite(OVERLOAD_PIN, overloadState); // Write the overload state
     }
-    else { // If the output fan speed plus the boost value does not exceed the maximum PWM value
-      outputFanSpeed = outputFanSpeed + BOOST_VALUE; // Increase the output fan speed by the boost value
+    else { // If the output fan speed plus the boost rate does not exceed the maximum PWM value
+      outputFanSpeed = outputFanSpeed + boostRate; // Increase the output fan speed by the boost rate
       overloadState = false; // Set the overload state to false
       digitalWrite(OVERLOAD_PIN, overloadState); // Write the overload state
     }
   }
+  outputFanSpeed = constrain(outputFanSpeed, 0, 255); // Constrain the output fan speed to valid range
   analogWrite(OUTPUT_FAN_PIN, outputFanSpeed); // Write the output fan speed
+}
+
+// Function to control the cooling speed
+void controlCoolingSpeed() {
+  if (temperature > (int)thresholdTemperature) { // If the temperature is above the threshold
+    coolingSpeed = temperature - (int)thresholdTemperature; // Set the cooling speed to the difference of current temperature and threshold
+    coolingSpeed = map(coolingSpeed, 0, 50, 0, 255); // Map the cooling speed to PWM value
+  }
+  else { // If the temperature is below or equal to the threshold
+    coolingSpeed = 0; // Set the cooling speed to zero
+  }
+  coolingSpeed = constrain(coolingSpeed, 0, 255); // Constrain the cooling speed to valid range
+  analogWrite(COOLING_PIN, coolingSpeed); // Write the cooling speed
 }
 
 // Function to check the airflow rate
@@ -125,88 +168,99 @@ void safetyTask() {
   measureInputFanRPM(); // Measure the input fan RPM
   readCombustionLevel(); // Read the combustion level
   readTemperature(); // Read the temperature
+  readThresholdTemperature(); // Read the threshold temperature
   controlOutputFanSpeed(); // Control the output fan speed
+  controlCoolingSpeed(); // Control the cooling speed
   checkAirflowRate(); // Check the airflow rate
 }
 
 // Function to visualize the state of the furnace
 void visualizationTask() {
+  // Clear the screen
   vt100.clearScreen();
-  
-  vt100.setCursorPosition(10, 1);
-  vt100.setForeground(VT100::BLUE);
-  vt100.print("=== OIL FURNACE DASHBOARD ===");
 
-  // Data Section
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 4);
-  vt100.print("INPUT FAN RPM:  ");
-  vt100.setForeground(inputFanRPM < RPM_THRESHOLD ? VT100::RED : VT100::GREEN);
-  vt100.print(inputFanRPM);
+  // Draw the input fan RPM
+  vt100.setCursorPosition(INPUT_FAN_RPM_X, INPUT_FAN_RPM_Y); // Set the cursor position
+  vt100.print("Input fan RPM: "); // Print the label
+  vt100.print(inputFanRPM); // Print the value
 
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 6);
-  vt100.print("COMBUSTION LVL: ");
-  vt100.print(combustionLevel);
+  // Draw the output fan speed
+  vt100.setCursorPosition(OUTPUT_FAN_SPEED_X, OUTPUT_FAN_SPEED_Y); // Set the cursor position
+  vt100.print("Output fan speed: "); // Print the label
+  vt100.print(outputFanSpeed); // Print the value
 
-  vt100.setCursorPosition(22, 4);
-  vt100.print("OUTPUT FAN: ");
-  vt100.print(outputFanSpeed);
+  // Draw the combustion level
+  vt100.setCursorPosition(COMBUSTION_LEVEL_X, COMBUSTION_LEVEL_Y); // Set the cursor position
+  vt100.print("Combustion level: "); // Print the label
+  vt100.print(combustionLevel); // Print the value
 
-  vt100.setCursorPosition(22, 6);
-  vt100.print("TEMP (C):   ");
-  vt100.setForeground(temperature > TEMPERATURE_THRESHOLD ? VT100::YELLOW : VT100::GREEN);
-  vt100.print(temperature);
+  // Draw the temperature
+  vt100.setCursorPosition(TEMPERATURE_X, TEMPERATURE_Y); // Set the cursor position
+  vt100.print("Temperature: "); // Print the label
+  vt100.print(temperature); // Print the value
 
-  // Status Section
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(2, 10);
-  vt100.print("------------------------------------");
-  
-  vt100.setCursorPosition(5, 12);
-  vt100.print("BEEP:     ");
-  if (beepState) { vt100.setForeground(VT100::RED); vt100.print("[ ACTIVE ]"); }
-  else { vt100.setForeground(VT100::GREEN); vt100.print("[ SILENT ]"); }
+  // Draw the ratio of input RPM to output PWM
+  vt100.setCursorPosition(RATIO_X, RATIO_Y); // Set the cursor position
+  vt100.print("Ratio: "); // Print the label
+  if (outputFanSpeed == 0) { // If the output fan speed is zero
+    vt100.print("N/A"); // Print N/A
+  }
+  else { // If the output fan speed is not zero
+    vt100.print(inputFanRPM / outputFanSpeed); // Print the ratio
+  }
 
-  vt100.setForeground(VT100::WHITE);
-  vt100.setCursorPosition(5, 14);
-  vt100.print("OVERLOAD: ");
-  if (overloadState) { vt100.setForeground(VT100::RED); vt100.print("[ DANGER ]"); }
-  else { vt100.setForeground(VT100::GREEN); vt100.print("[ NORMAL ]"); }
+  // Draw the beep state
+  vt100.setCursorPosition(BEEP_X, BEEP_Y); // Set the cursor position
+  vt100.print("Beep: "); // Print the label
+  vt100.print(beepState ? "ON" : "OFF"); // Print the state
 
-  vt100.setForeground(VT100::BLUE);
-  vt100.setCursorPosition(2, 16);
-  vt100.print("------------------------------------");
+  // Draw the overload state
+  vt100.setCursorPosition(OVERLOAD_X, OVERLOAD_Y); // Set the cursor position
+  vt100.print("Overload: "); // Print the label
+  vt100.print(overloadState ? "ON" : "OFF"); // Print the state
+
+  // Draw the cooling speed
+  vt100.setCursorPosition(COOLING_X, COOLING_Y); // Set the cursor position
+  vt100.print("Cooling speed: "); // Print the label
+  vt100.print(coolingSpeed); // Print the value
+
+  // Draw the threshold temperature
+  vt100.setCursorPosition(THRESHOLD_X, THRESHOLD_Y); // Set the cursor position
+  vt100.print("Threshold temperature: "); // Print the label
+  vt100.print(thresholdTemperature); // Print the value
 }
 
 // Setup function
 void setup() {
   // Initialize the pins
   pinMode(INPUT_FAN_PIN, INPUT_PULLUP); // Set the input fan pin as input with pullup
-  pinMode(OUTPUT_FAN_PIN, OUTPUT); // Setthe output fan pin as output
+  pinMode(OUTPUT_FAN_PIN, OUTPUT); // Set the output fan pin as output
   pinMode(RESTART_PIN, OUTPUT); // Set the restart pin as output
   pinMode(BEEP_PIN, OUTPUT); // Set the beep pin as output
   pinMode(TEMPERATURE_PIN, INPUT); // Set the temperature pin as input
   pinMode(OVERLOAD_PIN, OUTPUT); // Set the overload pin as output
-  
+  pinMode(COOLING_PIN, OUTPUT); // Set the cooling pin as output
+  pinMode(THRESHOLD_PIN, INPUT); // Set the threshold pin as input
+
   // Attach the interrupt for input fan hall sensor
   attachInterrupt(digitalPinToInterrupt(INPUT_FAN_PIN), inputFanISR, FALLING);
-  
+
   // Start the safety ticker
   safetyTicker.attach_ms(SAFETY_INTERVAL, safetyTask);
-  
+
   // Start the visualization ticker
   visualizationTicker.attach_ms(VISUALIZATION_INTERVAL, visualizationTask);
-  
+
   // Enable the watchdog timer
   wdt_enable(WDTO_2S);
-  
+
   // Initialize the serial communication
   Serial.begin(9600);
-  
+
   // Initialize the VT100 terminal
   vt100.begin(&Serial);
 }
+
 
 // Loop function
 void loop() {
