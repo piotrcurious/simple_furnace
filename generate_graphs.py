@@ -73,5 +73,22 @@ def generate_graphs():
         plt.savefig("docs/images/scrubber_graph.png")
         plt.close()
 
+    # Comparison Graph
+    plt.figure(figsize=(10, 6))
+    for f in ["scrubber_optimized.ino.log", "gaming_scrubber.ino.log", "pso_scrubber.ino.log"]:
+        if os.path.exists(f):
+            t, tin, tout, fin, fout = parse_scrubber_log(f)
+            # Power extracted = (tin - tout) * 1.2
+            p = [(i - o) * 1.2 for i, o in zip(tin, tout)]
+            plt.plot(t, p, label=f.replace(".ino.log", ""))
+
+    plt.title("Algorithm Efficiency Comparison (Heat Extraction Power)")
+    plt.xlabel("Time (s)")
+    plt.ylabel("Power (W)")
+    plt.legend()
+    plt.grid(True)
+    plt.savefig("docs/images/algorithm_comparison.png")
+    plt.close()
+
 if __name__ == "__main__":
     generate_graphs()

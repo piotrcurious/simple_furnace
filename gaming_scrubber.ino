@@ -12,6 +12,7 @@
 #define STEP_SIZE 0.1 // Step size for the greedy algorithm
 
 // Define the variables for the scrubber system
+float mutation_rate = 0.01; // Adaptive mutation rate
 float temp_in; // Input exhaust temperature in Celsius
 float temp_out; // Output exhaust temperature in Celsius
 float fluid_in; // Scrubber fluid input temperature in Celsius
@@ -119,11 +120,14 @@ void loop() {
     score = calculate_score(original_param);
 
     // Add a small random perturbation to the current function parameter
-    float mutation = random(-10, 11) / 1000.0;
+    float mutation = (random(-100, 101) / 100.0) * mutation_rate;
     params[i] = constrain(original_param + mutation, 0, 1);
 
     // Calculate the new score for the perturbed function parameter
     delta = calculate_score(params[i]) - score;
+
+    // Adaptive adjustment: if many mutations are accepted, increase exploration.
+    // If many are rejected, decrease rate for precision.
 
     // Print the perturbed function parameter and the change in score
     Serial.print("Perturbed function parameter: ");
@@ -138,8 +142,11 @@ void loop() {
       Serial.println("Mutation rejected.");
     } else {
       Serial.println("Mutation accepted.");
+      mutation_rate *= 1.05; // Explore more
     }
+    if (delta < -10.0) mutation_rate *= 0.9; // Precision mode
   }
+  mutation_rate = constrain(mutation_rate, 0.001, 0.1);
 
   // Wait for a second
   delay(1000);

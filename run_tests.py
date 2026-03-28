@@ -76,6 +76,18 @@ def test_file(ino_file):
 
     # Simple pass/fail based on output
     passed = True
+
+    # Efficiency Metrics
+    import re
+    powers = [float(p) for p in re.findall(r"ino_power: ([\d.]+)", result.stdout)]
+    if not powers:
+        powers = [float(p) for p in re.findall(r"Power: ([\d.]+)", result.stdout)]
+
+    if powers:
+        total_energy = sum(powers)
+        avg_power = total_energy / len(powers)
+        print(f"Metrics: Avg Power = {avg_power:.2f} W, Total Energy = {total_energy:.1f} J")
+
     if "Warning" in result.stdout:
         passed = False
     if "Overload: ON" in result.stdout:

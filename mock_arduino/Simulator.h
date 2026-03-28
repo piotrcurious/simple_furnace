@@ -15,6 +15,7 @@ public:
     float ambient_temp = 20.0;
     float mass_flow = 1.2; // kg/s
     float backpressure = 1.0; // Affects fan efficiency
+    float aging_factor = 1.0; // Heat exchanger efficiency (1.0 = new, 0.5 = fouled)
     float co_level = 0.0;
     float temperature = 20.0;
     float input_fan_rpm = 0.0;
@@ -72,9 +73,9 @@ public:
         float scrubber_fan_duty = digital_pins[9] / 255.0;
         float scrubber_pump_duty = digital_pins[10] / 255.0;
 
-        // Heat exchange from exhaust to scrubber fluid
+        // Heat exchange from exhaust to scrubber fluid (affected by aging/fouling)
         float delta_t_exhaust = (exhaust_in_temp - fluid_out_temp);
-        float exchange_rate = delta_t_exhaust * scrubber_fan_duty * exhaust_heat_transfer_coeff;
+        float exchange_rate = delta_t_exhaust * scrubber_fan_duty * exhaust_heat_transfer_coeff * aging_factor;
 
         exhaust_out_temp = exhaust_in_temp - exchange_rate;
 

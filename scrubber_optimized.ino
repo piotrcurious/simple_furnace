@@ -156,7 +156,9 @@ void loop() {
   analogWrite(PUMP, pump_duty * 255 / 100); // Convert the percentage to a value between 0 and 255
 
   // Calculate the Lyapunov function value
-  lyapunov = pow(error, 2) + pow(temp_fluid - MAX_TEMP, 2);
+  // Refined control law: incorporate duty cycle cost into Lyapunov function
+  float duty_cost = (fan_duty + pump_duty) / 2.0;
+  lyapunov = pow(error, 2) + pow(temp_fluid - MAX_TEMP, 2) + pow(duty_cost, 2);
 
   // Check if the Lyapunov function value is lower than the best one so far
   if (lyapunov < best_lyapunov) {

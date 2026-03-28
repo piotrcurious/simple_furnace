@@ -60,6 +60,9 @@ This repository includes a comprehensive mock Arduino environment and physics si
 ![Advanced VT100 Dashboard](docs/images/vt100_grab.png)
 *Figure 3: High-fidelity VT100 dashboard featuring ASCII art animations, color-coded telemetry bars, and real-time trend graphs (using VT100Visualizer.h).*
 
+![Algorithm Comparison](docs/images/algorithm_comparison.png)
+*Figure 4: Efficiency comparison of different heat extraction algorithms (PSO, Genetic/Gaming, and Optimized Lyapunov).*
+
 ## Simulation Scenarios
 The testing suite now evaluates controllers against multiple challenging scenarios:
 1. **Cold Start**: Initial heat-up and stabilization.
