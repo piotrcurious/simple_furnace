@@ -76,6 +76,7 @@ def generate_graphs():
     # Gaming Scrubber graph
     if os.path.exists("gaming_scrubber.ino.log"):
         t, tin, tout, fin, fout = parse_scrubber_log("gaming_scrubber.ino.log")
+        if not t: return # skip if empty
         plt.figure(figsize=(12, 6))
         plt.plot(t, tin, 'r-', label="Exhaust In")
         plt.plot(t, tout, 'g-', label="Exhaust Out")

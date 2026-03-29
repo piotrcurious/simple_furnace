@@ -3,9 +3,9 @@ import re
 import os
 
 def render_vt100(log_file, output_file):
-    # Mock screen 40x24 characters
-    cols, rows = 40, 24
-    char_w, char_h = 10, 18
+    # Higher resolution for better clarity
+    cols, rows = 60, 30
+    char_w, char_h = 12, 20
     img = Image.new('RGB', (cols * char_w, rows * char_h), color=(0, 0, 0))
     draw = ImageDraw.Draw(img)
 
