@@ -101,14 +101,20 @@ def generate_graphs():
             plt.close()
 
     # Comparison Graph
-    plt.figure(figsize=(10, 6))
-    for f in ["scrubber_optimized.ino.log", "gaming_scrubber.ino.log", "pso_scrubber.ino.log"]:
-        if os.path.exists(f):
+    plt.figure(figsize=(14, 8))
+    log_files = sorted([f for f in os.listdir(".") if f.endswith(".ino.log")])
+    for f in log_files:
+        # Include all scrubber and greedy algorithms
+        if "scrubber" in f or "greedy" in f:
             t, tin, tout, fin, fout = parse_scrubber_log(f)
             if not t: continue
+
             # Power extracted = (tin - tout) * 1.2
             p = [(i - o) * 1.2 for i, o in zip(tin, tout)]
-            plt.plot(t, p, label=f.replace(".ino.log", ""), alpha=0.8)
+
+            # Only plot if there's significant power (filtering out telemetry-only if they have 0 power)
+            if sum(p) > 0.1:
+                plt.plot(t, p, label=f.replace(".ino.log", ""), alpha=0.7)
 
     plt.title("Algorithm Efficiency Comparison (Heat Extraction Power)")
     plt.xlabel("Time (s)")
