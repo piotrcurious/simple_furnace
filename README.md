@@ -12,16 +12,17 @@ This project provides a robust suite of Arduino-compatible controllers for furna
 - **Professional Visualization**: Colorful VT100 dashboards with ASCII art animations and real-time trend graphs.
 
 ## Benchmarking Results
-All scrubber controllers are evaluated against a 50-second dynamic load test.
+All scrubber controllers are evaluated against a 600-second high-load endurance test. Metrics include Heat Extraction Efficiency (Avg Power) and Control Stability ($\sigma$).
 
-| Controller | Avg Power (W) | Total Energy (J) | Status |
-|------------|---------------|------------------|--------|
-| gaming_scrubber.ino | 70.07 | 2802.7 | PASS |
-| scrubber_simple_param_array.ino | 66.44 | 2657.6 | PASS |
-| scrubber_stabilizer.ino | 65.89 | 2635.4 | PASS |
-| pso_scrubber.ino | 56.80 | 2272.0 | PASS |
-| scrubber_optimized.ino | 43.84 | 1753.4 | PASS |
-| sorting_scrubber.ino | 58.29 | 2331.7 | PASS |
+| Controller | Algorithm | Avg Power (W) | Total Energy (kJ) | Stability ($\sigma$) |
+|------------|-----------|---------------|-------------------|----------------------|
+| `gaming_scrubber.ino` | Genetic Algorithm | 424.96 | 254.9 | 50.05 |
+| `scrubber_optimized.ino` | Lyapunov / PID | 318.40 | 191.0 | 59.83 |
+| `pso_scrubber.ino` | Particle Swarm | 114.10 | 68.5 | 18.16 |
+| `sorting_scrubber.ino` | Greedy / Bubble | 80.36 | 48.2 | 32.32 |
+| `greedy-incomplete.ino`| Baseline | 73.68 | 44.2 | 10.76 |
+
+*Endurance metrics derived from 600s multi-phase stress tests including sensor noise and hardware aging.*
 
 ## Performance Visuals
 
@@ -37,15 +38,19 @@ All scrubber controllers are evaluated against a 50-second dynamic load test.
 ![Stress Test](docs/images/stress_test_comparison.png)
 *Comparison of controller recovery times after simulated sensor loss.*
 
-### 4. Interactive Dashboard
-![VT100 Dashboard](docs/images/vt100_grab.png)
-*High-fidelity terminal UI featuring the VT100Visualizer.h library.*
+### 4. Algorithm Efficiency Comparison
+![Algorithm Comparison](docs/images/algorithm_comparison.png)
+*Quantitative comparison of heat extraction power across different optimization strategies (PSO, Genetic, PID, Lyapunov).*
 
-### 5. Scrubber Optimization Telemetry
+### 5. Interactive Dashboard
+![VT100 Dashboard](docs/images/vt100_grab.png)
+*High-fidelity terminal UI featuring the VT100Visualizer.h library for real-time furnace telemetry.*
+
+### 6. Scrubber Optimization Telemetry
 ![Scrubber Dashboard](docs/images/scrubber_vt100.png)
 *Specialized dashboard for monitoring scrubber efficiency, featuring real-time heat exchange animations.*
 
-### 6. Genetic Algorithm (Gaming Scrubber)
+### 7. Genetic Algorithm (Gaming Scrubber)
 The `gaming_scrubber.ino` uses a population-based Genetic Algorithm to evolve optimal control parameters.
 
 ![GA Population Dashboard](docs/images/gaming_vt100.png)

@@ -98,7 +98,7 @@ void setup() {
   // Initialize the candidate function parameters
   for (int i = 0; i < POP_SIZE; i++) {
     for (int j = 0; j < NUM_GENES; j++) {
-        population[i].genes[j] = random(0, 101) / 100.0;
+        population[i].genes[j] = random(20, 81) / 100.0; // Better starting range
     }
     population[i].score = -1000;
   }

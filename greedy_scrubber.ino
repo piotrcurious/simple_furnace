@@ -195,8 +195,12 @@ void loop() {
     fluid_out_temp = read_temp(FLUID_OUT_TEMP_PIN);
     // Check if the scrubber fluid output temperature is below the maximum
     if (fluid_out_temp < MAX_FLUID_TEMP) {
-      // Generate a random candidate function parameters
-      generate_candidate();
+      // Evaluation phase: Occasionally permute best, or explore new
+      if (random(0, 100) < 30) {
+          generate_candidate();
+      } else {
+          permute_candidate();
+      }
       // Evaluate the current candidate function and update the fan and pump duty cycles
       evaluate_candidate();
       // Write the fan and pump duty cycles to the PWM pins
