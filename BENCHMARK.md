@@ -3,7 +3,6 @@
 | Controller | Avg Power (W) | Total Energy (J) | Status |
 |------------|---------------|------------------|--------|
 | furnace.ino | 195.12 | 3902.4 | PASS |
-| gaming_scrubber.ino | 70.07 | 2802.7 | PASS |
 | scrubber_simple_param_array.ino | 66.44 | 2657.6 | PASS |
 | greedy-incomplete.ino | 65.89 | 2635.4 | PASS |
 | scrubber_invalid.ino | 65.89 | 2635.4 | PASS |

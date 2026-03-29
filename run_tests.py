@@ -82,12 +82,13 @@ def test_file(ino_file):
     powers = []
     # Table format: Time(s) | Tin | Tout | Fin | Fout | Power | FanDuty | PumpDuty
     for line in result.stdout.split('\n'):
-        parts = line.split('|')
+        if '|' not in line: continue
+        parts = [p.strip() for p in line.split('|')]
         if len(parts) >= 6:
             try:
-                # We use the temperature delta from the simulation table
-                tin = float(parts[1].strip())
-                tout = float(parts[2].strip())
+                # Look for numerical values in 2nd and 3rd columns (Tin, Tout)
+                tin = float(parts[1])
+                tout = float(parts[2])
                 # Power = deltaT * 1.2 (consistent with Simulator.h logic)
                 p_val = (tin - tout) * 1.2
                 if p_val < 0: p_val = 0
@@ -162,31 +163,32 @@ if __name__ == "__main__":
     results = {}
     metrics = []
 
+    files_to_test = []
     if len(sys.argv) > 1:
-        results[sys.argv[1]] = test_file(sys.argv[1])
+        files_to_test = [sys.argv[1]]
     else:
-        # Test all .ino files, sorted for consistent logs
-        for f in sorted(os.listdir(".")):
-            if f.endswith(".ino"):
-                # Capture metrics from stdout
-                import io
-                from contextlib import redirect_stdout
-                f_out = io.StringIO()
-                with redirect_stdout(f_out):
-                    status = test_file(f)
-                results[f] = status
-                out_str = f_out.getvalue()
-                print(out_str) # Print to real stdout too
+        files_to_test = sorted([f for f in os.listdir(".") if f.endswith(".ino")])
 
-                # Parse metrics for benchmarking
-                m = re.search(r"Metrics: Avg Power = ([\d.]+) W, Total Energy = ([\d.]+) J", out_str)
-                if m:
-                    metrics.append({
-                        "file": f,
-                        "avg_power": float(m.group(1)),
-                        "total_energy": float(m.group(2)),
-                        "status": "PASS" if status else "FAIL"
-                    })
+    for f in files_to_test:
+        # Capture metrics from stdout
+        import io
+        from contextlib import redirect_stdout
+        f_out = io.StringIO()
+        with redirect_stdout(f_out):
+            status = test_file(f)
+        results[f] = status
+        out_str = f_out.getvalue()
+        print(out_str) # Print to real stdout too
+
+        # Parse metrics for benchmarking
+        m = re.search(r"Metrics: Avg Power = ([\d.]+) W, Total Energy = ([\d.]+) J", out_str)
+        if m:
+            metrics.append({
+                "file": f,
+                "avg_power": float(m.group(1)),
+                "total_energy": float(m.group(2)),
+                "status": "PASS" if status else "FAIL"
+            })
 
     print("\n--- TEST SUMMARY ---")
     all_pass = True

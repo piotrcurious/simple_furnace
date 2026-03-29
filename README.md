@@ -21,6 +21,7 @@ All scrubber controllers are evaluated against a 50-second dynamic load test.
 | scrubber_stabilizer.ino | 65.89 | 2635.4 | PASS |
 | pso_scrubber.ino | 56.80 | 2272.0 | PASS |
 | scrubber_optimized.ino | 43.84 | 1753.4 | PASS |
+| sorting_scrubber.ino | 58.29 | 2331.7 | PASS |
 
 ## Performance Visuals
 
