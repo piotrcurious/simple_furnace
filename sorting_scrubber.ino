@@ -127,13 +127,12 @@ void loop() {
   // Apply the greedy algorithm to permute the candidate function parameters
   for (int i = 0; i < NUM_PARAMS; i++) {
     // Calculate the score for the current function parameter
+    float original_param = params[i];
     score = scores[i];
 
     // Add a small random perturbation to the current function parameter
-    params[i] += random(-10, 10) / 1000.0;
-
-    // Constrain the function parameter between 0 and 1
-    params[i] = constrain(params[i], 0, 1);
+    float mutation = random(-10, 11) / 1000.0;
+    params[i] = constrain(original_param + mutation, 0, 1);
 
     // Calculate the new score for the perturbed function parameter
     delta = calculate_score(params[i]) - score;
@@ -146,8 +145,11 @@ void loop() {
 
     // Accept the perturbation with a probability proportional to the change in score
     if (delta < 0 && random(0, 100) / 100.0 > exp(delta / STEP_SIZE)) {
-      // Reject the perturbation and restore the original function parameter
-      params[i] -= random(-10, 10) / 1000.0;
+      // Reject the perturbation and restore the original function parameter accurately
+      params[i] = original_param;
+      Serial.println("Mutation rejected.");
+    } else {
+      Serial.println("Mutation accepted.");
     }
   }
 

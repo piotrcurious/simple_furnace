@@ -14,6 +14,9 @@ public:
 
     float ambient_temp = 20.0;
     float mass_flow = 1.2; // kg/s
+    float backpressure = 1.0; // Affects fan efficiency
+    float aging_factor = 1.0; // Heat exchanger efficiency (1.0 = new, 0.5 = fouled)
+    float co_level = 0.0;
     float temperature = 20.0;
     float input_fan_rpm = 0.0;
     int combustion_level = 512;
@@ -38,10 +41,19 @@ public:
         const float scrubber_thermal_mass = 20.0;
 
         // Simple furnace physics
-        // Fan RPM follows target (proportional to PWM)
+        // Fan RPM follows target (proportional to PWM, reduced by backpressure)
         int output_fan_pwm = digital_pins[3]; // OUTPUT_FAN_PIN
-        target_rpm = (output_fan_pwm / 255.0) * 3000.0;
+        target_rpm = (output_fan_pwm / 255.0) * (3000.0 / backpressure);
         input_fan_rpm += (target_rpm - input_fan_rpm) * dt_s * 0.5;
+
+        // CO level increases if combustion is high and fan is low
+        float combustion_ratio = (combustion_level / 1024.0) / ((input_fan_rpm + 1.0) / 3000.0);
+        if (combustion_ratio > 1.5) {
+            co_level += (combustion_ratio - 1.5) * dt_s * 10.0;
+        } else {
+            co_level -= dt_s * 5.0;
+        }
+        co_level = std::max(0.0f, co_level);
 
         // Pulse the hall sensor
         static float pulse_accumulator = 0;
@@ -61,9 +73,9 @@ public:
         float scrubber_fan_duty = digital_pins[9] / 255.0;
         float scrubber_pump_duty = digital_pins[10] / 255.0;
 
-        // Heat exchange from exhaust to scrubber fluid
+        // Heat exchange from exhaust to scrubber fluid (affected by aging/fouling)
         float delta_t_exhaust = (exhaust_in_temp - fluid_out_temp);
-        float exchange_rate = delta_t_exhaust * scrubber_fan_duty * exhaust_heat_transfer_coeff;
+        float exchange_rate = delta_t_exhaust * scrubber_fan_duty * exhaust_heat_transfer_coeff * aging_factor;
 
         exhaust_out_temp = exhaust_in_temp - exchange_rate;
 
@@ -86,6 +98,7 @@ public:
 
         // For furnace tests, A0 is combustion level, A1 is temperature
         // The runners will need to handle the overlap if they test both at once.
+        analog_pins[4] = (int)(co_level * 10.0); // Map CO level to A4
     }
 };
 

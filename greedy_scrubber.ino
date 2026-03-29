@@ -55,8 +55,8 @@ void write_duty(int pin, float duty) {
 
 float calculate_power() {
   // Calculate the power extracted from the exhaust gases
-  // Assume a constant mass flow rate of 1 kg/s and a specific heat capacity of 1 kJ/kgK
-  float power = (in_temp - out_temp) * 1000.0; // Power in Watts
+  // Consistent formula: deltaT * 1.2
+  float power = (in_temp - out_temp) * 1.2;
   return power;
 }
 
@@ -120,9 +120,8 @@ void read_eeprom() {
 
 void check_convergence() {
   // Check if the iteration has converged to a Lyapunov stability region
-  // A stability region is defined as a set of candidate functions that have the same power output within a tolerance
-  // Convergence is achieved if the current power is within the tolerance of the best power
-  if (abs(power - best_power) < TOLERANCE) {
+  // Convergence is achieved if the current power is high enough and stable
+  if (iteration > 10 && abs(power - best_power) < TOLERANCE && best_power > 10.0) {
     converged = true; // Set convergence flag to true
   }
 }
@@ -196,8 +195,12 @@ void loop() {
     fluid_out_temp = read_temp(FLUID_OUT_TEMP_PIN);
     // Check if the scrubber fluid output temperature is below the maximum
     if (fluid_out_temp < MAX_FLUID_TEMP) {
-      // Generate a random candidate function parameters
-      generate_candidate();
+      // Evaluation phase: Occasionally permute best, or explore new
+      if (random(0, 100) < 30) {
+          generate_candidate();
+      } else {
+          permute_candidate();
+      }
       // Evaluate the current candidate function and update the fan and pump duty cycles
       evaluate_candidate();
       // Write the fan and pump duty cycles to the PWM pins

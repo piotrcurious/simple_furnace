@@ -64,6 +64,11 @@ class FurnaceGUI:
         self.ambient_slider.set(20)
         self.ambient_slider.pack(side="left", fill="x", expand=True, padx=5)
 
+        ttk.Label(self.ctrl_frame, text="Backpressure:").pack(side="left", padx=5)
+        self.bp_slider = ttk.Scale(self.ctrl_frame, from_=0.5, to=3.0, orient="horizontal", command=self.update_params)
+        self.bp_slider.set(1.0)
+        self.bp_slider.pack(side="left", fill="x", expand=True, padx=5)
+
         # Serial Terminal
         self.term_frame = ttk.LabelFrame(self.root, text="Serial Terminal")
         self.term_frame.pack(fill="both", expand=True, padx=10, pady=5)
@@ -157,6 +162,9 @@ class FurnaceGUI:
 
             amb = self.ambient_slider.get()
             self.process.stdin.write(f"ambient {amb}\n")
+
+            bp = self.bp_slider.get()
+            self.process.stdin.write(f"backpressure {bp}\n")
 
             fail = 1 if self.fail_var.get() else 0
             cmd = f"fail 1\n" if fail else f"fix 1\n"

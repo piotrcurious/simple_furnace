@@ -17,20 +17,26 @@ int main() {
     setup();
     FurnaceSimulator sim;
 
-    // Failure scenario: After 5 seconds, exhaust temperature sensor fails
-    // (This matches A1 for the thermistor in some furnace sketches)
-
     Ticker* vTicker = &visualizationTicker;
     if (vTicker == nullptr) vTicker = &dummyTicker;
 
+    std::cout << "=== SCENARIO: STRESS TEST WITH FAILURE ===" << std::endl;
     std::cout << "Time(s) | RPM | Temp(C) | OutFan | Beep | Overload" << std::endl;
     std::cout << "----------------------------------------------------" << std::endl;
 
-    for (int i = 0; i < 100; i++) {
+    for (int i = 0; i < 400; i++) {
         uint32_t now = i * 100; // Step 100ms
 
-        if (i == 50) {
-            std::cout << "[SIM] Triggering sensor failure on pin 1" << std::endl;
+        // Scenario 1: Heavy load (0-5s)
+        if (i < 50) analogWrite(0, 800); // High combustion
+        // Scenario 2: Sudden drop (5-10s)
+        else if (i < 100) analogWrite(0, 200);
+        // Scenario 3: Oscillating Combustion (10-25s)
+        else if (i < 250) analogWrite(0, 500 + 300 * sin(i / 10.0));
+
+        // Failure scenario: Sensor fails (at 30s)
+        if (i == 300) {
+            std::cout << "[SIM] Triggering critical sensor failure on pin 1" << std::endl;
             sim.sensor_fail[1] = true;
         }
 

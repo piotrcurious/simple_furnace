@@ -48,3 +48,11 @@ The system now includes:
 - **Sensor Failure**: Mechanism to test controller robustness against stuck-at-zero or out-of-range sensor readings.
 - **Stability Analysis**: The test runner detects unstable duty cycle oscillations.
 - **Dynamic Scenarios**: Time-varying heat loads to test adaptation of genetic and greedy algorithms.
+
+## Extending the Simulator
+
+To add new physical effects to `mock_arduino/Simulator.h`:
+1. **Define State**: Add new member variables to the `FurnaceSimulator` class.
+2. **Implement Physics**: Update the `update(float dt_s)` method with your equations.
+3. **Map Pins**: Ensure any new "sensor" values are assigned to an entry in `analog_pins[]`.
+4. **Update Runners**: Add logic to the test runners or `interactive_runner.cpp` to manipulate the new state variables via stdin or hardcoded scenarios.
