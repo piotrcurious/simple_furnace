@@ -41,6 +41,15 @@ All scrubber controllers are evaluated against a 50-second dynamic load test.
 ![VT100 Dashboard](docs/images/vt100_grab.png)
 *High-fidelity terminal UI featuring the VT100Visualizer.h library.*
 
+### 5. Genetic Algorithm (Gaming Scrubber)
+The `gaming_scrubber.ino` uses a population-based Genetic Algorithm to evolve optimal control parameters.
+
+![GA Population Dashboard](docs/images/gaming_vt100.png)
+*Real-time population monitoring dashboard for the Genetic Algorithm controller.*
+
+![GA Evolution Graph](docs/images/gaming_graph.png)
+*Evolution of scrubber performance using the Genetic Algorithm.*
+
 ## Installation & Usage
 
 ### Prerequisites

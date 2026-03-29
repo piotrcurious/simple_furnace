@@ -91,7 +91,12 @@ def render_vt100(log_file, output_file):
 
     img.save(output_file)
 
+import sys
+
 if __name__ == "__main__":
     os.makedirs("docs/images", exist_ok=True)
-    if os.path.exists("furnace_vt100.ino.log"):
-        render_vt100("furnace_vt100.ino.log", "docs/images/vt100_grab.png")
+    if len(sys.argv) > 2:
+        render_vt100(sys.argv[1], sys.argv[2])
+    else:
+        if os.path.exists("furnace_vt100.ino.log"):
+            render_vt100("furnace_vt100.ino.log", "docs/images/vt100_grab.png")

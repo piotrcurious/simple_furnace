@@ -73,6 +73,21 @@ def generate_graphs():
         plt.savefig("docs/images/scrubber_graph.png")
         plt.close()
 
+    # Gaming Scrubber graph
+    if os.path.exists("gaming_scrubber.ino.log"):
+        t, tin, tout, fin, fout = parse_scrubber_log("gaming_scrubber.ino.log")
+        plt.figure(figsize=(12, 6))
+        plt.plot(t, tin, 'r-', label="Exhaust In")
+        plt.plot(t, tout, 'g-', label="Exhaust Out")
+        plt.plot(t, fout, 'b--', label="Fluid Out")
+        plt.title("Genetic Algorithm Scrubber Evolution")
+        plt.xlabel("Time (s)")
+        plt.ylabel("Temperature (C)")
+        plt.legend()
+        plt.grid(True)
+        plt.savefig("docs/images/gaming_graph.png", dpi=150)
+        plt.close()
+
     # Comparison Graph
     plt.figure(figsize=(10, 6))
     for f in ["scrubber_optimized.ino.log", "gaming_scrubber.ino.log", "pso_scrubber.ino.log"]:
