@@ -1,0 +1,2042 @@
+=== SCENARIO: EXTENDED EFFICIENCY AND AGING TEST ===
+Time(s) | Tin | Tout | Fin | Fout | Power | FanDuty | PumpDuty
+-------------------------------------------------------------------
+Exhaust in temp: 449.71 C
+Exhaust out temp: 449.71 C
+Fluid in temp: 24.41 C
+Fluid out temp: 49.32 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.01 W
+Lyapunov: 47.32
+Epsilon: 0.01
+
+0.0 | 450.0 | 450.0 | 25.0 | 49.7 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 349.61 C
+Fluid in temp: 25.39 C
+Fluid out temp: 56.15 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 41.68
+Epsilon: 0.01
+
+Exhaust in temp: 447.27 C
+Exhaust out temp: 350.10 C
+Fluid in temp: 25.39 C
+Fluid out temp: 61.52 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 46.97
+Epsilon: 0.01
+
+Exhaust in temp: 442.87 C
+Exhaust out temp: 347.66 C
+Fluid in temp: 24.90 C
+Fluid out temp: 65.92 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 51.21
+Epsilon: 0.01
+
+Exhaust in temp: 437.99 C
+Exhaust out temp: 344.73 C
+Fluid in temp: 25.39 C
+Fluid out temp: 69.82 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 55.08
+Epsilon: 0.00
+
+Exhaust in temp: 430.18 C
+Exhaust out temp: 340.33 C
+Fluid in temp: 25.39 C
+Fluid out temp: 72.27 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 57.73
+Epsilon: 0.00
+
+5.0 | 431.1 | 341.2 | 25.0 | 72.8 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 422.36 C
+Exhaust out temp: 334.96 C
+Fluid in temp: 25.39 C
+Fluid out temp: 74.22 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 59.82
+Epsilon: 0.00
+
+Exhaust in temp: 414.55 C
+Exhaust out temp: 329.10 C
+Fluid in temp: 24.41 C
+Fluid out temp: 77.15 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 62.68
+Epsilon: 0.00
+
+Exhaust in temp: 403.81 C
+Exhaust out temp: 321.78 C
+Fluid in temp: 24.41 C
+Fluid out temp: 78.12 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 63.98
+Epsilon: 0.00
+
+Exhaust in temp: 392.58 C
+Exhaust out temp: 313.96 C
+Fluid in temp: 24.90 C
+Fluid out temp: 78.61 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 64.88
+Epsilon: 0.00
+
+Exhaust in temp: 381.35 C
+Exhaust out temp: 305.18 C
+Fluid in temp: 24.41 C
+Fluid out temp: 78.61 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 65.14
+Epsilon: 0.00
+
+10.0 | 381.5 | 306.1 | 25.0 | 78.8 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 369.63 C
+Exhaust out temp: 296.39 C
+Fluid in temp: 24.41 C
+Fluid out temp: 79.10 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 65.94
+Epsilon: 0.00
+
+Exhaust in temp: 356.45 C
+Exhaust out temp: 288.09 C
+Fluid in temp: 24.41 C
+Fluid out temp: 77.64 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 65.18
+Epsilon: 0.00
+
+Exhaust in temp: 344.73 C
+Exhaust out temp: 277.34 C
+Fluid in temp: 24.90 C
+Fluid out temp: 78.12 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 65.78
+Epsilon: 0.00
+
+Exhaust in temp: 332.52 C
+Exhaust out temp: 268.55 C
+Fluid in temp: 24.41 C
+Fluid out temp: 76.66 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 64.80
+Epsilon: 0.00
+
+Exhaust in temp: 319.82 C
+Exhaust out temp: 259.77 C
+Fluid in temp: 25.39 C
+Fluid out temp: 75.68 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 64.45
+Epsilon: 0.00
+
+15.0 | 320.0 | 259.5 | 25.0 | 76.0 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 307.62 C
+Exhaust out temp: 250.49 C
+Fluid in temp: 25.39 C
+Fluid out temp: 75.20 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 64.36
+Epsilon: 0.00
+
+Exhaust in temp: 297.85 C
+Exhaust out temp: 242.19 C
+Fluid in temp: 25.39 C
+Fluid out temp: 73.24 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 62.73
+Epsilon: 0.00
+
+Exhaust in temp: 287.60 C
+Exhaust out temp: 233.40 C
+Fluid in temp: 24.41 C
+Fluid out temp: 72.75 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 62.38
+Epsilon: 0.00
+
+Exhaust in temp: 278.32 C
+Exhaust out temp: 226.56 C
+Fluid in temp: 24.41 C
+Fluid out temp: 71.29 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 61.33
+Epsilon: 0.00
+
+Exhaust in temp: 270.02 C
+Exhaust out temp: 219.73 C
+Fluid in temp: 25.39 C
+Fluid out temp: 68.85 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 59.34
+Epsilon: 0.00
+
+20.0 | 269.9 | 220.4 | 25.0 | 69.8 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 262.70 C
+Exhaust out temp: 214.36 C
+Fluid in temp: 24.90 C
+Fluid out temp: 68.85 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 59.53
+Epsilon: 0.00
+
+Exhaust in temp: 256.84 C
+Exhaust out temp: 210.94 C
+Fluid in temp: 25.39 C
+Fluid out temp: 66.41 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 57.62
+Epsilon: 0.00
+
+Exhaust in temp: 253.91 C
+Exhaust out temp: 207.52 C
+Fluid in temp: 24.41 C
+Fluid out temp: 66.41 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 57.48
+Epsilon: 0.00
+
+Exhaust in temp: 251.46 C
+Exhaust out temp: 204.59 C
+Fluid in temp: 24.41 C
+Fluid out temp: 64.45 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 55.62
+Epsilon: 0.00
+
+Exhaust in temp: 250.00 C
+Exhaust out temp: 204.10 C
+Fluid in temp: 24.41 C
+Fluid out temp: 63.48 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 54.84
+Epsilon: 0.00
+
+25.0 | 250.0 | 204.0 | 25.0 | 64.4 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 250.49 C
+Exhaust out temp: 204.10 C
+Fluid in temp: 24.41 C
+Fluid out temp: 62.99 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 54.34
+Epsilon: 0.00
+
+Exhaust in temp: 252.44 C
+Exhaust out temp: 205.57 C
+Fluid in temp: 25.39 C
+Fluid out temp: 62.99 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 54.36
+Epsilon: 0.00
+
+Exhaust in temp: 256.84 C
+Exhaust out temp: 208.50 C
+Fluid in temp: 24.41 C
+Fluid out temp: 62.50 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 53.65
+Epsilon: 0.00
+
+Exhaust in temp: 261.23 C
+Exhaust out temp: 211.43 C
+Fluid in temp: 25.39 C
+Fluid out temp: 62.99 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 54.00
+Epsilon: 0.00
+
+Exhaust in temp: 268.07 C
+Exhaust out temp: 217.29 C
+Fluid in temp: 24.41 C
+Fluid out temp: 62.99 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 53.81
+Epsilon: 0.00
+
+30.0 | 267.9 | 216.8 | 25.0 | 62.6 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 275.88 C
+Exhaust out temp: 222.66 C
+Fluid in temp: 24.41 C
+Fluid out temp: 62.99 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 53.52
+Epsilon: 0.00
+
+Exhaust in temp: 284.67 C
+Exhaust out temp: 229.00 C
+Fluid in temp: 25.39 C
+Fluid out temp: 62.99 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 53.30
+Epsilon: 0.00
+
+Exhaust in temp: 294.92 C
+Exhaust out temp: 236.82 C
+Fluid in temp: 24.41 C
+Fluid out temp: 62.99 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 52.93
+Epsilon: 0.00
+
+Exhaust in temp: 305.18 C
+Exhaust out temp: 245.61 C
+Fluid in temp: 24.41 C
+Fluid out temp: 64.45 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 54.10
+Epsilon: 0.00
+
+Exhaust in temp: 317.38 C
+Exhaust out temp: 253.42 C
+Fluid in temp: 24.41 C
+Fluid out temp: 65.43 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 54.47
+Epsilon: 0.00
+
+35.0 | 316.9 | 254.0 | 25.0 | 65.4 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 328.12 C
+Exhaust out temp: 262.70 C
+Fluid in temp: 25.39 C
+Fluid out temp: 66.41 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 55.27
+Epsilon: 0.00
+
+Exhaust in temp: 340.33 C
+Exhaust out temp: 272.95 C
+Fluid in temp: 25.39 C
+Fluid out temp: 67.38 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 55.94
+Epsilon: 0.00
+
+Exhaust in temp: 354.00 C
+Exhaust out temp: 282.71 C
+Fluid in temp: 24.41 C
+Fluid out temp: 68.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 56.29
+Epsilon: 0.00
+
+Exhaust in temp: 365.72 C
+Exhaust out temp: 292.48 C
+Fluid in temp: 24.41 C
+Fluid out temp: 69.82 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 57.40
+Epsilon: 0.00
+
+Exhaust in temp: 377.44 C
+Exhaust out temp: 301.27 C
+Fluid in temp: 24.90 C
+Fluid out temp: 72.27 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 59.34
+Epsilon: 0.00
+
+40.0 | 378.4 | 301.7 | 25.0 | 72.0 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 389.16 C
+Exhaust out temp: 310.55 C
+Fluid in temp: 24.41 C
+Fluid out temp: 73.73 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 60.35
+Epsilon: 0.00
+
+Exhaust in temp: 400.39 C
+Exhaust out temp: 319.82 C
+Fluid in temp: 24.41 C
+Fluid out temp: 74.22 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 60.57
+Epsilon: 0.00
+
+Exhaust in temp: 411.13 C
+Exhaust out temp: 328.12 C
+Fluid in temp: 25.39 C
+Fluid out temp: 77.15 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 63.05
+Epsilon: 0.00
+
+Exhaust in temp: 420.41 C
+Exhaust out temp: 335.45 C
+Fluid in temp: 24.41 C
+Fluid out temp: 78.12 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 63.63
+Epsilon: 0.00
+
+Exhaust in temp: 428.71 C
+Exhaust out temp: 341.31 C
+Fluid in temp: 25.39 C
+Fluid out temp: 79.59 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 64.77
+Epsilon: 0.00
+
+45.0 | 429.1 | 341.7 | 25.0 | 79.8 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 435.55 C
+Exhaust out temp: 347.66 C
+Fluid in temp: 25.39 C
+Fluid out temp: 81.54 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 66.50
+Epsilon: 0.00
+
+Exhaust in temp: 441.89 C
+Exhaust out temp: 351.07 C
+Fluid in temp: 24.41 C
+Fluid out temp: 82.52 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 66.97
+Epsilon: 0.00
+
+Exhaust in temp: 445.80 C
+Exhaust out temp: 355.96 C
+Fluid in temp: 25.39 C
+Fluid out temp: 83.98 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 68.52
+Epsilon: 0.00
+
+Exhaust in temp: 448.24 C
+Exhaust out temp: 357.42 C
+Fluid in temp: 25.39 C
+Fluid out temp: 84.96 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 69.30
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 358.89 C
+Fluid in temp: 24.90 C
+Fluid out temp: 85.94 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 70.16
+Epsilon: 0.00
+
+50.0 | 449.9 | 359.1 | 25.0 | 85.9 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 448.73 C
+Exhaust out temp: 359.38 C
+Fluid in temp: 25.39 C
+Fluid out temp: 86.43 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 70.82
+Epsilon: 0.00
+
+Exhaust in temp: 446.78 C
+Exhaust out temp: 357.42 C
+Fluid in temp: 25.39 C
+Fluid out temp: 87.40 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 71.72
+Epsilon: 0.00
+
+Exhaust in temp: 443.36 C
+Exhaust out temp: 354.49 C
+Fluid in temp: 25.39 C
+Fluid out temp: 87.40 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 71.78
+Epsilon: 0.00
+
+Exhaust in temp: 438.48 C
+Exhaust out temp: 351.56 C
+Fluid in temp: 25.39 C
+Fluid out temp: 87.40 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 72.01
+Epsilon: 0.00
+
+Exhaust in temp: 433.11 C
+Exhaust out temp: 346.68 C
+Fluid in temp: 25.39 C
+Fluid out temp: 87.89 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 72.52
+Epsilon: 0.00
+
+55.0 | 433.0 | 347.1 | 25.0 | 88.1 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 425.29 C
+Exhaust out temp: 340.82 C
+Fluid in temp: 25.39 C
+Fluid out temp: 87.40 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 72.30
+Epsilon: 0.00
+
+Exhaust in temp: 416.99 C
+Exhaust out temp: 334.96 C
+Fluid in temp: 24.41 C
+Fluid out temp: 87.89 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 72.97
+Epsilon: 0.00
+
+Exhaust in temp: 407.23 C
+Exhaust out temp: 327.64 C
+Fluid in temp: 24.41 C
+Fluid out temp: 87.40 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 72.81
+Epsilon: 0.00
+
+Exhaust in temp: 396.00 C
+Exhaust out temp: 318.36 C
+Fluid in temp: 24.90 C
+Fluid out temp: 86.43 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 72.19
+Epsilon: 0.00
+
+Exhaust in temp: 384.77 C
+Exhaust out temp: 310.55 C
+Fluid in temp: 24.90 C
+Fluid out temp: 85.94 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 72.15
+Epsilon: 0.00
+
+60.0 | 384.7 | 310.4 | 25.0 | 85.5 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 372.07 C
+Exhaust out temp: 300.78 C
+Fluid in temp: 25.39 C
+Fluid out temp: 84.47 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 71.19
+Epsilon: 0.00
+
+Exhaust in temp: 360.35 C
+Exhaust out temp: 291.99 C
+Fluid in temp: 24.90 C
+Fluid out temp: 82.52 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 69.71
+Epsilon: 0.00
+
+Exhaust in temp: 347.17 C
+Exhaust out temp: 281.25 C
+Fluid in temp: 25.39 C
+Fluid out temp: 81.54 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 69.14
+Epsilon: 0.00
+
+Exhaust in temp: 334.96 C
+Exhaust out temp: 272.46 C
+Fluid in temp: 24.90 C
+Fluid out temp: 80.57 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 68.61
+Epsilon: 0.00
+
+Exhaust in temp: 322.27 C
+Exhaust out temp: 263.18 C
+Fluid in temp: 24.41 C
+Fluid out temp: 78.61 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 67.19
+Epsilon: 0.00
+
+65.0 | 323.2 | 262.8 | 25.0 | 79.1 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 311.04 C
+Exhaust out temp: 253.91 C
+Fluid in temp: 24.41 C
+Fluid out temp: 76.66 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 65.62
+Epsilon: 0.00
+
+Exhaust in temp: 299.32 C
+Exhaust out temp: 245.12 C
+Fluid in temp: 24.41 C
+Fluid out temp: 75.20 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 64.63
+Epsilon: 0.00
+
+Exhaust in temp: 290.04 C
+Exhaust out temp: 235.84 C
+Fluid in temp: 24.41 C
+Fluid out temp: 74.71 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 64.18
+Epsilon: 0.00
+
+Exhaust in temp: 279.79 C
+Exhaust out temp: 229.49 C
+Fluid in temp: 24.41 C
+Fluid out temp: 73.24 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 63.30
+Epsilon: 0.00
+
+Exhaust in temp: 271.00 C
+Exhaust out temp: 222.17 C
+Fluid in temp: 25.39 C
+Fluid out temp: 70.80 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 61.31
+Epsilon: 0.00
+
+70.0 | 271.9 | 222.3 | 25.0 | 71.3 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 264.65 C
+Exhaust out temp: 216.80 C
+Fluid in temp: 25.39 C
+Fluid out temp: 70.31 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 60.98
+Epsilon: 0.00
+
+Exhaust in temp: 258.30 C
+Exhaust out temp: 210.94 C
+Fluid in temp: 25.39 C
+Fluid out temp: 68.85 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 59.69
+Epsilon: 0.00
+
+Exhaust in temp: 254.39 C
+Exhaust out temp: 207.52 C
+Fluid in temp: 24.90 C
+Fluid out temp: 66.89 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 57.91
+Epsilon: 0.00
+
+Exhaust in temp: 251.46 C
+Exhaust out temp: 206.05 C
+Fluid in temp: 24.41 C
+Fluid out temp: 65.92 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 57.15
+Epsilon: 0.00
+
+Exhaust in temp: 249.51 C
+Exhaust out temp: 204.59 C
+Fluid in temp: 24.41 C
+Fluid out temp: 64.45 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 55.86
+Epsilon: 0.00
+
+75.0 | 250.1 | 204.3 | 25.0 | 65.1 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 249.51 C
+Exhaust out temp: 203.61 C
+Fluid in temp: 24.41 C
+Fluid out temp: 63.96 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 55.29
+Epsilon: 0.00
+
+Exhaust in temp: 252.44 C
+Exhaust out temp: 204.59 C
+Fluid in temp: 25.39 C
+Fluid out temp: 63.96 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 55.14
+Epsilon: 0.00
+
+Exhaust in temp: 255.37 C
+Exhaust out temp: 207.03 C
+Fluid in temp: 24.41 C
+Fluid out temp: 63.48 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 54.55
+Epsilon: 0.00
+
+Exhaust in temp: 260.25 C
+Exhaust out temp: 210.94 C
+Fluid in temp: 24.41 C
+Fluid out temp: 62.01 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 53.09
+Epsilon: 0.00
+
+Exhaust in temp: 265.14 C
+Exhaust out temp: 214.84 C
+Fluid in temp: 24.90 C
+Fluid out temp: 62.50 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 53.46
+Epsilon: 0.00
+
+80.0 | 266.1 | 215.5 | 25.0 | 62.8 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 273.93 C
+Exhaust out temp: 220.70 C
+Fluid in temp: 24.41 C
+Fluid out temp: 62.99 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 53.52
+Epsilon: 0.00
+
+Exhaust in temp: 282.23 C
+Exhaust out temp: 228.03 C
+Fluid in temp: 24.90 C
+Fluid out temp: 62.50 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 52.99
+Epsilon: 0.00
+
+Exhaust in temp: 291.50 C
+Exhaust out temp: 234.86 C
+Fluid in temp: 24.41 C
+Fluid out temp: 63.96 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 54.00
+Epsilon: 0.00
+
+Exhaust in temp: 302.73 C
+Exhaust out temp: 243.16 C
+Fluid in temp: 25.39 C
+Fluid out temp: 63.96 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 53.73
+Epsilon: 0.00
+
+Exhaust in temp: 312.99 C
+Exhaust out temp: 251.95 C
+Fluid in temp: 24.41 C
+Fluid out temp: 64.45 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 53.93
+Epsilon: 0.00
+
+85.0 | 313.8 | 251.7 | 25.0 | 65.3 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 326.17 C
+Exhaust out temp: 260.74 C
+Fluid in temp: 24.41 C
+Fluid out temp: 66.41 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 55.20
+Epsilon: 0.00
+
+Exhaust in temp: 338.38 C
+Exhaust out temp: 270.02 C
+Fluid in temp: 25.39 C
+Fluid out temp: 67.87 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 56.27
+Epsilon: 0.00
+
+Exhaust in temp: 350.10 C
+Exhaust out temp: 280.27 C
+Fluid in temp: 25.39 C
+Fluid out temp: 67.87 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 56.09
+Epsilon: 0.00
+
+Exhaust in temp: 362.79 C
+Exhaust out temp: 289.06 C
+Fluid in temp: 25.39 C
+Fluid out temp: 69.82 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 57.42
+Epsilon: 0.00
+
+Exhaust in temp: 374.51 C
+Exhaust out temp: 298.83 C
+Fluid in temp: 24.90 C
+Fluid out temp: 70.80 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 58.05
+Epsilon: 0.00
+
+90.0 | 375.2 | 299.2 | 25.0 | 71.6 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 387.21 C
+Exhaust out temp: 308.59 C
+Fluid in temp: 25.39 C
+Fluid out temp: 73.24 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 59.98
+Epsilon: 0.00
+
+Exhaust in temp: 397.95 C
+Exhaust out temp: 316.89 C
+Fluid in temp: 24.41 C
+Fluid out temp: 74.71 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 60.96
+Epsilon: 0.00
+
+Exhaust in temp: 409.18 C
+Exhaust out temp: 325.68 C
+Fluid in temp: 24.41 C
+Fluid out temp: 76.17 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 62.01
+Epsilon: 0.00
+
+Exhaust in temp: 418.46 C
+Exhaust out temp: 332.52 C
+Fluid in temp: 24.90 C
+Fluid out temp: 78.12 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 63.55
+Epsilon: 0.00
+
+Exhaust in temp: 427.25 C
+Exhaust out temp: 339.84 C
+Fluid in temp: 25.39 C
+Fluid out temp: 79.59 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 64.77
+Epsilon: 0.00
+
+95.0 | 427.0 | 340.1 | 25.0 | 79.4 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 434.57 C
+Exhaust out temp: 346.19 C
+Fluid in temp: 24.90 C
+Fluid out temp: 80.57 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 65.51
+Epsilon: 0.00
+
+Exhaust in temp: 439.45 C
+Exhaust out temp: 351.07 C
+Fluid in temp: 25.39 C
+Fluid out temp: 82.52 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 67.34
+Epsilon: 0.00
+
+Exhaust in temp: 444.82 C
+Exhaust out temp: 354.49 C
+Fluid in temp: 25.39 C
+Fluid out temp: 83.50 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 68.01
+Epsilon: 0.00
+
+Exhaust in temp: 447.75 C
+Exhaust out temp: 356.93 C
+Fluid in temp: 25.39 C
+Fluid out temp: 84.47 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 68.85
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 358.89 C
+Fluid in temp: 24.41 C
+Fluid out temp: 85.45 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 69.61
+Epsilon: 0.00
+
+100.0 | 450.0 | 359.0 | 25.0 | 85.7 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 359.86 C
+Fluid in temp: 24.41 C
+Fluid out temp: 85.94 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 70.23
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 361.33 C
+Fluid in temp: 25.39 C
+Fluid out temp: 86.91 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.15 W
+Lyapunov: 71.39
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 363.28 C
+Fluid in temp: 24.41 C
+Fluid out temp: 86.43 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 71.04
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 364.75 C
+Fluid in temp: 24.90 C
+Fluid out temp: 86.43 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 71.37
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 366.21 C
+Fluid in temp: 24.41 C
+Fluid out temp: 86.43 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 71.39
+Epsilon: 0.00
+
+105.0 | 450.0 | 366.4 | 25.0 | 87.2 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 450.20 C
+Exhaust out temp: 367.68 C
+Fluid in temp: 24.90 C
+Fluid out temp: 86.43 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 71.60
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 368.65 C
+Fluid in temp: 24.41 C
+Fluid out temp: 86.91 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.14 W
+Lyapunov: 72.19
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 370.61 C
+Fluid in temp: 25.39 C
+Fluid out temp: 85.94 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 71.66
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 371.09 C
+Fluid in temp: 24.90 C
+Fluid out temp: 85.94 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 71.56
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 373.05 C
+Fluid in temp: 25.39 C
+Fluid out temp: 85.45 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 71.39
+Epsilon: 0.00
+
+110.0 | 450.0 | 372.9 | 25.0 | 85.3 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 373.54 C
+Fluid in temp: 25.39 C
+Fluid out temp: 84.96 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 71.05
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 375.00 C
+Fluid in temp: 25.39 C
+Fluid out temp: 84.47 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 70.78
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 375.98 C
+Fluid in temp: 24.90 C
+Fluid out temp: 82.52 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.13 W
+Lyapunov: 69.00
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 376.95 C
+Fluid in temp: 24.90 C
+Fluid out temp: 83.01 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 69.57
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 379.39 C
+Fluid in temp: 24.90 C
+Fluid out temp: 81.05 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 68.07
+Epsilon: 0.00
+
+115.0 | 450.0 | 379.1 | 25.0 | 82.0 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 380.37 C
+Fluid in temp: 24.41 C
+Fluid out temp: 80.57 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 67.75
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 381.84 C
+Fluid in temp: 24.90 C
+Fluid out temp: 80.08 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.12 W
+Lyapunov: 67.52
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 382.32 C
+Fluid in temp: 25.39 C
+Fluid out temp: 80.08 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 67.62
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 384.28 C
+Fluid in temp: 24.41 C
+Fluid out temp: 78.12 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 66.04
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 384.77 C
+Fluid in temp: 24.41 C
+Fluid out temp: 78.12 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 65.98
+Epsilon: 0.00
+
+120.0 | 450.0 | 385.3 | 25.0 | 78.0 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 386.23 C
+Fluid in temp: 24.90 C
+Fluid out temp: 77.64 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 65.80
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 387.21 C
+Fluid in temp: 24.90 C
+Fluid out temp: 76.17 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.11 W
+Lyapunov: 64.51
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 388.18 C
+Fluid in temp: 24.41 C
+Fluid out temp: 75.20 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 63.81
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 389.65 C
+Fluid in temp: 25.39 C
+Fluid out temp: 74.71 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 63.61
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 390.62 C
+Fluid in temp: 24.41 C
+Fluid out temp: 73.73 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 62.70
+Epsilon: 0.00
+
+125.0 | 450.0 | 391.6 | 25.0 | 73.7 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.22 C
+Exhaust out temp: 392.09 C
+Fluid in temp: 25.39 C
+Fluid out temp: 73.24 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 62.56
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 393.55 C
+Fluid in temp: 24.41 C
+Fluid out temp: 72.27 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.10 W
+Lyapunov: 61.76
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 394.53 C
+Fluid in temp: 25.39 C
+Fluid out temp: 71.29 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 60.94
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 396.00 C
+Fluid in temp: 25.39 C
+Fluid out temp: 70.31 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 60.21
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 397.95 C
+Fluid in temp: 24.41 C
+Fluid out temp: 68.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 58.63
+Epsilon: 0.00
+
+130.0 | 450.0 | 398.0 | 25.0 | 69.2 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.22 C
+Exhaust out temp: 398.44 C
+Fluid in temp: 24.90 C
+Fluid out temp: 67.87 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.09 W
+Lyapunov: 58.34
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 400.39 C
+Fluid in temp: 25.39 C
+Fluid out temp: 67.38 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 58.16
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 401.37 C
+Fluid in temp: 24.90 C
+Fluid out temp: 65.92 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 56.89
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 402.83 C
+Fluid in temp: 24.41 C
+Fluid out temp: 65.92 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 57.03
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 404.30 C
+Fluid in temp: 24.41 C
+Fluid out temp: 64.45 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.08 W
+Lyapunov: 55.74
+Epsilon: 0.00
+
+135.0 | 450.0 | 404.5 | 25.0 | 64.5 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 405.27 C
+Fluid in temp: 24.41 C
+Fluid out temp: 63.96 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.07 W
+Lyapunov: 55.47
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 406.74 C
+Fluid in temp: 24.90 C
+Fluid out temp: 62.01 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.07 W
+Lyapunov: 53.89
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 408.20 C
+Fluid in temp: 25.39 C
+Fluid out temp: 61.04 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.07 W
+Lyapunov: 53.14
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 409.67 C
+Fluid in temp: 25.39 C
+Fluid out temp: 60.06 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.07 W
+Lyapunov: 52.54
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 411.62 C
+Fluid in temp: 24.41 C
+Fluid out temp: 60.06 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.06 W
+Lyapunov: 52.58
+Epsilon: 0.00
+
+140.0 | 450.0 | 411.2 | 25.0 | 59.7 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 411.62 C
+Fluid in temp: 25.39 C
+Fluid out temp: 58.59 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.06 W
+Lyapunov: 51.37
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 414.06 C
+Fluid in temp: 25.39 C
+Fluid out temp: 58.11 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.06 W
+Lyapunov: 51.21
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 414.55 C
+Fluid in temp: 24.41 C
+Fluid out temp: 56.64 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.06 W
+Lyapunov: 49.90
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 416.02 C
+Fluid in temp: 24.90 C
+Fluid out temp: 56.15 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.06 W
+Lyapunov: 49.55
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 417.97 C
+Fluid in temp: 24.90 C
+Fluid out temp: 54.69 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 48.44
+Epsilon: 0.00
+
+145.0 | 450.0 | 418.1 | 25.0 | 54.8 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.90 C
+Fluid out temp: 54.20 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 48.34
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.90 C
+Fluid out temp: 53.22 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 47.32
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.90 C
+Fluid out temp: 52.25 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 46.48
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 24.41 C
+Fluid out temp: 50.78 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 45.10
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 420.41 C
+Fluid in temp: 25.39 C
+Fluid out temp: 50.78 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 45.18
+Epsilon: 0.00
+
+150.0 | 450.0 | 420.2 | 25.0 | 50.7 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 450.20 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 25.39 C
+Fluid out temp: 50.29 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 44.61
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 24.90 C
+Fluid out temp: 49.32 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 43.73
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 420.41 C
+Fluid in temp: 24.41 C
+Fluid out temp: 48.83 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 43.36
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 24.41 C
+Fluid out temp: 48.83 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 43.30
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 25.39 C
+Fluid out temp: 48.34 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 42.93
+Epsilon: 0.00
+
+155.0 | 450.0 | 420.0 | 25.0 | 48.7 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 420.41 C
+Fluid in temp: 24.41 C
+Fluid out temp: 48.83 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 43.36
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.90 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.99
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.41 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.95
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 420.41 C
+Fluid in temp: 24.90 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 42.05
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.90 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.60
+Epsilon: 0.00
+
+160.0 | 450.0 | 420.0 | 25.0 | 47.8 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.41 C
+Fluid out temp: 47.85 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 42.40
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.41 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.95
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 420.41 C
+Fluid in temp: 24.90 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 42.11
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 420.41 C
+Fluid in temp: 24.41 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 42.01
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.90 C
+Fluid out temp: 47.85 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 42.50
+Epsilon: 0.00
+
+165.0 | 450.0 | 419.9 | 25.0 | 47.4 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 24.90 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.93
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.90 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.99
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.58
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 24.41 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 40.94
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 24.90 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.88
+Epsilon: 0.00
+
+170.0 | 450.0 | 419.9 | 25.0 | 47.2 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 450.20 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.46
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.41 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.50
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.19
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 25.39 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.91
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 24.90 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 41.37
+Epsilon: 0.00
+
+175.0 | 450.0 | 419.9 | 25.0 | 47.1 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 450.20 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.41 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.00
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 25.39 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.97
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 24.90 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.93
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.64
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.07
+Epsilon: 0.00
+
+180.0 | 450.0 | 419.9 | 25.0 | 47.0 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.02
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.13
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.19
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.52
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 40.96
+Epsilon: 0.00
+
+185.0 | 450.0 | 419.9 | 25.0 | 47.0 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.22 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 25.39 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.97
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 25.39 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.91
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.07
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.02
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.90 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.54
+Epsilon: 0.00
+
+190.0 | 450.0 | 419.9 | 25.0 | 47.0 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.22 C
+Exhaust out temp: 419.43 C
+Fluid in temp: 24.90 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.09
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 25.39 C
+Fluid out temp: 47.36 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 42.03
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.41 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.45
+Epsilon: 0.00
+
+Exhaust in temp: 450.20 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 24.41 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.05 W
+Lyapunov: 40.88
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 24.41 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.45
+Epsilon: 0.00
+
+195.0 | 450.0 | 419.9 | 25.0 | 47.0 | 0.0 | 0.0 | 0.0
+Exhaust in temp: 449.71 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.02
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 419.92 C
+Fluid in temp: 24.90 C
+Fluid out temp: 46.39 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.09
+Epsilon: 0.00
+
+Exhaust in temp: 449.22 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 24.90 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.48
+Epsilon: 0.00
+
+Exhaust in temp: 449.71 C
+Exhaust out temp: 418.95 C
+Fluid in temp: 25.39 C
+Fluid out temp: 46.88 C
+Fan speed: 50 %
+Pump speed: 50 %
+Heat extraction: 0.04 W
+Lyapunov: 41.46
+Epsilon: 0.00

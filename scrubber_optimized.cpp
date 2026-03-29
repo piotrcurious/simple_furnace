@@ -1,6 +1,12 @@
+#include "Arduino.h"
+#include "Ticker.h"
+#include "SmoothThermistor.h"
+#include "VT100.h"
+#include "avr/wdt.h"
+#include "EEPROM.h"
 // Define the pins for the sensors and actuators
-//It is best to use several scrubbers running in parallel 
-//each having own greedy control algorithm, so they exchange hidden layers by lyapunov controllers. 
+//It is best to use several scrubbers running in parallel
+//each having own greedy control algorithm, so they exchange hidden layers by lyapunov controllers.
 
 
 

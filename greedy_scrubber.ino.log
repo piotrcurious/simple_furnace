@@ -1,0 +1,1136 @@
+Iteration: 0
+Input exhaust temperature: 0.00
+Output exhaust temperature: 0.00
+Scrubber fluid input temperature: 0.00
+Scrubber fluid output temperature: 0.00
+Fan duty cycle: 0.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 0.00
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+=== SCENARIO: EXTENDED EFFICIENCY AND AGING TEST ===
+Time(s) | Tin | Tout | Fin | Fout | Power | FanDuty | PumpDuty
+-------------------------------------------------------------------
+Iteration: 1
+Input exhaust temperature: 449.71
+Output exhaust temperature: 449.71
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 49.32
+Fan duty cycle: 100.00
+Pump duty cycle: 74.38
+Power: 0.00
+Best power: 0.00
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+0.0 | 450.0 | 450.0 | 25.0 | 49.7 | 0.0 | 100.0 | 74.4
+Iteration: 2
+Input exhaust temperature: 449.71
+Output exhaust temperature: 249.02
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 64.45
+Fan duty cycle: 100.00
+Pump duty cycle: 100.00
+Power: 240.82
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 3
+Input exhaust temperature: 447.27
+Output exhaust temperature: 255.86
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 72.75
+Fan duty cycle: 0.00
+Pump duty cycle: 0.00
+Power: 229.69
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 4
+Input exhaust temperature: 443.36
+Output exhaust temperature: 442.38
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 72.27
+Fan duty cycle: 0.00
+Pump duty cycle: 0.00
+Power: 1.17
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 5
+Input exhaust temperature: 437.01
+Output exhaust temperature: 437.01
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 72.75
+Fan duty cycle: 100.00
+Pump duty cycle: 100.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 6
+Input exhaust temperature: 431.15
+Output exhaust temperature: 251.46
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 78.12
+Fan duty cycle: 0.00
+Pump duty cycle: 0.00
+Power: 215.62
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+5.0 | 431.1 | 251.8 | 25.0 | 78.0 | 215.6 | 0.0 | 0.0
+Iteration: 7
+Input exhaust temperature: 422.36
+Output exhaust temperature: 422.36
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 76.66
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 8
+Input exhaust temperature: 413.57
+Output exhaust temperature: 245.12
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 92.77
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 9
+Input exhaust temperature: 404.30
+Output exhaust temperature: 248.05
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 108.89
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 10
+Input exhaust temperature: 392.58
+Output exhaust temperature: 250.98
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 121.09
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 11
+Input exhaust temperature: 380.86
+Output exhaust temperature: 251.95
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 132.81
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+10.0 | 381.5 | 251.7 | 25.0 | 133.8 | 0.0 | 100.0 | 0.0
+Iteration: 12
+Input exhaust temperature: 368.65
+Output exhaust temperature: 251.95
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 144.04
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 13
+Input exhaust temperature: 356.45
+Output exhaust temperature: 250.00
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 152.83
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 14
+Input exhaust temperature: 344.24
+Output exhaust temperature: 249.02
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 161.13
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 15
+Input exhaust temperature: 331.54
+Output exhaust temperature: 247.56
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 168.95
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 16
+Input exhaust temperature: 320.31
+Output exhaust temperature: 244.14
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 174.32
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+15.0 | 320.0 | 244.6 | 25.0 | 175.2 | 0.0 | 100.0 | 0.0
+Iteration: 17
+Input exhaust temperature: 308.59
+Output exhaust temperature: 242.19
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 179.69
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 18
+Input exhaust temperature: 297.36
+Output exhaust temperature: 239.26
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 184.57
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 19
+Input exhaust temperature: 287.60
+Output exhaust temperature: 235.84
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 188.48
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 20
+Input exhaust temperature: 277.83
+Output exhaust temperature: 233.40
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 189.94
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 21
+Input exhaust temperature: 269.04
+Output exhaust temperature: 229.98
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 193.36
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+20.0 | 269.9 | 230.4 | 25.0 | 193.1 | 0.0 | 100.0 | 0.0
+Iteration: 22
+Input exhaust temperature: 262.21
+Output exhaust temperature: 228.52
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 194.82
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 23
+Input exhaust temperature: 256.84
+Output exhaust temperature: 226.07
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 195.31
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 24
+Input exhaust temperature: 252.93
+Output exhaust temperature: 225.10
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 197.75
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 25
+Input exhaust temperature: 251.46
+Output exhaust temperature: 224.61
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 197.27
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 26
+Input exhaust temperature: 250.49
+Output exhaust temperature: 224.61
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 199.22
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+25.0 | 250.0 | 224.1 | 25.0 | 199.0 | 0.0 | 100.0 | 0.0
+Iteration: 27
+Input exhaust temperature: 250.00
+Output exhaust temperature: 224.12
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 200.20
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 28
+Input exhaust temperature: 252.44
+Output exhaust temperature: 225.59
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 200.68
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 29
+Input exhaust temperature: 256.84
+Output exhaust temperature: 228.03
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 200.68
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 30
+Input exhaust temperature: 261.23
+Output exhaust temperature: 231.93
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 202.64
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 31
+Input exhaust temperature: 268.07
+Output exhaust temperature: 235.84
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 204.59
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+30.0 | 267.9 | 235.4 | 25.0 | 204.3 | 0.0 | 100.0 | 0.0
+Iteration: 32
+Input exhaust temperature: 275.39
+Output exhaust temperature: 239.75
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 205.57
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 33
+Input exhaust temperature: 283.69
+Output exhaust temperature: 245.12
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 208.50
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 34
+Input exhaust temperature: 293.95
+Output exhaust temperature: 250.49
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 210.45
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 35
+Input exhaust temperature: 304.69
+Output exhaust temperature: 257.81
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 213.38
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 36
+Input exhaust temperature: 317.38
+Output exhaust temperature: 264.65
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 216.80
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+35.0 | 316.9 | 265.1 | 25.0 | 216.6 | 0.0 | 100.0 | 0.0
+Iteration: 37
+Input exhaust temperature: 328.12
+Output exhaust temperature: 272.46
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 220.21
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 38
+Input exhaust temperature: 341.31
+Output exhaust temperature: 280.27
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 224.12
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 39
+Input exhaust temperature: 354.00
+Output exhaust temperature: 289.06
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 228.03
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 40
+Input exhaust temperature: 365.23
+Output exhaust temperature: 296.88
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 233.40
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 41
+Input exhaust temperature: 377.93
+Output exhaust temperature: 305.66
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 238.77
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+40.0 | 378.4 | 305.9 | 25.0 | 238.6 | 0.0 | 100.0 | 0.0
+Iteration: 42
+Input exhaust temperature: 390.14
+Output exhaust temperature: 313.96
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 243.65
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 43
+Input exhaust temperature: 400.39
+Output exhaust temperature: 321.78
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 249.02
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 44
+Input exhaust temperature: 411.62
+Output exhaust temperature: 330.08
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 254.88
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 45
+Input exhaust temperature: 419.92
+Output exhaust temperature: 338.38
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 261.72
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 46
+Input exhaust temperature: 428.71
+Output exhaust temperature: 345.70
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 266.60
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+45.0 | 429.1 | 345.2 | 25.0 | 267.3 | 0.0 | 100.0 | 0.0
+Iteration: 47
+Input exhaust temperature: 436.52
+Output exhaust temperature: 352.05
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 272.95
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 48
+Input exhaust temperature: 440.92
+Output exhaust temperature: 357.91
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 279.30
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 49
+Input exhaust temperature: 445.80
+Output exhaust temperature: 361.82
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 284.67
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 50
+Input exhaust temperature: 449.22
+Output exhaust temperature: 367.19
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 289.55
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 51
+Input exhaust temperature: 450.20
+Output exhaust temperature: 369.63
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 295.90
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+50.0 | 449.9 | 370.2 | 25.0 | 295.7 | 0.0 | 100.0 | 0.0
+Iteration: 52
+Input exhaust temperature: 449.22
+Output exhaust temperature: 372.56
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 300.29
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 53
+Input exhaust temperature: 446.78
+Output exhaust temperature: 374.02
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 304.69
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 54
+Input exhaust temperature: 443.85
+Output exhaust temperature: 375.00
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 309.57
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 55
+Input exhaust temperature: 438.96
+Output exhaust temperature: 373.54
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 312.99
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 56
+Input exhaust temperature: 433.11
+Output exhaust temperature: 372.56
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 316.41
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+55.0 | 433.0 | 373.0 | 25.0 | 316.0 | 0.0 | 100.0 | 0.0
+Iteration: 57
+Input exhaust temperature: 425.78
+Output exhaust temperature: 370.12
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 318.85
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 58
+Input exhaust temperature: 416.02
+Output exhaust temperature: 366.70
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 320.80
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 59
+Input exhaust temperature: 406.25
+Output exhaust temperature: 363.28
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 321.78
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 60
+Input exhaust temperature: 395.51
+Output exhaust temperature: 359.38
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 322.27
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 61
+Input exhaust temperature: 384.28
+Output exhaust temperature: 354.00
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 321.78
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+60.0 | 384.7 | 353.5 | 25.0 | 322.5 | 0.0 | 100.0 | 0.0
+Iteration: 62
+Input exhaust temperature: 372.56
+Output exhaust temperature: 347.66
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 321.78
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 63
+Input exhaust temperature: 359.86
+Output exhaust temperature: 340.33
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 320.31
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 64
+Input exhaust temperature: 348.14
+Output exhaust temperature: 333.98
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 319.34
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 65
+Input exhaust temperature: 335.94
+Output exhaust temperature: 326.66
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 317.38
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 66
+Input exhaust temperature: 322.27
+Output exhaust temperature: 319.34
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 313.96
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+65.0 | 323.2 | 320.1 | 25.0 | 314.4 | 0.0 | 100.0 | 0.0
+Iteration: 67
+Input exhaust temperature: 310.55
+Output exhaust temperature: 312.01
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 310.55
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 68
+Input exhaust temperature: 300.29
+Output exhaust temperature: 306.15
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 307.62
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 69
+Input exhaust temperature: 289.06
+Output exhaust temperature: 297.85
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 304.20
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 70
+Input exhaust temperature: 279.79
+Output exhaust temperature: 292.48
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 299.32
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 71
+Input exhaust temperature: 271.48
+Output exhaust temperature: 285.16
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 295.41
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+70.0 | 271.9 | 286.0 | 25.0 | 295.8 | 0.0 | 100.0 | 0.0
+Iteration: 72
+Input exhaust temperature: 265.14
+Output exhaust temperature: 280.27
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 291.99
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 73
+Input exhaust temperature: 258.79
+Output exhaust temperature: 274.90
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 287.60
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 74
+Input exhaust temperature: 254.88
+Output exhaust temperature: 270.02
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 283.20
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 75
+Input exhaust temperature: 250.98
+Output exhaust temperature: 267.09
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 278.32
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 76
+Input exhaust temperature: 250.00
+Output exhaust temperature: 264.65
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 274.41
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+75.0 | 250.1 | 264.4 | 25.0 | 274.7 | 0.0 | 100.0 | 0.0
+Iteration: 77
+Input exhaust temperature: 249.51
+Output exhaust temperature: 262.70
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 270.02
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 78
+Input exhaust temperature: 252.44
+Output exhaust temperature: 261.72
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 266.60
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 79
+Input exhaust temperature: 255.37
+Output exhaust temperature: 261.23
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 264.65
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 80
+Input exhaust temperature: 260.25
+Output exhaust temperature: 262.21
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 261.72
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 81
+Input exhaust temperature: 265.14
+Output exhaust temperature: 264.16
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 258.79
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+80.0 | 266.1 | 263.9 | 25.0 | 259.5 | 0.0 | 100.0 | 0.0
+Iteration: 82
+Input exhaust temperature: 272.95
+Output exhaust temperature: 266.11
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 257.32
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 83
+Input exhaust temperature: 282.23
+Output exhaust temperature: 269.53
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 256.84
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 84
+Input exhaust temperature: 291.02
+Output exhaust temperature: 274.41
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 255.86
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 85
+Input exhaust temperature: 302.25
+Output exhaust temperature: 278.81
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 255.86
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 86
+Input exhaust temperature: 313.48
+Output exhaust temperature: 284.67
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 256.35
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+85.0 | 313.8 | 284.9 | 25.0 | 256.5 | 0.0 | 100.0 | 0.0
+Iteration: 87
+Input exhaust temperature: 326.17
+Output exhaust temperature: 291.02
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 257.81
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 88
+Input exhaust temperature: 337.40
+Output exhaust temperature: 296.88
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 258.79
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 89
+Input exhaust temperature: 350.10
+Output exhaust temperature: 305.18
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 261.23
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 90
+Input exhaust temperature: 362.30
+Output exhaust temperature: 311.52
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 263.67
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 91
+Input exhaust temperature: 375.00
+Output exhaust temperature: 318.85
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 266.60
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+90.0 | 375.2 | 319.6 | 25.0 | 267.2 | 0.0 | 100.0 | 0.0
+Iteration: 92
+Input exhaust temperature: 386.23
+Output exhaust temperature: 326.17
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 271.00
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 93
+Input exhaust temperature: 397.46
+Output exhaust temperature: 334.47
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 274.90
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 94
+Input exhaust temperature: 408.20
+Output exhaust temperature: 340.82
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 277.83
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 95
+Input exhaust temperature: 418.95
+Output exhaust temperature: 347.66
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 282.23
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 96
+Input exhaust temperature: 426.27
+Output exhaust temperature: 355.47
+Scrubber fluid input temperature: 25.39
+Scrubber fluid output temperature: 287.60
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+95.0 | 427.0 | 355.1 | 25.0 | 287.7 | 0.0 | 100.0 | 0.0
+Iteration: 97
+Input exhaust temperature: 434.08
+Output exhaust temperature: 360.84
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 292.48
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 98
+Input exhaust temperature: 440.43
+Output exhaust temperature: 366.21
+Scrubber fluid input temperature: 24.41
+Scrubber fluid output temperature: 296.39
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 99
+Input exhaust temperature: 445.31
+Output exhaust temperature: 370.61
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 301.76
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+Iteration: 100
+Input exhaust temperature: 447.27
+Output exhaust temperature: 374.02
+Scrubber fluid input temperature: 24.90
+Scrubber fluid output temperature: 305.66
+Fan duty cycle: 100.00
+Pump duty cycle: 0.00
+Power: 0.00
+Best power: 240.82
+Best candidate function parameters: 227 70 124 194 84 248
+Converged: 0
+The loop has stopped.
+100.0 | 450.0 | 378.1 | 25.0 | 310.5 | 0.0 | 100.0 | 0.0

@@ -1,0 +1,243 @@
+=== SCENARIO: EXTENDED EFFICIENCY AND AGING TEST ===
+Time(s) | Tin | Tout | Fin | Fout | Power | FanDuty | PumpDuty
+-------------------------------------------------------------------
+PSO Power: 0.59
+0.0 | 450.0 | 450.0 | 25.0 | 49.7 | 0.6 | 49.0 | 21.0
+PSO Power: 117.77
+PSO Power: 113.67
+PSO Power: 108.98
+PSO Power: 106.64
+PSO Power: 102.54
+5.0 | 431.1 | 345.2 | 25.0 | 83.1 | 102.5 | 49.0 | 21.0
+PSO Power: 99.61
+PSO Power: 94.92
+PSO Power: 91.41
+PSO Power: 87.30
+PSO Power: 82.03
+10.0 | 381.5 | 312.6 | 25.0 | 100.3 | 82.0 | 49.0 | 21.0
+PSO Power: 77.93
+PSO Power: 75.59
+PSO Power: 70.90
+PSO Power: 65.62
+PSO Power: 63.28
+15.0 | 320.0 | 267.8 | 25.0 | 105.2 | 63.3 | 49.0 | 21.0
+PSO Power: 58.59
+PSO Power: 57.42
+PSO Power: 54.49
+PSO Power: 50.98
+PSO Power: 49.80
+20.0 | 269.9 | 229.4 | 25.0 | 102.6 | 49.8 | 49.0 | 21.0
+PSO Power: 46.29
+PSO Power: 46.29
+PSO Power: 44.53
+PSO Power: 44.53
+PSO Power: 43.95
+25.0 | 250.0 | 213.2 | 25.0 | 97.7 | 43.9 | 49.0 | 21.0
+PSO Power: 44.53
+PSO Power: 45.70
+PSO Power: 47.46
+PSO Power: 48.63
+PSO Power: 50.98
+30.0 | 267.9 | 225.9 | 25.0 | 95.0 | 51.0 | 49.0 | 21.0
+PSO Power: 52.73
+PSO Power: 55.66
+PSO Power: 58.01
+PSO Power: 60.94
+PSO Power: 65.04
+35.0 | 316.9 | 263.3 | 25.0 | 97.2 | 65.0 | 49.0 | 21.0
+PSO Power: 66.21
+PSO Power: 71.48
+PSO Power: 75.59
+PSO Power: 77.34
+PSO Power: 80.27
+40.0 | 378.4 | 311.4 | 25.0 | 104.7 | 80.3 | 49.0 | 21.0
+PSO Power: 83.79
+PSO Power: 87.30
+PSO Power: 88.48
+PSO Power: 90.23
+PSO Power: 92.58
+45.0 | 429.1 | 352.2 | 25.0 | 115.2 | 92.6 | 49.0 | 21.0
+PSO Power: 93.75
+PSO Power: 93.16
+PSO Power: 95.51
+PSO Power: 95.51
+PSO Power: 94.92
+50.0 | 449.9 | 370.6 | 25.0 | 125.2 | 94.9 | 49.0 | 21.0
+PSO Power: 94.34
+PSO Power: 92.58
+PSO Power: 91.41
+PSO Power: 91.41
+PSO Power: 87.89
+55.0 | 433.0 | 359.4 | 25.0 | 131.3 | 87.9 | 49.0 | 21.0
+PSO Power: 85.55
+PSO Power: 82.62
+PSO Power: 80.27
+PSO Power: 78.52
+PSO Power: 72.66
+60.0 | 384.7 | 323.2 | 25.0 | 131.3 | 72.7 | 49.0 | 21.0
+PSO Power: 69.73
+PSO Power: 66.80
+PSO Power: 64.45
+PSO Power: 60.35
+PSO Power: 56.25
+65.0 | 323.2 | 275.5 | 25.0 | 125.3 | 56.2 | 49.0 | 21.0
+PSO Power: 55.08
+PSO Power: 52.15
+PSO Power: 49.22
+PSO Power: 47.46
+PSO Power: 43.36
+70.0 | 271.9 | 234.4 | 25.0 | 115.7 | 43.4 | 49.0 | 21.0
+PSO Power: 42.77
+PSO Power: 43.95
+PSO Power: 42.19
+PSO Power: 42.19
+PSO Power: 42.77
+75.0 | 250.1 | 215.5 | 25.0 | 106.1 | 42.8 | 49.0 | 21.0
+PSO Power: 42.77
+PSO Power: 42.77
+PSO Power: 45.12
+PSO Power: 46.88
+PSO Power: 48.05
+80.0 | 266.1 | 225.9 | 25.0 | 100.2 | 48.0 | 49.0 | 21.0
+PSO Power: 51.56
+PSO Power: 52.73
+PSO Power: 55.66
+PSO Power: 59.77
+PSO Power: 60.94
+85.0 | 313.8 | 261.7 | 25.0 | 100.3 | 60.9 | 49.0 | 21.0
+PSO Power: 66.80
+PSO Power: 69.73
+PSO Power: 70.90
+PSO Power: 75.00
+PSO Power: 79.69
+90.0 | 375.2 | 309.4 | 25.0 | 106.3 | 79.7 | 49.0 | 21.0
+PSO Power: 82.62
+PSO Power: 84.96
+PSO Power: 88.48
+PSO Power: 89.65
+PSO Power: 92.58
+95.0 | 427.0 | 350.9 | 25.0 | 115.9 | 92.6 | 49.0 | 21.0
+PSO Power: 92.58
+PSO Power: 94.34
+PSO Power: 94.34
+PSO Power: 95.51
+PSO Power: 94.92
+100.0 | 450.0 | 370.7 | 25.0 | 125.6 | 94.9 | 49.0 | 21.0
+PSO Power: 93.75
+PSO Power: 91.41
+PSO Power: 89.65
+PSO Power: 87.30
+PSO Power: 85.55
+105.0 | 450.0 | 378.1 | 25.0 | 130.8 | 85.5 | 49.0 | 21.0
+PSO Power: 84.96
+PSO Power: 83.79
+PSO Power: 82.03
+PSO Power: 79.10
+PSO Power: 79.10
+110.0 | 450.0 | 384.2 | 25.0 | 131.7 | 79.1 | 49.0 | 21.0
+PSO Power: 76.17
+PSO Power: 76.76
+PSO Power: 76.17
+PSO Power: 73.83
+PSO Power: 72.07
+115.0 | 450.0 | 389.8 | 25.0 | 129.8 | 72.1 | 49.0 | 21.0
+PSO Power: 69.73
+PSO Power: 69.14
+PSO Power: 69.73
+PSO Power: 68.55
+PSO Power: 66.80
+120.0 | 450.0 | 395.0 | 25.0 | 126.0 | 66.8 | 49.0 | 21.0
+PSO Power: 64.45
+PSO Power: 62.70
+PSO Power: 62.11
+PSO Power: 61.52
+PSO Power: 59.77
+125.0 | 450.0 | 400.2 | 25.0 | 121.0 | 59.8 | 49.0 | 21.0
+PSO Power: 59.18
+PSO Power: 57.42
+PSO Power: 57.42
+PSO Power: 54.49
+PSO Power: 53.32
+130.0 | 450.0 | 405.4 | 25.0 | 115.1 | 53.3 | 49.0 | 21.0
+PSO Power: 51.56
+PSO Power: 50.39
+PSO Power: 50.39
+PSO Power: 49.22
+PSO Power: 48.05
+135.0 | 450.0 | 410.7 | 25.0 | 108.5 | 48.0 | 49.0 | 21.0
+PSO Power: 46.29
+PSO Power: 45.12
+PSO Power: 43.36
+PSO Power: 41.02
+PSO Power: 41.02
+140.0 | 450.0 | 416.2 | 25.0 | 101.2 | 41.0 | 49.0 | 21.0
+PSO Power: 39.26
+PSO Power: 38.67
+PSO Power: 35.74
+PSO Power: 33.98
+PSO Power: 32.81
+145.0 | 450.0 | 422.0 | 25.0 | 93.5 | 32.8 | 49.0 | 21.0
+PSO Power: 32.23
+PSO Power: 30.47
+PSO Power: 31.64
+PSO Power: 31.64
+PSO Power: 31.64
+150.0 | 450.0 | 423.6 | 25.0 | 86.2 | 31.6 | 49.0 | 21.0
+PSO Power: 32.23
+PSO Power: 32.81
+PSO Power: 31.64
+PSO Power: 32.23
+PSO Power: 33.40
+155.0 | 450.0 | 423.2 | 25.0 | 81.0 | 33.4 | 49.0 | 21.0
+PSO Power: 31.64
+PSO Power: 31.64
+PSO Power: 32.23
+PSO Power: 33.40
+PSO Power: 32.23
+160.0 | 450.0 | 422.9 | 25.0 | 77.4 | 32.2 | 49.0 | 21.0
+PSO Power: 32.81
+PSO Power: 33.40
+PSO Power: 32.81
+PSO Power: 33.40
+PSO Power: 32.81
+165.0 | 450.0 | 422.7 | 25.0 | 74.9 | 32.8 | 49.0 | 21.0
+PSO Power: 32.23
+PSO Power: 33.98
+PSO Power: 31.64
+PSO Power: 32.23
+PSO Power: 32.81
+170.0 | 450.0 | 422.5 | 25.0 | 73.1 | 32.8 | 49.0 | 21.0
+PSO Power: 33.98
+PSO Power: 32.81
+PSO Power: 32.81
+PSO Power: 32.81
+PSO Power: 32.81
+175.0 | 450.0 | 422.4 | 25.0 | 71.9 | 32.8 | 49.0 | 21.0
+PSO Power: 33.98
+PSO Power: 32.81
+PSO Power: 33.40
+PSO Power: 33.40
+PSO Power: 33.40
+180.0 | 450.0 | 422.4 | 25.0 | 71.0 | 33.4 | 49.0 | 21.0
+PSO Power: 32.23
+PSO Power: 33.40
+PSO Power: 32.81
+PSO Power: 33.98
+PSO Power: 33.98
+185.0 | 450.0 | 422.3 | 25.0 | 70.4 | 34.0 | 49.0 | 21.0
+PSO Power: 33.98
+PSO Power: 32.81
+PSO Power: 32.23
+PSO Power: 32.23
+PSO Power: 33.40
+190.0 | 450.0 | 422.3 | 25.0 | 70.0 | 33.4 | 49.0 | 21.0
+PSO Power: 33.98
+PSO Power: 32.23
+PSO Power: 32.81
+PSO Power: 32.23
+PSO Power: 33.40
+195.0 | 450.0 | 422.3 | 25.0 | 69.7 | 33.4 | 49.0 | 21.0
+PSO Power: 33.40
+PSO Power: 33.40
+PSO Power: 33.40
+PSO Power: 33.40

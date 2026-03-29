@@ -1,3 +1,9 @@
+#include "Arduino.h"
+#include "Ticker.h"
+#include "SmoothThermistor.h"
+#include "VT100.h"
+#include "avr/wdt.h"
+#include "EEPROM.h"
 // Scrubber controller code
 // Input: exhaust temperature, output: exhaust temperature, scrubber fluid input temperature, scrubber fluid output temperature
 // Output: PWM controlled fan, PWM controlled scrubber fluid pump

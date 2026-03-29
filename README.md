@@ -1,77 +1,68 @@
-# simple_furnace
-simple furnace controller with active exhaust pump dreamed by BingAI 
+# Oil Furnace & Exhaust Scrubber Control System
 
-I'll try to create that. Here is the README file I generated for describing the functionality of the code, design assumptions and design goals:
+A multi-layered control and simulation framework for high-efficiency oil furnace management and heat extraction.
 
-# Oil Furnace Controller
+## System Overview
+This project provides a robust suite of Arduino-compatible controllers for furnace airflow and exhaust scrubbing. It includes a sophisticated physical simulation environment (C++ backend) and a graphical dashboard (Tkinter) for real-time telemetry and stress testing.
 
-This is a Arduino sketch that implements an oil furnace controller with airflow control and watchdog subsystems. The sketch uses a VT100 terminal to visualize the state of the furnace in 40x24 mode.
+## Core Features
+- **Adaptive Scrubber Control**: Multiple algorithms (PSO, Genetic, PID, Lyapunov) for Maximum Power Point Tracking (MPPT) of heat extraction.
+- **Fail-Safe Safety Layers**: Plausibility checks, sensor failure detection, and automatic transition to "safe modes."
+- **High-Fidelity Simulation**: Models thermal inertia, mass flow, backpressure, and hardware aging (fouling).
+- **Professional Visualization**: Colorful VT100 dashboards with ASCII art animations and real-time trend graphs.
 
-## Functionality
+## Benchmarking Results
+All scrubber controllers are evaluated against a 50-second dynamic load test.
 
-The sketch performs the following functions:
+| Controller | Avg Power (W) | Total Energy (J) | Status |
+|------------|---------------|------------------|--------|
+| gaming_scrubber.ino | 70.07 | 2802.7 | PASS |
+| scrubber_simple_param_array.ino | 66.44 | 2657.6 | PASS |
+| scrubber_stabilizer.ino | 65.89 | 2635.4 | PASS |
+| pso_scrubber.ino | 56.80 | 2272.0 | PASS |
+| scrubber_optimized.ino | 43.84 | 1753.4 | PASS |
 
-- It measures the input fan RPM using a hall sensor attached to an interrupt pin.
-- It controls the output fan speed using a PWM pin based on the combustion level read from an analog input pin.
-- It boosts the output fan speed if the input fan RPM falls below 200 RPM or the sensor temperature falls below preset Temperature.
-- It reads the temperature using a thermistor connected to an analog input pin and a SmoothThermistor library.
-- It checks the airflow rate and activates a warning beep pin if the input fan RPM falls below 100 RPM .
- This is does not replace other safety mechanisms which should be in place around the furnace, like co sensor. 
-- It restarts the input fan by activating a digital pin for 200 ms if the input fan stalls.
-  This output can be also used by additional safety layer. 
-- It activates an overload warning light pin if the output fan speed plus the boost value exceeds the maximum PWM value.
- It is indicative of problem with the exhaust pipe and should be used by additional safety layer system. 
-- It uses a watchdog timer to reset the Arduino in case of a software failure.
-- It uses a Ticker library to schedule the safety tasks and the visualization tasks at regular intervals.
-- It uses a VT100 library to clear the screen and set the cursor position for the visualization objects.
-- It visualizes the input fan RPM, output fan speed, combustion level, temperature, ratio of input RPM to output PWM, beep state, and overload state on the VT100 terminal.
+## Performance Visuals
 
-## Design Assumptions
+### 1. Furnace Response & Stress Test
+![Furnace Graph](docs/images/furnace_graph.png)
+*Real-time PID stabilization during varying combustion loads and a critical sensor failure event.*
 
-The sketch makes the following design assumptions:
+### 2. Scrubber Thermal Efficiency
+![Scrubber Graph](docs/images/scrubber_graph.png)
+*Exhaust-to-fluid heat exchange performance under dynamic mass flow conditions.*
 
-- The input fan hall sensor generates one pulse per two revolutions.
-- The combustion level is a linear function of the output fan speed.
-- The temperature sensor is a 10k NTC thermistor with a beta value of 3950 and a nominal temperature of 25 Celsius.
-- The VT100 terminal is connected to the Arduino via serial communication at 9600 baud rate.
-- The sketch is part of a bigger design that implements other functions of the oil furnace controller, such as ignition, flame detection, fuel injection, etc.
+### 3. Fail-Safe Reliability
+![Stress Test](docs/images/stress_test_comparison.png)
+*Comparison of controller recovery times after simulated sensor loss.*
 
-## Design Goals
+### 4. Interactive Dashboard
+![VT100 Dashboard](docs/images/vt100_grab.png)
+*High-fidelity terminal UI featuring the VT100Visualizer.h library.*
 
-The sketch aims to achieve the following design goals:
+## Installation & Usage
 
-- To ensure the safety and efficiency of the oil furnace operation by controlling the airflow and monitoring the temperature.
-- To prevent the input fan from stalling and the output fan from overloading by using feedback mechanisms and corrective actions.
-- To detect and recover from software failures by using a watchdog timer.
-- To provide a clear and informative visualization of the state of the furnace by using VT100 terminal.
+### Prerequisites
+- Python 3.10+
+- `pip install matplotlib pillow numpy`
+- `g++` compiler
 
-## Simulation and Testing
+### Running Tests
+Automated verification and benchmarking:
+```bash
+python3 run_tests.py
+```
 
-This repository includes a comprehensive mock Arduino environment and physics simulator to verify controller logic.
+### Graphical Simulator
+Launch the interactive dashboard:
+```bash
+python3 furnace_gui.py
+```
 
-### Performance Visualizations
+## Theory of Operation
+The `FurnaceSimulator` solves differential equations for heat transfer:
+$$Q_{in} = \dot{m} \cdot C_p \cdot \Delta T \cdot \eta_{aging}$$
+where $\eta_{aging}$ represents the hardware fouling factor, controllable via the GUI.
 
-![Furnace Stress Test](docs/images/furnace_graph.png)
-*Figure 1: Advanced furnace stress test showing real-time PID stabilization, dynamic load response, and fail-safe activation upon sensor failure.*
-
-![Scrubber Dynamic Performance](docs/images/scrubber_graph.png)
-*Figure 2: Scrubber efficiency analysis under variable mass flow and fluctuating exhaust temperatures. The orange shading highlights heat extraction volume.*
-
-![Advanced VT100 Dashboard](docs/images/vt100_grab.png)
-*Figure 3: High-fidelity VT100 dashboard featuring ASCII art animations, color-coded telemetry bars, and real-time trend graphs (using VT100Visualizer.h).*
-
-![Algorithm Comparison](docs/images/algorithm_comparison.png)
-*Figure 4: Efficiency comparison of different heat extraction algorithms (PSO, Genetic/Gaming, and Optimized Lyapunov).*
-
-## Simulation Scenarios
-The testing suite now evaluates controllers against multiple challenging scenarios:
-1. **Cold Start**: Initial heat-up and stabilization.
-2. **Stress Test**: Heavy combustion loads followed by sudden drops.
-3. **Sensor Failure**: Transition to fail-safe modes when hardware fails.
-4. **Dynamic Flow**: Continuous fluctuations in exhaust temperature and mass flow rate.
-
-### Advanced Testing Features
-- **Production-Level Hardening**: Includes sensor noise, failure simulation (stuck-at readings), and thermal runaway detection.
-- **Interactive GUI**: A Tkinter dashboard (`furnace_gui.py`) for real-time monitoring and parameter manipulation.
-- **Automated Verification**: `run_tests.py` performs stability analysis and generates a summary report.
-- **Persistence**: Mock EEPROM saves controller parameters across simulation sessions.
+---
+*Developed for robust industrial furnace simulation and control experimentation.*

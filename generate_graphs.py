@@ -87,7 +87,22 @@ def generate_graphs():
     plt.ylabel("Power (W)")
     plt.legend()
     plt.grid(True)
-    plt.savefig("docs/images/algorithm_comparison.png")
+    plt.savefig("docs/images/algorithm_comparison.png", dpi=150)
+    plt.close()
+
+    # Stress Test Response Comparison
+    plt.figure(figsize=(10, 6))
+    for f in ["furnace.ino.log", "vt100_cooling.ino.log"]:
+         if os.path.exists(f):
+            t, r, temp = parse_furnace_log(f)
+            plt.plot(t, temp, label=f.replace(".ino.log", ""))
+    plt.axvline(x=15, color='r', linestyle='--', label="Sensor Failure Event")
+    plt.title("Fail-Safe Response Comparison (Temperature during Sensor Loss)")
+    plt.xlabel("Time (s)")
+    plt.ylabel("Temperature (C)")
+    plt.legend()
+    plt.grid(True)
+    plt.savefig("docs/images/stress_test_comparison.png", dpi=150)
     plt.close()
 
 if __name__ == "__main__":

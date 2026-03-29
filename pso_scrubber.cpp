@@ -1,3 +1,9 @@
+#include "Arduino.h"
+#include "Ticker.h"
+#include "SmoothThermistor.h"
+#include "VT100.h"
+#include "avr/wdt.h"
+#include "EEPROM.h"
 #include <Arduino.h>
 #include <EEPROM.h>
 

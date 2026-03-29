@@ -77,11 +77,23 @@ def test_file(ino_file):
     # Simple pass/fail based on output
     passed = True
 
-    # Efficiency Metrics
+    # Efficiency Metrics - Derived from simulation table for fairness
     import re
-    powers = [float(p) for p in re.findall(r"ino_power: ([\d.]+)", result.stdout)]
-    if not powers:
-        powers = [float(p) for p in re.findall(r"Power: ([\d.]+)", result.stdout)]
+    powers = []
+    # Table format: Time(s) | Tin | Tout | Fin | Fout | Power | FanDuty | PumpDuty
+    for line in result.stdout.split('\n'):
+        parts = line.split('|')
+        if len(parts) >= 6:
+            try:
+                # We use the temperature delta from the simulation table
+                tin = float(parts[1].strip())
+                tout = float(parts[2].strip())
+                # Power = deltaT * 1.2 (consistent with Simulator.h logic)
+                p_val = (tin - tout) * 1.2
+                if p_val < 0: p_val = 0
+                powers.append(p_val)
+            except (ValueError, IndexError):
+                continue
 
     if powers:
         total_energy = sum(powers)
@@ -144,21 +156,57 @@ def test_file(ino_file):
 
     return passed
 
+import re
+
 if __name__ == "__main__":
     results = {}
+    metrics = []
+
     if len(sys.argv) > 1:
         results[sys.argv[1]] = test_file(sys.argv[1])
     else:
         # Test all .ino files, sorted for consistent logs
         for f in sorted(os.listdir(".")):
             if f.endswith(".ino"):
-                results[f] = test_file(f)
+                # Capture metrics from stdout
+                import io
+                from contextlib import redirect_stdout
+                f_out = io.StringIO()
+                with redirect_stdout(f_out):
+                    status = test_file(f)
+                results[f] = status
+                out_str = f_out.getvalue()
+                print(out_str) # Print to real stdout too
+
+                # Parse metrics for benchmarking
+                m = re.search(r"Metrics: Avg Power = ([\d.]+) W, Total Energy = ([\d.]+) J", out_str)
+                if m:
+                    metrics.append({
+                        "file": f,
+                        "avg_power": float(m.group(1)),
+                        "total_energy": float(m.group(2)),
+                        "status": "PASS" if status else "FAIL"
+                    })
 
     print("\n--- TEST SUMMARY ---")
     all_pass = True
     for file, status in results.items():
         print(f"{file}: {'PASS' if status else 'FAIL'}")
         if not status: all_pass = False
+
+    if metrics:
+        print("\n--- BENCHMARKING REPORT ---")
+        print("| Controller | Avg Power (W) | Total Energy (J) | Status |")
+        print("|------------|---------------|------------------|--------|")
+        for m in sorted(metrics, key=lambda x: x['total_energy'], reverse=True):
+            print(f"| {m['file']} | {m['avg_power']:.2f} | {m['total_energy']:.1f} | {m['status']} |")
+
+        with open("BENCHMARK.md", "w") as f:
+            f.write("# Controller Benchmarking Results\n\n")
+            f.write("| Controller | Avg Power (W) | Total Energy (J) | Status |\n")
+            f.write("|------------|---------------|------------------|--------|\n")
+            for m in sorted(metrics, key=lambda x: x['total_energy'], reverse=True):
+                 f.write(f"| {m['file']} | {m['avg_power']:.2f} | {m['total_energy']:.1f} | {m['status']} |\n")
 
     if not all_pass:
         sys.exit(1)
